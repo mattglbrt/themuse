@@ -4,6 +4,29 @@ Append-only. **Newest entry first.**
 
 ---
 
+## 2026-09-22 — Phase 1: research system, 14 memos, first trail written, drafts, renamed
+
+**What happened.** Worked the 8 queued KJV questions with parallel researcher agents, then 6 follow-ups: 14 memos in `research/`, each with a verified claims table, a working log and a sources list. Built the pieces around the research: working logs, a local source library, and a **writer** agent (`.claude/agents/writer.md`) that turns verified memo rows into vault pages and never researches. Wrote the first trail, **47 nodes** (34 researched, 13 seed stubs), then folded the follow-up memos into the affected pages. Renamed the site **Following the Muse**. Added a drafts system. Committed in four commits (`172428d` `d7491fb` `75132d2` `cc13deb`) and pushed.
+
+**Decisions (Matt).**
+- Name: **Following the Muse** (channel and site); repo/folder stay `themuse`.
+- **Editorial thesis revised** to the Copenhaver framing: the KJV was "translated while learned magic still held the serious attention of Europe's philosophers", with Dee and Fludd active and Andrewes, a translator, the closest friend of Casaubon. Why: the research didn't support "high era of Hermeticism and Christian Cabala". No source says it, the "Hermetic tradition" is itself contested (Hanegraaff, Copenhaver), and no documented link ties the translators to Hermetic or Cabalist learning. Recorded with a dated note in CLAUDE.md.
+- Source documents stay **local only**: `vault/sources/` is gitignored, and `npm run sources` rebuilds it from the committed manifests. Why: scans run to hundreds of MB and one is over GitHub's 100 MB limit. `research/SOURCES.md` (committed) lists every source with a download link or where to get it.
+- **Drafts:** only `reviewed: true` pages publish (a checkbox in Obsidian). Drafts are hidden from both `npm run dev` and `npm run build`; `dev:drafts` / `build:drafts` show them with a banner. Agents never set `reviewed: true`.
+- Seven page calls settled (all kept as written; Wicked Bible surviving-copy estimates restored as a dated list). Voice pass: Matt, while reading.
+- **Episode plan:** the KJV is **episode 1, a single episode**, ending on the lead into **Hermeticism as episode 2**.
+- Hermeticism is the next trail; a `hermeticism` gateway page exists from the current memos only. No research on it until the KJV trail is done.
+
+**Findings that changed pages.** The Dee refusal is **Contested**, not established: it traces only to Thomas Smith's hedged 1707 life, and Cecil wasn't Earl of Salisbury until 1605. Corrected on six pages. Burntisland 1601: the record credits "sundrie of the brethren"; James urging a translation rests on Spottiswoode alone. Casaubon's 1614 argument was read from the book itself (pp. 70–87), with the English as working translations pending a Latinist.
+
+**Artifacts.** `research/2026-09-22-*.md` (14 memos), `research/logs/`, `research/sources/*.json`, `research/SOURCES.md`, `research/OPEN-ITEMS.md` (everything held back + round-2 candidates), `scripts/fetch-sources.mjs`, `scripts/with-drafts.mjs`, `.claude/agents/writer.md`, `vault/.obsidian/types.json`, 44 new vault nodes + 3 rewritten.
+
+**Lessons.** Messaging running agents mid-run with "reconstruct the steps you've taken" tripped the safety filter (`reasoning_extraction`) on six agents; new rules go in at spawn only, and logs record actions, not thinking. One agent overflowed its context on a whole PDF; prompts now forbid reading whole books/PDFs. The session's 200 web searches ran out mid-batch; later agents worked from fetchable search endpoints (archive.org advancedsearch/full-text, Wikisource, OpenAlex, Crossref) and did fine. I stopped Matt's running dev server by mistake while testing; restarted it.
+
+**Still open.** Matt's read-through + voice pass, ticking `reviewed`. Round-2 research candidates in `research/OPEN-ITEMS.md`. Two sources over the 50 MB cap (Ellis 1843, Smith 1707) not downloaded.
+
+---
+
 ## 2026-09-22 — Public repo, MIT, research queue, README
 
 **What happened.** Matt opened the vault in Obsidian and confirmed it looks right (templates, links, graph colors). Obsidian left the committed config untouched; `.gitignore` extended for per-device files (`appearance.json`, `workspaces.json`, `themes/`, `snippets/`). First commit made on `main` (renamed from `master`) and pushed to a new **public** repo, github.com/mattglbrt/themuse (Matt: "i want people to be able to clone it"). Pre-publish scan found no emails, client names or local paths. Licensed **MIT** for everything Matt wrote, vault content included (Matt: "i want to give everything away"); `NOTICE.md` carries the exceptions (OFL fonts, third-party images in `vault/assets/`, quoted works), kept out of `LICENSE` so GitHub detects it as MIT. Added a research queue (`research/QUEUE.md`) and reworked `/research`: `/research add <q>` queues, bare `/research` works the queue (dedupes against existing memos, max 4 parallel, ticks as memos land). README written for the public repo: quick start, using the site, authoring in Obsidian, how the pipeline works, the research agents, the rigor tiers.

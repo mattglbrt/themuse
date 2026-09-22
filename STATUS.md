@@ -1,30 +1,27 @@
 # STATUS — Following the Muse · updated 2026-09-22
 
 ## Now
-Phase 0 done, Phase 1 research running. Astro 7 static site builds from `vault/` (graph homepage, local graph + backlinks + last-edited per page, validator gating builds); three seed stubs; typography locked (`docs/TYPOGRAPHY.md`). Repo is **public + MIT**: github.com/mattglbrt/themuse, README covers use, authoring, pipeline and research. Research queue live in `research/QUEUE.md`; a run in another session is working the 8 KJV questions (memos landing, not yet committed).
+Phase 1: the first trail is written and **awaiting Matt's review**. 47 vault nodes (34 researched, 13 seed stubs) from 14 verified research memos; every claim traces to a memo row, held-back items are in `research/OPEN-ITEMS.md`. All pages are drafts (`reviewed: false`), so the published build is empty until Matt ticks pages. Site renamed **Following the Muse**; editorial thesis revised to the Copenhaver framing (CLAUDE.md). Pushed to github.com/mattglbrt/themuse (`cc13deb`).
 
 ## Next (ranked)
-1. Let the research run finish, then bare `/research` to tick any stragglers; review memos (single-source / needs-print-check / dead ends first, and the Hermeticism memo against the editorial thesis); commit the memos + `QUEUE.md`.
-2. Write `king-james-bible.md` from the memos (full template, every claim tiered + cited), set `status: researched`. Fill `james-i` / `daemonologie` from their memos.
-3. Seed stubs for the first-order links (frontmatter + dek from the brief only): `william-tyndale`, `geneva-bible`, `latin-vulgate`, `jerome`, `septuagint`, `erasmus`, `hampton-court-conference`, `english-reformation`.
-4. Phase 2: Netlify deploy, brand pass (colors; type is locked), domain.
-
-## Research queue
-Lives in `research/QUEUE.md`. `/research add <q>` queues one; bare `/research` works the queue top to bottom and ticks items off with their memo.
+1. **Matt: read-through + voice pass.** `npm run dev:drafts` (or Obsidian), start at `king-james-bible` and `james-i`; tick `reviewed` per page as you go. Known nit: `robert-fludd` dek ("the second documented meeting").
+2. Round-2 research from `research/OPEN-ITEMS.md`, top picks: a Latinist check of the Casaubon translations; print checks (James's coronation and burial days, Miles Smith's consecration, Vredeveld on Erasmus); what the Vulgate and Septuagint are; KJV Contents (angelology, demonology, prophecy). Queue with `/research add`.
+3. Candidate nodes the writers asked for most: `john-bois`, `synod-of-dort`, `francis-bacon`, `apocrypha`, `anne-of-denmark`, `robert-cecil`.
+4. **Episode 1 = the KJV, one episode** (Matt, 09-22). Write its `show-notes` node: the ordered trail, per-claim tiers, the consolidated bibliography. It ends by pointing the audience to Hermeticism.
+5. Phase 2: Netlify deploy (builds reviewed pages only), brand pass, domain.
+6. **Episode 2 = Hermeticism**, the trail episode 1 leads into. The gateway page exists. Research starts once episode 1's pages are reviewed.
 
 ## Blockers
-- Matt: domain. Needed by Phase 2, not before.
+- Matt: the review pass (nothing publishes until pages are ticked).
+- Matt: domain. Needed by Phase 2.
 
 ## Recently done
-- 2026-09-22 — Name decided by Matt: **Following the Muse** (channel and site). Site header, tab titles and README updated; repo and folder stay `themuse`.
-- 2026-09-22 — Public repo (github.com/mattglbrt/themuse) + MIT license + NOTICE.md; research queue + `/research add`; README.
-- 2026-09-22 — Obsidian check passed (Matt); per-device Obsidian files gitignored.
-- 2026-09-22 — Typography locked: Literata + EB Garamond self-hosted subsets, system-sans UI, ~70-char measure, light/dark; verified desktop/phone × light/dark, zero external requests.
-- 2026-09-22 — Phase 0: scaffold, pipeline, graph, validator, 3 stubs, brief split. Verified in headless Chrome (graph → click → page → local graph → backlinks).
-- 2026-09-22 — researcher agent + /research command + six node templates locked in.
-- 2026-09-22 — renderer decision CLOSED by Matt: custom Astro, no community project, no Obsidian hosting.
+- 2026-09-22 — 14 research memos (8 KJV questions + 6 follow-ups), writer agent, 47 nodes written and updated; Dee refusal corrected to Contested on six pages.
+- 2026-09-22 — Drafts system (`reviewed` checkbox; `dev:drafts` / `build:drafts`); source library (`npm run sources`, local-only `vault/sources/`, `research/SOURCES.md`); working logs.
+- 2026-09-22 — Name decided: **Following the Muse**. Thesis revised (research didn't support "high era").
+- 2026-09-22 — Public repo + MIT; research queue; README; typography locked; Phase 0 site.
 
 ## Open questions
-- Move the research queue into the vault so it's editable from Obsidian (kept off the site)?
 - Domain? Channel handle availability?
-- Is the KJV lecture one episode or an arc? The trail structure supports either.
+- Move the research queue into the vault (editable from Obsidian, kept off the site)?
+- Raise the source cap for the two oversized downloads (Ellis 1843, 148 MB; Smith 1707, 56 MB)?
