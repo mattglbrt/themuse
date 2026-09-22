@@ -8,8 +8,8 @@ interface Props {
   description?: string;
   full?: boolean;
 }
-const { title, description = 'The Muse: a reference library of primary documents, linked.', full = false } = Astro.props;
-const pageTitle = title ? `${title} · The Muse` : 'The Muse';
+const { title, description = 'Following the Muse: a reference library of primary documents, linked.', full = false } = Astro.props;
+const pageTitle = title ? `${title} · Following the Muse` : 'Following the Muse';
 ---
 
 <!doctype html>
@@ -24,7 +24,7 @@ const pageTitle = title ? `${title} · The Muse` : 'The Muse';
   </head>
   <body class:list={{ full }}>
     <header class="site-header">
-      <a href="/" class="wordmark">The Muse</a>
+      <a href="/" class="wordmark">Following the Muse</a>
     </header>
     <slot />
   </body>

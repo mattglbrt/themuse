@@ -21,7 +21,7 @@ const outlinks = outlinksFor(graph, slug).map((s) => bySlug.get(s));
 const html = await renderMarkdown(node.body, vault);
 
 // Frontmatter shown as a fact box; empty template fields stay hidden.
-const HIDDEN = new Set(['title', 'type', 'status', 'tags']);
+const HIDDEN = new Set(['title', 'type', 'status', 'tags', 'reviewed']);
 const isEmpty = (v) => v == null || v === '' || (Array.isArray(v) && v.length === 0);
 const renderValue = (v) =>
   typeof v === 'string' && /^https?:\/\/\S+$/.test(v)
@@ -43,6 +43,9 @@ const edited = new Date(node.lastEdited);
         <span class="status">{node.status}</span>
       </p>
       <h1>{node.title}</h1>
+      {node.draft && (
+        <p class="draft-note">Draft: not reviewed yet, so this page isn't on the published site. Tick <code>reviewed</code> in its frontmatter to publish it.</p>
+      )}
       {node.status === 'seed' && (
         <p class="seed-note">Seed node. Not yet researched: nothing on this page is a sourced claim yet.</p>
       )}
@@ -182,7 +185,8 @@ const edited = new Date(node.lastEdited);
   aside,
   .meta,
   .tags,
-  .seed-note {
+  .seed-note,
+  .draft-note {
     /* Interface, not reading: system sans at a fixed UI size and weight. */
     font-family: var(--font-ui);
     font-size: 0.875rem;
@@ -207,6 +211,12 @@ const edited = new Date(node.lastEdited);
     padding: 0.05rem 0.45rem;
     border: 1px solid var(--rule);
     border-radius: 999px;
+  }
+  .draft-note {
+    padding: 0.6rem 0.8rem;
+    border-left: 3px solid var(--link);
+    background: var(--surface);
+    color: var(--text);
   }
   .seed-note {
     padding: 0.6rem 0.8rem;

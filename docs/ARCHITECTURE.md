@@ -35,3 +35,4 @@ vault/assets/* ─────┴───────────────�
 - New node type: add it to `src/lib/types.mjs` and a template in `vault/templates/`. Nothing else.
 - Obsidian syntax the build doesn't support yet (callouts, block refs, note transclusion) renders as plain text or a plain link. Degrade, never break.
 - Reserved slugs (`index`, `assets`, `graph`, `404`) can't be node filenames; the validator catches it.
+- Drafts: a node is a draft unless its frontmatter has `reviewed: true`. `loadVault()` marks `node.draft`; `getVault()` passes the vault through `publishedOnly()` unless `SHOW_DRAFTS=1` (set by `scripts/with-drafts.mjs` for `npm run dev:drafts` / `build:drafts`), dropping drafts and every edge touching them and keeping their slugs in `vault.drafts`, so `render.mjs` turns links to them into plain text instead of broken-link spans. With drafts shown, each draft page carries a Draft banner. The validator always checks the full vault.

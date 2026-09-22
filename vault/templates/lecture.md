@@ -5,6 +5,7 @@ speaker:           # wikilink if they have a person node
 source:            # where the recording lives (YouTube, archive.org)
 delivered:         # date/venue if known; "Unknown" is valid
 status: seed
+reviewed: false     # tick in Obsidian when Matt has read it; only reviewed pages publish
 tags: []
 ---
 

@@ -128,6 +128,8 @@ export function loadVault(vaultDir = VAULT_DIR) {
       title: (typeof data.title === 'string' && data.title.trim()) || slug,
       type: data.type ?? null,
       status: data.status ?? null,
+      // Drafts: only `reviewed: true` pages are published. Missing or false = draft.
+      draft: data.reviewed !== true,
       tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
       data,
       body,
@@ -160,8 +162,24 @@ export function loadVault(vaultDir = VAULT_DIR) {
     }
   }
 
-  return { nodes, edges, assets, broken, problems };
+  return { nodes, edges, assets, broken, problems, drafts: new Set() };
 }
+
+// The published site: reviewed pages only. Edges touching a draft go, and the
+// draft slugs are kept so links to them render as plain text, not as broken.
+export function publishedOnly(vault) {
+  const drafts = new Set([...vault.nodes.values()].filter((n) => n.draft).map((n) => n.slug));
+  return {
+    ...vault,
+    nodes: new Map([...vault.nodes].filter(([slug]) => !drafts.has(slug))),
+    edges: vault.edges.filter((e) => !drafts.has(e.source) && !drafts.has(e.target)),
+    drafts,
+  };
+}
+
+// Drafts are hidden everywhere unless SHOW_DRAFTS=1: `npm run dev:drafts`
+// and `npm run build:drafts` set it (scripts/with-drafts.mjs).
+export const SHOW_DRAFTS = process.env.SHOW_DRAFTS === '1';
 
 // graph.json — the one shape the site's graph views and backlinks read.
 export function toGraphJson({ nodes, edges }) {
@@ -182,6 +200,9 @@ export function outlinksFor(graph, slug) {
 // Cached for a production build; re-read on every request in dev so vault edits show up.
 let cache;
 export function getVault() {
-  if (!cache || process.env.NODE_ENV !== 'production') cache = loadVault();
+  if (!cache || process.env.NODE_ENV !== 'production') {
+    const vault = loadVault();
+    cache = SHOW_DRAFTS ? vault : publishedOnly(vault);
+  }
   return cache;
 }

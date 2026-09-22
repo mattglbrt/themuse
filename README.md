@@ -1,6 +1,6 @@
-# The Muse
+# Following the Muse
 
-The reference library behind **The Muse**, a YouTube lecture channel on philosophy, the occult and history. Each episode follows the Muse through primary documents: it starts from something familiar, reads it closely, and follows the documented connections outward. The first trail starts at the King James Bible.
+The reference library behind **Following the Muse**, a YouTube lecture channel on philosophy, the occult and history. Each episode follows the Muse through primary documents: it starts from something familiar, reads it closely, and follows the documented connections outward. The first trail starts at the King James Bible.
 
 This repo is that library. It's a web of linked markdown notes (books, people, artifacts, topics, episodes), written in [Obsidian](https://obsidian.md) and published as a static website with a force-directed graph you can explore. The site is the evidence behind the episodes: every claim is tiered and cited, so an academic could land on any page and find the sourcing sound, whatever they think of the topic.
 
@@ -36,10 +36,12 @@ npm run dev
 
 | Command | What it does |
 |---|---|
-| `npm run dev` | Local site with live reload. Edit a note in `vault/` and the browser refreshes. |
+| `npm run dev` | Local site with live reload, reviewed notes only. Edit a note in `vault/` and the browser refreshes. |
+| `npm run dev:drafts` | The same, with drafts shown and bannered. |
 | `npm run validate` | Checks the vault for broken links, orphan notes, bad frontmatter and misnamed files. |
-| `npm run build` | Validates, then builds the static site into `dist/`. Any vault problem stops the build. |
+| `npm run build` | Validates, then builds the static site into `dist/`: reviewed notes only (see [Drafts and review](#drafts-and-review)). Any vault problem stops the build. |
 | `npm run preview` | Serves the built `dist/` locally. |
+| `npm run sources` | Downloads the public-domain source documents into `vault/sources/` and rewrites `research/SOURCES.md`. See [Source documents](#source-documents). |
 
 Astro 7 runs the dev server in the background. `npx astro dev status` shows whether it's running, and `npx astro dev stop` stops it.
 
@@ -87,6 +89,16 @@ Obsidian is only the editor. Nothing is hosted by Obsidian and no paid features 
 3. Fill in the frontmatter (`title`, `type` and `status` are required) and write the sections the template gives you: a one-paragraph dek, historical context, the content, **Where the Muse Leads** (outbound links, one line each on why), and a bibliography.
 
 `status` moves `seed` → `researched` → `scripted` → `published`. A two-line seed note is fine. That's how the edge of the map grows.
+
+### Drafts and review
+
+A note goes on the live site only when its `reviewed` property is ticked (`reviewed: true`; it's a checkbox in Obsidian's Properties panel). Everything else is a draft:
+
+- `npm run dev` and `npm run build` leave drafts out: no page, no dot in the graph, and links to them from published notes read as plain text. What you see locally is what goes live.
+- `npm run dev:drafts` shows everything, with a banner on each draft saying it isn't published. Use it to review drafts in the browser (or just read them in Obsidian).
+- `npm run build:drafts` builds everything, for previewing a full build with `npm run preview`.
+
+New notes start as `reviewed: false`, including everything the writer agent produces. Only a person ticks the box. The repo itself is public, so drafts can still be read on GitHub; the flag keeps them off the site, not out of sight.
 
 ### Links
 
@@ -180,6 +192,21 @@ Before returning, the agent **re-checks every row**: the link resolves, it's the
 
 **"Not found" is a valid answer.** Dead ends are reported alongside the findings, because knowing what couldn't be sourced matters as much as what could.
 
+Each run also leaves two companion files:
+
+- **A working log**, `research/logs/YYYY-MM-DD-<slug>.log.md`, written as the agent goes: every search, every page fetched (and whether it was blocked or useful), candidate quotes and dead ends. It's the raw trail behind the memo, so you can check how a question was searched and not just what came back.
+- **A sources list**, `research/sources/YYYY-MM-DD-<slug>.json`, naming every document the memo cites, whether the work is public domain, the host's terms for that copy, and a direct file link or where to get it.
+
+### Source documents
+
+[`research/SOURCES.md`](research/SOURCES.md) is the library index, built from the sources lists. It has three parts:
+
+1. **Public domain, with download links.** The work is out of copyright and the host allows its copy to be shared.
+2. **Public domain, download it yourself.** No direct file link, the file was too large, or the download failed. The reason is given.
+3. **In copyright or unclear.** Where to buy, borrow or read it: publisher, library catalog, Google Books, an open-access copy.
+
+The files themselves aren't in the repo, since scans run to hundreds of megabytes. `npm run sources` downloads the first list into `vault/sources/`, which is gitignored, so they sit inside the vault and open in Obsidian. On a new machine, run it again to get the same library. It skips files you already have, refuses web pages posing as files, and caps each download at 50 MB (`npm run sources -- --max 250` raises it).
+
 Research never edits the vault. Turning a memo into a note is a separate, deliberate step, and the note cites the sources from the memo.
 
 ## The rigor rules
@@ -202,8 +229,11 @@ Also:
 vault/                 the Obsidian vault: the actual content
   templates/           the six note templates (Obsidian's template folder)
   assets/              images embedded in notes
+  sources/             downloaded source documents (gitignored, from npm run sources)
   .obsidian/           shared Obsidian settings (personal ones are gitignored)
-research/              verified research memos + QUEUE.md
+research/              verified research memos, QUEUE.md, SOURCES.md
+  logs/                each run's working log
+  sources/             each memo's sources list (JSON)
 src/
   lib/vault.mjs        reads the vault into a graph
   lib/render.mjs       markdown + wikilinks → HTML
@@ -212,6 +242,7 @@ src/
   scripts/graph.js     the canvas graph
   styles/              fonts and site styles
 scripts/validate.mjs   the vault checker
+scripts/fetch-sources.mjs  the source-library downloader
 public/fonts/          self-hosted font files (OFL)
 docs/                  brief, architecture, typography spec
 .claude/               the research agent and project commands for Claude Code
@@ -219,4 +250,4 @@ docs/                  brief, architecture, typography spec
 
 ## License
 
-[MIT](LICENSE). That covers the code, the docs and the vault notes. It doesn't cover the fonts (SIL Open Font License), images in `vault/assets/` (each under its own cited license), or quoted passages from other works. [`NOTICE.md`](NOTICE.md) has the details.
+[MIT](LICENSE). That covers the code, the docs and the vault notes. It doesn't cover the fonts (SIL Open Font License), images in `vault/assets/` (each under its own cited license), source documents linked from `research/SOURCES.md` (each under its host's terms), or quoted passages from other works. [`NOTICE.md`](NOTICE.md) has the details.

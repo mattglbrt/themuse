@@ -3,6 +3,7 @@ title:
 type: topic
 era: ""            # when the idea lived/lives, if boundable
 status: seed
+reviewed: false     # tick in Obsidian when Matt has read it; only reviewed pages publish
 tags: []
 ---
 

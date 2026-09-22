@@ -4,6 +4,7 @@ type: show-notes
 episode:           # the video URL (required once live)
 published:         # video publish date
 status: scripted   # scripted → published
+reviewed: false     # tick in Obsidian when Matt has read it; only reviewed pages publish
 tags: []
 trail:             # the ordered path this episode walks
   - "[[first-node]]"

@@ -38,6 +38,8 @@ function wikilinkNode(match, vault) {
   const slug = toSlug(target);
   const node = vault.nodes.get(slug);
   const label = alias?.trim() || (node && !heading ? node.title : `${target.trim()}${heading ?? ''}`);
+  // A link to an unpublished draft reads as plain text on the live site.
+  if (!node && vault.drafts?.has(slug)) return { type: 'text', value: label };
   if (!node) {
     return { type: 'text', value: label, data: { hName: 'span', hProperties: { className: ['wikilink', 'broken'], title: `No node yet: ${target}` } } };
   }
@@ -101,6 +103,7 @@ export function renderInline(value, vault) {
     out += escapeHtml(str.slice(last, m.index));
     const n = wikilinkNode(m, vault);
     if (n.type === 'link') out += `<a class="wikilink" href="${n.url}">${escapeHtml(n.children[0].value)}</a>`;
+    else if (!n.data) out += escapeHtml(n.value);
     else out += `<span class="wikilink broken">${escapeHtml(n.value ?? m[0])}</span>`;
     last = m.index + m[0].length;
   }

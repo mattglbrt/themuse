@@ -1,11 +1,13 @@
-# CLAUDE.md — The Muse
+# CLAUDE.md — Following the Muse
 
 ## What this is
-A YouTube lecture channel (philosophy, occult, history), framed as following the Muse as she inspires and teaches, plus its companion site: the channel's reference library and bibliography, a web of wikilinked markdown documents rendered as a force-directed graph. Personal MDG Growth venture; no client, no deadline pressure, credibility is the product.
+**Following the Muse** (name decided 2026-09-22; repo and folder stay `themuse`). A YouTube lecture channel (philosophy, occult, history), framed as following the Muse as she inspires and teaches, plus its companion site: the channel's reference library and bibliography, a web of wikilinked markdown documents rendered as a force-directed graph. Personal MDG Growth venture; no client, no deadline pressure, credibility is the product.
 **Done for v1:** the graph is live on the web with the first document trail (starting at the King James Bible), every claim cited, and the first episode's script can be written entirely from the site's nodes. Full brief v1 with the resolved decisions and phases: `docs/BRIEF.md`.
 
 ## Editorial thesis (why the KJV is node one)
-**The KJV is where most Westerners first touch the occult without knowing it — and it is the gateway out into everything else.** It is the most familiar text in the Western canon, and it sits in the middle of everything the channel wants to reach: commissioned by a king who wrote his own witchcraft treatise, translated in the high era of Renaissance Hermeticism and Christian Cabala, built on texts (Septuagint, Vulgate, Apocrypha) whose own histories carry the esoteric threads, and full of material — angelology, demonology, prophecy, the removed books — that the familiar Sunday reading passes over. The channel's move, every episode: **start from what the audience already knows, read it closely and honestly, and let the documented connections lead outward.** Framed under the rigor doctrine, this thesis is unassailable — the esoteric context of the KJV is established history, not speculation — which is exactly what makes it the right gateway.
+**The KJV is where most Westerners first touch the occult without knowing it — and it is the gateway out into everything else.** It is the most familiar text in the Western canon, and it sits in the middle of everything the channel wants to reach: commissioned by a king who wrote his own witchcraft treatise, translated while learned magic still held the serious attention of Europe's philosophers, in an England where John Dee and Robert Fludd were active and one of the translators, Lancelot Andrewes, was the closest friend of Isaac Casaubon, the scholar who would take the Hermetic books apart, built on texts (Septuagint, Vulgate, Apocrypha) whose own histories carry the esoteric threads, and full of material — angelology, demonology, prophecy, the removed books — that the familiar Sunday reading passes over. The channel's move, every episode: **start from what the audience already knows, read it closely and honestly, and let the documented connections lead outward.** Framed under the rigor doctrine, this thesis is unassailable — the esoteric context of the KJV is established history, not speculation — which is exactly what makes it the right gateway.
+
+*Revised 2026-09-22 (Matt's call, Copenhaver framing).* The first version said "translated in the high era of Renaissance Hermeticism and Christian Cabala". The research didn't support it: no source calls 1604–1611 England a high era, the "Hermetic tradition" itself is now contested, and no documented link ties the translators to Hermetic or Cabalist learning (`research/2026-09-22-yates-thesis-historiography.md`, `research/2026-09-22-hermeticism-cabala-england.md`). Never imply that link on a page. Casaubon's 1614 treatment of the Hermetica still needs a print check before a page states what he argued. `docs/BRIEF.md` keeps the original wording as the historical brief.
 
 ## Scholastic rigor (the moat — non-negotiable)
 The topics will border on "truther" / conspiracy territory. **That is exactly why every page must stand up to scholastic scrutiny** — the channel gets to walk strange paths because the site always has the receipts. An academic should be able to land on any node and find nothing to object to in its sourcing, whatever they think of the topic.
@@ -33,11 +35,13 @@ Plus: never invent or approximate quotes (exact words from a named edition, or p
 - `npm run validate`: vault check (broken links, orphans, frontmatter, filenames, embeds).
 - `npm run build`: validate, then build to `dist/`. Any vault problem fails the build.
 - `/research <question>`: researcher agent → verified memo in `research/`. The only way facts enter the vault.
+- `npm run sources`: downloads the public-domain source documents the researcher found into `vault/sources/` (gitignored, local only) and rewrites `research/SOURCES.md` (committed: every source with its download link, or where to get it).
 - `/research add <question>` queues one in `research/QUEUE.md`; bare `/research` works the queue top to bottom and ticks items off with their memo.
 - `/orient` · `/wrap`: session ritual.
 
 ## Conventions
 - **Six node types**, templates in `vault/templates/` (Obsidian's template folder): `book` · `person` · `artifact` · `topic` · `show-notes` · `lecture`. Every node has a dek, `## Historical Context`, the content, `## Where the Muse Leads` (outbound links, one line of why each), `## Bibliography`. `status: seed → researched → scripted → published`.
+- **Drafts:** a page publishes only when Matt ticks `reviewed: true` in its frontmatter (a checkbox in Obsidian). Everything else is a draft, left out of both `npm run dev` and `npm run build` (no page, not in the graph, links to it render as plain text). `npm run dev:drafts` / `npm run build:drafts` show drafts, bannered. Agents never set `reviewed: true`. The repo is public, so drafts are readable on GitHub even though they're off the site.
 - Filenames lowercase-kebab, named for the work/figure/topic. One concept per file. A seed stub with two lines and a reason it matters is fine.
 - A link means something: wikilink only where the connection would be worth saying out loud on the channel. The graph is the argument.
 - Keep the vault 100% Obsidian-compatible. The build must never need syntax Obsidian can't render; unsupported Obsidian syntax degrades to plain, never breaks.
@@ -56,8 +60,9 @@ Plus: never invent or approximate quotes (exact words from a named edition, or p
 - `docs/ARCHITECTURE.md`: the vault → graph.json → pages pipeline as built
 - `docs/TYPOGRAPHY.md`: the locked reading/type spec
 - `vault/templates/`: the six node templates
-- `research/`: verified research memos · `research/QUEUE.md`: the research queue
+- `research/`: verified research memos · `research/QUEUE.md`: the research queue · `research/logs/`: each run's working log · `research/sources/` + `SOURCES.md`: the source library (files in `vault/sources/`)
 - `.claude/agents/researcher.md`: the research agent's rules
+- `.claude/agents/writer.md`: the writer agent's rules (turns memo rows into vault nodes; never researches)
 
 ---
 

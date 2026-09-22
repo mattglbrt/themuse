@@ -6,6 +6,7 @@ created: ""        # date or range; "disputed" is a valid value — explain in C
 discovered: ""     # for archaeological finds: when/where/by whom
 location:          # where it is now (museum, in situ, lost)
 status: seed
+reviewed: false     # tick in Obsidian when Matt has read it; only reviewed pages publish
 tags: []
 image:             # path under vault/assets/ — public domain or licensed only, credit required
 ---

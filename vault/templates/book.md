@@ -6,6 +6,7 @@ year:              # first publication, for sorting
 era: ""            # human-readable, e.g. "1604–1611"
 original-language: 
 status: seed       # seed → researched → scripted → published
+reviewed: false     # tick in Obsidian when Matt has read it; only reviewed pages publish
 tags: []
 episode:           # YouTube URL once covered
 read-online: []    # free full-text editions (Gutenberg, archive.org, sacred-texts)

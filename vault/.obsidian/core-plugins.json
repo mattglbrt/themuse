@@ -16,7 +16,7 @@
   "bookmarks": true,
   "word-count": true,
   "daily-notes": false,
-  "canvas": false,
+  "canvas": true,
   "note-composer": false,
   "slash-command": false,
   "markdown-importer": false,

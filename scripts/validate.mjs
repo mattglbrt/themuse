@@ -17,6 +17,7 @@ for (const node of vault.nodes.values()) {
   else if (!NODE_TYPES[data.type]) errors.push(`${file}: unknown type "${data.type}" (one of: ${Object.keys(NODE_TYPES).join(', ')})`);
   if (!data.status) errors.push(`${file}: missing status`);
   else if (!STATUSES.includes(data.status)) errors.push(`${file}: unknown status "${data.status}" (one of: ${STATUSES.join(', ')})`);
+  if (data.reviewed != null && typeof data.reviewed !== 'boolean') errors.push(`${file}: reviewed must be true or false`);
   if (data.tags != null && !Array.isArray(data.tags)) errors.push(`${file}: tags must be a list`);
   if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(file.split('/').pop().replace(/\.md$/, ''))) {
     errors.push(`${file}: filename must be lowercase-kebab`);
@@ -44,7 +45,8 @@ if (vault.nodes.size > 1) {
   for (const [slug, d] of degree) if (d === 0) errors.push(`${vault.nodes.get(slug).file}: orphan node (no links in or out)`);
 }
 
-const summary = `${vault.nodes.size} nodes, ${vault.edges.length} edges, ${vault.assets.size} assets`;
+const drafts = [...vault.nodes.values()].filter((n) => n.draft).length;
+const summary = `${vault.nodes.size} nodes (${vault.nodes.size - drafts} published, ${drafts} drafts), ${vault.edges.length} edges, ${vault.assets.size} assets`;
 if (errors.length) {
   console.error(`vault: ${errors.length} problem(s) — ${summary}`);
   for (const e of errors) console.error(`  ✗ ${e}`);

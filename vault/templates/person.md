@@ -5,6 +5,7 @@ born:              # year or "Unknown"
 died: 
 era: ""
 status: seed
+reviewed: false     # tick in Obsidian when Matt has read it; only reviewed pages publish
 tags: []
 ---
 
