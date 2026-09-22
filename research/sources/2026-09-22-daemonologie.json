@@ -1,0 +1,199 @@
+{
+  "memo": "2026-09-22-daemonologie.md",
+  "sources": [
+    {
+      "id": "daemonologie-1597-gutenberg",
+      "work": "Daemonologie, In Forme of a Dialogie, Diuided into three Bookes",
+      "author": "James VI",
+      "edition": "Robert Walde-graue, 1597 (place per catalogs: Edinburgh); Project Gutenberg transcription eBook #25929, released 2008-06-29",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1597 per its title page ('An. 1597'); Gutenberg's landing page states 'Public domain in the USA.'",
+      "copyTerms": "Gutenberg header: 'This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever.'",
+      "host": "Project Gutenberg",
+      "page": "https://www.gutenberg.org/ebooks/25929",
+      "file": "https://www.gutenberg.org/cache/epub/25929/pg25929.txt",
+      "format": "txt",
+      "download": true,
+      "filename": "daemonologie-1597-gutenberg.txt",
+      "obtain": [],
+      "memoRows": [
+        1,
+        6,
+        7,
+        8,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "daemonologie-1924-harrison-archive",
+      "work": "King James, the First: Daemonologie (1597) [with Newes from Scotland]",
+      "author": "James VI; G. B. Harrison (ed.)",
+      "edition": "Bodley Head Quartos IX, London: John Lane; New York: E. P. Dutton, 1924 (Boston College Library copy, scanned for Internet Archive)",
+      "rights": "unclear",
+      "rightsBasis": "The 1597 text is public domain, but this 1924 edition adds Harrison's introduction and notes. The archive.org record gives the editor as 'G. B. Harrison (George Bagshawe), 1894-' with no death date, and I did not establish the edition's copyright status.",
+      "copyTerms": "No rights, possible-copyright-status or licenseurl field in the archive.org item metadata (checked https://archive.org/metadata/kingjamesfirstdm00jame). No terms are stated.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/kingjamesfirstdm00jame",
+      "file": "https://archive.org/download/kingjamesfirstdm00jame/kingjamesfirstdm00jame.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "daemonologie-1924-archive.pdf",
+      "obtain": [
+        "https://archive.org/details/kingjamesfirstdm00jame",
+        "https://archive.org/stream/kingjamesfirstdm00jame/kingjamesfirstdm00jame_djvu.txt"
+      ],
+      "memoRows": [
+        9,
+        11,
+        12,
+        19,
+        29
+      ],
+      "approved": "Matt, 2026-09-22: download approved despite rights \"unclear\""
+    },
+    {
+      "id": "daemonologie-1603-archive",
+      "work": "Daemonologie, in forme of a dialogue",
+      "author": "James VI",
+      "edition": "London, 1603; Early English Books 1475-1640 microfilm scan (collection-catalog-number 14365; source IA40313006-39)",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1603 (item date field '1603'); author James VI and I (1566-1625, per archive.org author heading).",
+      "copyTerms": "No rights, possible-copyright-status or licenseurl field in the archive.org item metadata (checked https://archive.org/metadata/bim_early-english-books-1475-1640_daemonologie-in-forme-o_james-i-king_1603). This is a microfilm reproduction, and whether it may be redistributed is not stated.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/bim_early-english-books-1475-1640_daemonologie-in-forme-o_james-i-king_1603",
+      "file": "https://archive.org/download/bim_early-english-books-1475-1640_daemonologie-in-forme-o_james-i-king_1603/bim_early-english-books-1475-1640_daemonologie-in-forme-o_james-i-king_1603.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "daemonologie-1603-archive.pdf",
+      "obtain": [
+        "https://archive.org/details/bim_early-english-books-1475-1640_daemonologie-in-forme-o_james-i-king_1603"
+      ],
+      "memoRows": [
+        5
+      ],
+      "approved": "Matt, 2026-09-22: download approved despite unstated copy terms"
+    },
+    {
+      "id": "newes-from-scotland-1592-eebo-tcp",
+      "work": "Newes from Scotland, declaring the damnable life and death of Doctor Fian a notable sorcerer",
+      "author": "Anonymous (attributed to James Carmichael)",
+      "edition": "At London: Printed [By E. Allde?] for William Wright, [1592?] (STC 10841A); EEBO-TCP Phase I transcription A00710 of the Bodleian copy",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1591/[1592?] per its title page and the STC-conjectured date.",
+      "copyTerms": "TCP repo README: 'This Phase I text is available for reuse, according to the terms of Creative Commons 0 1.0 Universal. The text can be copied, modified, distributed and performed, even for commercial purposes, all without asking permission.'",
+      "host": "Text Creation Partnership (GitHub)",
+      "page": "https://github.com/textcreationpartnership/A00710",
+      "file": "https://raw.githubusercontent.com/textcreationpartnership/A00710/master/A00710.xml",
+      "format": "xml",
+      "download": true,
+      "filename": "newes-from-scotland-1592-eebo-tcp.xml",
+      "obtain": [],
+      "memoRows": [
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "survey-scottish-witchcraft-case-c-egd-63",
+      "work": "The Survey of Scottish Witchcraft: the case of Agnes Sampsoune (C/EGD/63)",
+      "author": "Julian Goodare, Lauren Martin, Joyce Miller and Louise Yeoman",
+      "edition": "University of Edinburgh, January 2003 (website archived January 2023)",
+      "rights": "in-copyright",
+      "rightsBasis": "About page: 'This website and database and all of their contents are the copyright of the University of Edinburgh and reproduction is only permitted in accordance with the following terms'",
+      "copyTerms": "About page: viewing and downloading are for 'private reference, research or study'. Users may not reproduce or transmit the content 'without our prior written permission.'",
+      "host": "University of Edinburgh",
+      "page": "https://witches.hca.ed.ac.uk/case/C/EGD/63",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "",
+      "obtain": [
+        "https://witches.hca.ed.ac.uk/case/C/EGD/63",
+        "https://witches.hca.ed.ac.uk/about/",
+        "https://datashare.ed.ac.uk/handle/10283/45"
+      ],
+      "memoRows": [
+        22
+      ]
+    },
+    {
+      "id": "survey-scottish-witchcraft-trial-t-la-934",
+      "work": "The Survey of Scottish Witchcraft: the trial of Agnes Sampsoune (T/LA/934)",
+      "author": "Julian Goodare, Lauren Martin, Joyce Miller and Louise Yeoman",
+      "edition": "University of Edinburgh, January 2003 (website archived January 2023)",
+      "rights": "in-copyright",
+      "rightsBasis": "About page: 'This website and database and all of their contents are the copyright of the University of Edinburgh and reproduction is only permitted in accordance with the following terms'",
+      "copyTerms": "About page: viewing and downloading are for 'private reference, research or study'. Users may not reproduce or transmit the content 'without our prior written permission.'",
+      "host": "University of Edinburgh",
+      "page": "https://witches.hca.ed.ac.uk/trial/T/LA/934",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "",
+      "obtain": [
+        "https://witches.hca.ed.ac.uk/trial/T/LA/934",
+        "https://datashare.ed.ac.uk/handle/10283/45"
+      ],
+      "memoRows": [
+        23
+      ]
+    },
+    {
+      "id": "survey-scottish-witchcraft-trial-t-la-928",
+      "work": "The Survey of Scottish Witchcraft: the trial of John Fean (T/LA/928)",
+      "author": "Julian Goodare, Lauren Martin, Joyce Miller and Louise Yeoman",
+      "edition": "University of Edinburgh, January 2003 (website archived January 2023)",
+      "rights": "in-copyright",
+      "rightsBasis": "About page: 'This website and database and all of their contents are the copyright of the University of Edinburgh and reproduction is only permitted in accordance with the following terms'",
+      "copyTerms": "About page: viewing and downloading are for 'private reference, research or study'. Users may not reproduce or transmit the content 'without our prior written permission.'",
+      "host": "University of Edinburgh",
+      "page": "https://witches.hca.ed.ac.uk/trial/T/LA/928",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "",
+      "obtain": [
+        "https://witches.hca.ed.ac.uk/trial/T/LA/928",
+        "https://datashare.ed.ac.uk/handle/10283/45"
+      ],
+      "memoRows": [
+        28
+      ]
+    },
+    {
+      "id": "witchcraft-early-modern-scotland-2000-normand-roberts",
+      "work": "Witchcraft in Early Modern Scotland: James VI's Demonology and the North Berwick Witches",
+      "author": "Lawrence Normand and Gareth Roberts (eds.)",
+      "edition": "Exeter Studies in History, Exeter: University of Exeter Press, 2000 (Liverpool Scholarship Online; print ISBN 9780859896801)",
+      "rights": "in-copyright",
+      "rightsBasis": "Published 2000 by an academic press. The full text on Liverpool Scholarship Online is paywalled, and the archive.org copy is a restricted-access lending item.",
+      "copyTerms": "Liverpool Scholarship Online: abstracts are free, but full text needs an institutional subscription or personal purchase. The archive.org copy is listed as a restricted access item available for borrowing ('printdisabled' collection).",
+      "host": "Oxford Academic / Liverpool Scholarship Online",
+      "page": "https://academic.oup.com/liverpool-scholarship-online/book/43425",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "",
+      "obtain": [
+        "https://academic.oup.com/liverpool-scholarship-online/book/43425",
+        "https://academic.oup.com/liverpool-scholarship-online/book/43425/chapter/363264095",
+        "https://academic.oup.com/liverpool-scholarship-online/book/43425/chapter/363263501",
+        "https://archive.org/details/isbn_9780859893886",
+        "https://wellcomecollection.org/works/ugrr9ray"
+      ],
+      "memoRows": [
+        24,
+        25,
+        26,
+        27
+      ]
+    }
+  ]
+}

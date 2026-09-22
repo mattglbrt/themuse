@@ -1,0 +1,72 @@
+# Log: hermeticism-cabala-england (retry 7a), 2026-09-22
+
+- decision: previous attempt crashed on large PDF. No full books/large PDFs this run. Prior memo notes treated as leads only.
+- fetch https://www.gesamtkatalogderwiegendrucke.de/docs/HERMTRI.htm : identity ok (GW Hermes Trismegistus). GW 12310 Treviso Gerardus de Lisa 18.XII.1471. useful.
+- quote: "Pimander seu De potestate et sapientia Dei. Aus dem Griech. übers. von Marsilius Ficinus" ... "18.XII.1471" (GW)
+- search "Stanford Encyclopedia of Philosophy Giovanni Pico della Mirandola Kabbalah Copenhaver" -> SEP entry
+- fetch https://plato.stanford.edu/entries/pico-della-mirandola/ : Copenhaver, rev. 21 Aug 2024. ok. quotes: "Pico was the first Christian who described Kabbalah in detail or treated it as worthwhile..."; "Innocent VIII indicted 13 of the 900 theses..."; Flavius quote. Reuchlin sentence came back garbled -> not using.
+- fetch https://plato.stanford.edu/entries/ficino/ : Celenza 2024; no dates on Hermetic translation. dead end for 1463.
+- search "Ficino 1463 Cosimo Pimander translation interrupted Plato" -> Hanegraaff blog, wiki etc.
+- fetch wouterjhanegraaff.blogspot.com/2013/11/butchering-corpus-hermeticum-breaking.html : Hanegraaff 22 Nov 2013, ok. quote "his famous translation, finished in 1463"; "first published in Treviso in 1471 as Hermes Trismegistus' book on the Power and Wisdom of God". No 'interrupted Plato' sentence -> not claiming it.
+- search Reuchlin De verbo mirifico ... -> springer, JVL, embassyofthefreemind, frommann-holzboog
+- fetch springer refwork 978-3-319-14169-5_567 : 303 to login. blocked.
+- fetch jewishvirtuallibrary reuchlin : EJ 2007, but content returned lacks verbo mirifico. only "ended with a letter to Leo X". not used.
+- fetch britannica Reuchlin: 403.
+- fetch embassyofthefreemind.com Reuchlin article: Kyra Gerber, 15 Dec 2025, Ritman. quote "In 1494, he published in Basel his 'De verbo mirifico' ... his first publication on (Christian) Cabbala."; met Pico in Italy 1490. Its "1503/7" date for De arte is odd -> not using that sentence.
+- fetch frommann-holzboog Sämtliche Werke II,1 (2010, eds Ehlers & Felgentreu): "published in 1517 in Hagenau by Anshelm and is dedicated to Pope Leo X."
+- search "Christian Kabbalah England sixteenth century Dee Reuchlin Giorgi..." -> NOT PERFORMED: session WebSearch budget exhausted (200/200). From here on only direct fetches of known URLs (Wikisource DNB, SEP, JSTOR, archive.org).
+- fetch wikisource DNB Dee,_John : vol 14, Thompson Cooper. ok. quotes: 5 June 1604 petition sentence; "The king, having received information from the Earl of Salisbury as to the nature of Dee's studies, refused to grant the prayer of the petition."; died Dec 1608 Mortlake; Monas title "Mathematicè, Magicè, Cabalisticè..." Antwerp 1564; Elizabeth service; Manchester wardenship 1595.
+- fetch wikisource DNB Fludd,_Robert : vol 19, Alexander Gordon. quotes: opening sentence (1574–1637, rosicrucian); fellow College of Physicians 20 Sept 1609; Apologia Compendiaria Leyden 1616; Tractatus Apologeticus Leyden 1617; Utriusque Cosmi dedications "secondly to James I".
+- fetch plato.stanford.edu/entries/john-dee/ : 404. dead end.
+- fetch wikisource DNB Casaubon,_Isaac : invitation 20 July 1610 from Bancroft; prebend Canterbury; pension 300l; Exercitationes 1614; died 12 July 1614, Westminster Abbey. No Hermes mention.
+- fetch bmcr.brynmawr.edu/2019/2019.04.38/ : Zetzel review of Botley & Vince, Correspondence of Casaubon in England (Droz 2018). quote "In October 1610 at the invitation of James I of England, Isaac Casaubon (1559-1614)... emigrated from Paris to London." No Hermes.
+- fetch catalog.hathitrust.org/Record/009309592 : 403.
+- fetch archive.org advancedsearch casaubon exercitationes: found bub_gb_D23scf3zIVcC (London, Norton/Bill, 1614).
+- fetch archive.org/details/bub_gb_D23scf3zIVcC : identity ok, BNC Roma copy, "Public Domain Mark 1.0", PDF 43.5M. decision: NOT opening PDF/full text (crash risk). Use as primary-source pointer only.
+- fetch jstor.org/stable/751115 : error page, no identity. dead end (don't even know if right id).
+- fetch wikipedia Corpus_Hermeticum (map): Casaubon claim cited to Copenhaver 1992 p. l; Ebeling 2007 p. 92. no URLs.
+- fetch wikipedia Isaac_Casaubon (map): cites Parry 2002 CUP p.303. 
+- fetch wikipedia Christian_Kabbalah (map): no England content except Browne (out of window).
+- fetch hls-dhs-dss.ch/de/articles/035175/ : HLS; settled in England; death "1.7.1614" (vs DNB 12 July - calendar? not resolving). No Hermes.
+- grep other memos for leads: Rainolds DNB wikisource (Fowler) used in hampton-court memo; kjv-sources memo has preface quote re Chaldee/Hebrew commentators.
+- fetch wikisource DNB Andrewes,_Lancelot (vol 1, Overton): "fifteen languages"; first in list 1607 Westminster; Casaubon Ephemerides praises Bishop of Ely. NO cabala/Hermes/magic/occult/rabbinic mention.
+- fetch wikisource DNB Rainolds,_John (vol 47, Fowler): initiated project; Prophets company Oxford; Censura librorum apocryphorum 1611. NO cabala/Hermes/occult mention.
+- fetch wikisource DNB Lively,_Edward (vol 33, Cooper): regius prof Hebrew May 1575; one of fifty-four; True Chronologie 1597. NO cabala/Hermes/occult mention.
+- decision: summaries from WebFetch said "none"; the negative is only as good as the fetch model's read. Re-check with keyword prompts in verification pass.
+- fetch scholar.archive.org search Casaubon Hermes : bot-check page, nothing. dead end.
+- fetch googleapis books search: 429. dead end.
+- fetch api.crossref.org query Grafton: confirms "Protestant versus Prophet: Isaac Casaubon on Hermes Trismegistus", Anthony Grafton, JWCI 46(1) 78-93, 1983, DOI 10.2307/751115. no abstract. -> needs-print-check source.
+- fetch crossref Casaubon: ODNB Considine 2004 DOI 10.1093/ref:odnb/4851; Pattison Isaac Casaubon (CUP reissue 2011).
+- fetch crossref Copenhaver Hermetica: DOI 10.1017/cbo9781107050075.
+- fetch cambridge.org/core/product/identifier/9781107050075/type/book : Copenhaver ed., CUP 1992. quote: "The Hermetica are a body of theological-philosophical texts written in late antiquity, but long believed to be much older." Intro pp. xiii-lxi not accessible.
+- fetch ODNB Casaubon (doi -> oxforddnb.com): 403. dead end.
+- fetch archive.org metadata server/dir for bub_gb_D23scf3zIVcC -> ia600504, /10/items/...; then inside.php full-text search (small JSON, not the whole text):
+  - q=Trismegisti: 0 hits (OCR long-s). q=Mercurius: hits pp.123-137 (scan index). q=circumfertur: summary text p.123.
+- quote (OCR, verbatim as returned): "Probatur  librum  qui  fub  nomine  Mercurq  Trifmc^ifti  circumfertur,  fjd» fum  ejfe." and "de  libris  iam  olim  falfo  Hermeti  adferiptis" and "haturbbrumMercwio tributum  eJfe ... e 'Tlatone^ Scrip- turis concinnatum" (p.123). Also p.137 "ifte talfus Mercurius". 
+- decision: OCR word after "circumfertur" unreadable -> not translating it; flag for facsimile check. Page = archive.org scan index, not printed page.
+- fetch newadvent 13192a: wrong article (St Roseline). dead end. fetch newadvent 13193b: "Rosicrucians", Hermann Gruber, CE vol 13 1912. quotes: Fama "was circulated in manuscript as early as 1610 and first appeared in print in 1614 at Cassel."; "Beginning with the fourth edition in 1615, the third Rosicrucian rudiment, 'Confessio der Fraternitat', was added to the 'Fama'."; Chymische Hochzeit "appeared in 1616". decision: Gruber 1912 Catholic polemical-era tertiary; use only for dates.
+- fetch encyclopedia.com Fludd (DSB): 500. dead end.
+- fetch en.wikipedia Fama_Fraternitatis (map): weak, "circa 1610". de.wikipedia (map): Fama 1614 Kassel Wilhelm Wessel; Confessio 1615 Kassel; Chymische Hochzeit 1616 Strassburg Zetzner. No digitized links. Map only.
+- fetch archive.org advancedsearch Fama: famafraternitati00andr (Danzig: Hünefeldt 1615, Getty). fetch details: title incl. "beneben der Confession..."; Getty. rights field not returned -> check.
+- fetch wikisource DNB Fludd again (exact prompt): "To a manuscript 'Declaratio breuis,' which he addressed to James I, are appended the confirmatory letters of French and German associates." ; "The movement was commended to Fludd's notice by the German alchemist, Michael Maier, who visited him in London." ; "Fludd is best remembered for his connection with the fraternity of the rosy cross, a society so obscure that its very existence has been denied." action=raw gave only metadata.
+- fetch archive.org Utriusque cosmi: utriusquecosmima01flud (Oppenheim, de Bry, 1617, Getty). inside search IACOBO / Britanniae 0 hits; OCR poor. dead end for dedication in primary. DNB single-source.
+- fetch plato.stanford.edu/entries/fludd/ : 404.
+- fetch archive.org Monas: b33350838 (Wellcome, Antwerp G. Silvius 1564, Public Domain Mark), bub_gb_pRmoDybyIVEC (BNC Roma). inside search Cabalistic/Cabala/Cabal*/Cabbala/Cabalae: 0 hits (OCR). dead end for 'Cabalistice' in primary; rely on DNB title transcription.
+- fetch jewishvirtuallibrary.org/christian-kabbalah : nav only. dead end.
+- fetch en.wikipedia John_Dee (map): "late in 1608 or early in 1609" (vs DNB Dec 1608); cites ODNB/print only.
+- fetch quod.lib.umich.edu EEBO author search Dee: 403. dead end for Dee's 1604 printed petition text (A-number unknown, won't guess).
+- fetch api.crossref Christian Kabbalah England: mostly Yates Occult Philosophy chapter (historiography agent's turf; skipped).
+- fetch bible-researcher.com/kjvpref.html: ECONNREFUSED.
+- fetch wikisource Translators_to_the_Reader: no Kimchi/Cabala/Hermes/Trismegistus/magic per fetch model; a "Rabbins" hit came back garbled -> not used. quote: "Neither did wee thinke much to consult the Translators or Commentators, Chaldee, Hebrewe, Syrian, Greeke, or Latine, no nor the Spanish, French, Italian, or Dutch;" (scan Index:BibleKJV1611-001.pdf).
+- fetch CUL KJV captions (Great and Manifold Blessings, 2011): no rabbinic/Kimchi/cabala/Hermes/Dee/magic. quote Downes caption "...With his pupil John Bois, Downes was a member of the second Cambridge company of Bible translators. His Greek letters to Isaac Casaubon (1559-1614)... are in the British Library"; Andrewes caption "he headed the first Westminster team of translators".
+- fetch DNB Fludd keyword check: cabal/kabbal/Hermes/Hermetic/Reuchlin absent. DNB Dee keyword check: says "cabal" absent -- CONFLICTS with earlier Monas title transcription "Cabalisticè" -> recheck in verification. Kelly sentence; "pretended intercourse with angels or evil spirits"; Anael.
+- fetch crossref Dee Kabbalah has-abstract: Harkness CUP 1999 DOI 10.1017/cbo9781107340909; Clucas Aries 2010 DOI 10.1163/156798910x520575.
+- fetch cambridge.org Harkness landing: full title "John Dee's Conversations with Angels: Cabala, Alchemy, and the End of Nature"; ch.5 '"The True Cabala": Reading the Book of Nature'. quote description "John Dee's angel conversations have been an enigmatic facet of Elizabethan England's most famous natural philosopher's life and work."
+- fetch brill Clucas: 403. dead end.
+- decision: Christian Cabala "reaching England" rests on Dee (Monas title + Harkness framing). No accessible scholarly source for Fludd + Kabbalah found (DNB silent; DSB 500; SEP none). Report as gap.
+- decision: KJV translator link to Hermetic/Cabalist learning: NOT FOUND in DNB (Andrewes, Rainolds, Lively), CUL captions, 1611 preface. Only documented adjacency = translators (Andrewes, Downes) in friendly contact with Casaubon, whose 1614 book attacks the Hermetica. That is the opposite of a Hermetic link.
+- drafting memo now.
+- verification pass: re-fetched GW, Hanegraaff, SEP Pico (+ found "printed in Rome at the end of 1486"), Gerber, frommann (quote is a clause in "Reuchlin's ›Kunst der Kabbala‹ ... was published in 1517 in Hagenau by Anshelm..."), Cambridge Copenhaver + Harkness, DNB Dee (Cabalisticè confirmed by exact-string check, overriding earlier keyword 'absent'), DNB Fludd (7/7 strings), DNB Casaubon (4/4; NEW: "His special friend was Lancelot Andrewes... instrumental in bringing him to England"), BMCR, CE 13193b (+ Fludd sentence "In the seventeenth century Michael Maier and Robert Fludd were its champions."), archive Fama 1615 (rights field not shown), DNB Andrewes/Rainolds/Lively (quotes ok; keyword negatives repeated, all absent incl. Hebrew/rabbi), archive inside p.123 (second read normalised falfo->falso; keeping raw), crossref works/10.2307/751115, Wikisource preface (quote ok, Kimchi/Cabala/Hermes absent).
+- decision: removed volume years / publisher / "living author" details from memo + JSON that I had not fetched (DNB volume years, Smith Elder, Barker).
+- decision: Casaubon 1614 PDF download:true (PD work, Public Domain Mark, direct PDF filename reported). Fama 1615 download:false (item rights not shown). Monas: download:false (PDF filename not captured).
+- done: memo, sources JSON written. 34 rows; 2 needs-print-check, 22 single-source, 10 verified.

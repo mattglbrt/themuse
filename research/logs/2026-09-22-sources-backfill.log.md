@@ -1,0 +1,77 @@
+# Working log: sources JSON backfill (kjv-making, kjv-afterlife, kjv-sources-lineage)
+
+2026-09-22. Cataloguing only: no new research. Read the three memos' claims tables; listed every digital copy cited; fetching each landing page / archive.org /metadata/ for copy terms and direct file URLs.
+
+- fetch https://archive.org/metadata/recordsofenglish00polluoft : identity confirmed (Pollard, Records of the English Bible, H. Frowde 1911). possible-copyright-status NOT_IN_COPYRIGHT; no rights/license field; not restricted. PDF recordsofenglish00polluoft.pdf.
+- fetch https://archive.org/metadata/generalviewofhis00westrich : identity confirmed (Westcott & Wright, General View, Macmillan 1905). NOT_IN_COPYRIGHT; no rights field. PDF generalviewofhis00westrich.pdf.
+- fetch https://archive.org/metadata/authorizedbible00scriuoft : identity confirmed (Scrivener, Authorized Edition, CUP 1884). NOT_IN_COPYRIGHT. PDF authorizedbible00scriuoft.pdf.
+- fetch https://archive.org/metadata/cu31924029268708 (+ /metadata) : Scrivener, Authorized Edition, CUP, dated 1910 (reissue), Cornell University Library, sponsor MSN. No rights or possible-copyright-status field. PDF cu31924029268708.pdf.
+- fetch https://archive.org/metadata/cu31924029272262 (+ /metadata) : Westcott, General View, dated 1868, but publisher field reads "Macmillan and co., limited; New York, The Macmillan company" (a later imprint style; date/edition mismatch noted). Cornell, sponsor MSN. No rights field. PDF cu31924029272262.pdf.
+- fetch https://archive.org/metadata/thepartofrheimsi00careuoft (+ /files) : Carleton, Part of Rheims, Clarendon 1902, Robarts/Toronto. NOT_IN_COPYRIGHT. No PDF in files list; djvu, _djvu.txt, jp2 zip only.
+- fetch https://archive.org/metadata/literarylineageo0000butt_n4w1/metadata : Butterworth 1941, UPenn Press. access-restricted-item true; collections printdisabled. No rights field.
+- fetch https://archive.org/metadata/kingjamesversion0000daic/metadata : Daiches 1941, U Chicago Press. access-restricted-item true; inlibrary/printdisabled.
+- fetch https://archive.org/metadata/cyprianusanglicu00heyl : Heylyn, Cyprianus Anglicus, London 1671 (J. Macock for A. Seile), Brandeis. No rights/copyright-status field; not restricted. PDF cyprianusanglicu00heyl.pdf.
+- fetch https://wwwe.lib.cam.ac.uk/CUL/exhibitions/KJV/captions.html : identity confirmed ("Great and Manifold Blessings: The Making of the King James Bible"). Terms: "©2011 Cambridge University Library". No file.
+- fetch https://iiif.bodleian.ox.ac.uk/iiif/manifest/8f45d791-61c5-42f2-9ce3-a27ee8ac7e90.json : label "Bodleian Library Arch. A b.18". Attribution "Photo: © Bodleian Libraries, University of Oxford. Terms of use: CC BY-NC 4.0". Links Digital Bodleian object page. No PDF rendering reported.
+- fetch Bonhams lot 2003 (sale 25259) : identity confirmed, Extraordinary Books and Manuscripts, 12 March 2019, New York. Footer "Copyright © Bonhams 2001-2026".
+- fetch https://en.wikisource.org/wiki/Bible_(King_James_Version,_1611) : title-page transcription from Index:BibleKJV1611-001.pdf. Footer CC BY-SA 4.0 "additional terms may apply"; template: PD "in some countries and areas outside the United Kingdom, including the United States". ws-export EPUB/PDF links listed (not fetched; earlier session found them bot-protected).
+- fetch https://en.wikisource.org/wiki/Bible_(King_James_Version,_1611)/Translators_to_the_Reader : same source index, same footer. ws-export links listed.
+- fetch https://en.wikisource.org/wiki/File:BibleKJV1611-001.pdf : "Partial scan of the 1611 King James Bible; part 01 of 24", source archive.org 1611TheAuthorizedKingJamesBible; UK "long-standing restrictions on publication and distribution". Direct file https://upload.wikimedia.org/wikisource/en/6/69/BibleKJV1611-001.pdf (86.81 MB).
+- fetch https://archive.org/metadata/holybiblefacsimi00polluoft : Pollard 1911 reduced facsimile, NOT_IN_COPYRIGHT. decision: not in any claims table (kjv-making open items only), so no entry.
+- fetch https://www.newberry.org/uploads/files/PrintedEnglishBibles.pdf : fetch tool returned binary (53.9 KB PDF); read the saved copy locally: title "Newberry Holdings: Printed English Bibles through the Authorized King James Version (1611)", 8 pp.; entries Case oversize C 223 .613 and Oversize C 223 .611 present. No date, no copyright/terms statement anywhere in the PDF.
+- fetch https://library.princeton.edu/sites/g/files/toruqf6021/files/documents/Bible_in_English_2004.pdf : returned a PDF (567.8 KB) the tool could not render; local page rendering unavailable (no pdftoppm). Did not read further (size rule). Terms not confirmed.
+- fetch Queens' Old Library blog post (14 Nov 2012) : identity confirmed (Lindsey Askin). No copyright/licence statement found.
+- fetch https://guides.garrett.edu/c.php?g=1251239&p=10257447 : identity confirmed ("Rare Bibles: King James Bible First Editions", Garrett-Evangelical, Styberg Library). No terms statement found.
+- fetch https://www.sefaria.org/api/texts/Ruth.3.15?context=0 : ref Ruth 3:15; heVersionTitle "Miqra according to the Masorah", heLicense "CC-BY-SA"; English version JPS Gender-Sensitive, license "CC-BY-NC".
+- fetch https://www.museumofthebible.org/book-minute/she-bible : identity confirmed (The "She" Bible, MOTB). Footer "© Museum of the Bible 2026".
+- fetch MOTB collections artifact 6196 "The Wicked Bible" : identity confirmed; page shows object number BIB.002902. Terms: "To acquire permission to use this image, please visit our Rights and Reproduction page." No other statement.
+- fetch UC Press "The Wicked Bible Project" page : identity confirmed (Canterbury University Press, ed. Chris Jones, 16 July 2024; digital edition "Open Access" at digitalvoyages.canterbury.ac.nz/omeka-s/s/wicked-bible/page/home). No explicit copyright notice beyond a footer "Copyright" link.
+- fetch https://manifoldgreatness.wordpress.com/2011/07/28/the-wicked-bible/ : identity confirmed (curatorsteve / Steven Galbraith, 28 Jul 2011). No licence statement.
+- fetch MOTB magazine "From the Podcast: Dr. Chris Jones and the "Wicked" Bible" : identity confirmed; transcript, no date. Footer "© Museum of the Bible 2026".
+- fetch https://rsc.byu.edu/vol-5-no-1-2004/challenges-printing-early-english-bibles : identity confirmed (Huntington, Marsh, Skinner, Whitchurch, Religious Educator 5.1 (2004) 15-29). Footer "© 2022 All rights reserved". PDF link https://brightspotcdn.byu.edu/sites/default/files/pub_content/pdf/Challenges_in_Printing_Early_English_Bibles.pdf (not fetched).
+- fetch https://hc.edu/news-and-events/2024/02/13/a-wicked-discovery/ : identity confirmed ("A Wicked Discovery", 13 Feb 2024). Footer "© 2026 Houston Christian University".
+- fetch Fine Books "The Wicked Bible Heads to Auction" : identity confirmed (Nate Pedersen, 21 Oct 2015). Footer "Copyright © 2026 Journalistic, Inc. All Rights Reserved."
+- fetch https://digitalvoyages.canterbury.ac.nz/omeka-s/s/wicked-bible/page/the-story : HTTP 403 (same as memo). dead end.
+- fetch Wikisource DNB "Blayney, Benjamin" : identity confirmed (H. B. = Henry Bradley, DNB vol. 05, p. 208). Footer CC BY-SA "additional terms may apply".
+- fetch https://www.cambridge.org/core/product/identifier/9780511488115/type/book : identity confirmed (Norton, CUP 2005, DOI 10.1017/CBO9780511488115). Paywalled; "digital format ... no longer available to purchase from Cambridge Core". Footer "Cambridge University Press 2026".
+- fetch Google Books W3oVRK4I7UsC : Norton, CUP, 10 Jan 2005, ISBN 9780521771009, 387 pp., preview available.
+- fetch Themelios review page (Williams, Themelios 31.1) : identity confirmed. No copyright/reuse statement on page. Issue PDF link http://media.thegospelcoalition.org/documents/themelios/Themelios31.1.pdf (not fetched).
+- fetch Norton ch. "Setting the standard, 1762 and 1769" (Cambridge Core abs) : pp. 103-114, DOI 10.1017/CBO9780511488115.006; preview only.
+- fetch APR "How The King James Bible 'Begat' English Idioms" : identity confirmed (NPR, 22 Dec 2010, Neal Conan interview). "Copyright 2023 NPR. To see more, visit https://www.npr.org."
+- fetch https://www.worldwidewords.org/re-beg1.html : identity confirmed (Quinion, 27 Nov 2010). "Copyright © Michael Quinion, 1996–. All rights reserved."
+- fetch The Nation "Pleasures of the Tixte" : identity confirmed (Mlinko, 7 Oct 2010). No copyright statement found in the page text.
+- fetch THE review of Begat : identity confirmed (9 Dec 2010; reviewer not shown). "Copyright © 2026 THE - Times Higher Education".
+- fetch Google Books RPkZhLWHT6cC : Crystal, Begat, OUP Oxford, 23 Sep 2010, ISBN 9780191612992, 336 pp.; tool reported "Full preview available" (unconfirmed; ebook edition).
+- fetch Cambridge Core SJT review : Norton, SJT 66.4 (2013) 496-97, DOI 10.1017/S0036930611000767. "Copyright © Scottish Journal of Theology Ltd 2013". Paywalled.
+- fetch https://api.crossref.org/works/10.1179/ref_1998_3_1_004 : Nielson & Skousen, Reformation 3(1) 49-74, Jan 1998, Informa UK. No license field. Resource URL tandfonline doi/full.
+- fetch OpenAlex W1515325412 (select open_access etc.) : is_oa false, oa_status "closed", license null.
+- fetch Seely, BYU RSC "Words 'Fitly Spoken'" : identity confirmed (Prelude to the Restoration, RSC/Deseret 2004). No licence statement on page. PDF link brightspotcdn .../13%20Seely.pdf (not fetched).
+- fetch Moore TBS PDF 238-1.pdf : binary 219 KB, tool could not render; not read further (terms unconfirmed).
+- fetch https://www.loc.gov/loc/lcib/9707/daniell.html : identity confirmed (Yvonne French, "'Courage and Genius'...", LC Information Bulletin July 1997, vol. 56 no. 12). No copyright/rights statement on page.
+- fetch Jackson, BYU RSC "The English Bible: A Very Short History" (2011) : identity confirmed. Footer "© 2022 All rights reserved". PDF brightspotcdn .../The_English_Bible.pdf (not fetched).
+- fetch https://www.tyndale.org/journals/tsj03/mansbridge.html : identity confirmed (Mansbridge). No rights statement.
+- fetch https://www.tyndale.org/journals/tsj03/ : Tyndale Society Journal no. 3, December 1995. No rights statement.
+- fetch CCEL Mombert article ii.xv.x.htm : "Tyndale, William", signed J. I. MOMBERT; footer "This document is from the Christian Classics Ethereal Library at Calvin College. Last modified on 10/03/03." Volume/year not on page.
+- fetch https://www.ccel.org/ccel/schaff/encyc12.html : vol. XII Trench - Zwingli; year not shown. Files listed: /ccel/s/schaff/encyc12/cache/encyc12.pdf and .txt (not fetched).
+- fetch https://ccel.org/about/copyright.html : "These books may be used for personal, educational, or non-profit purposes." ... "Contact us for permission to republish CCEL works or to use them commercially."
+- fetch https://mavmatrix.uta.edu/english_dissertations/87 : identity confirmed (Joul Layne Smith, PhD English, UTA 2019, advisor Amy L. Tigner). "This work is licensed under a Creative Commons Attribution-NonCommercial-Share Alike 4.0 International License". viewcontent link article=1086 (memo: 403).
+- fetch Combs DBSJ PDF : binary 252 KB; read the saved copy locally (19 pp.): header "DBSJ 1 (Spring 1996): 35–53", "ERASMUS AND THE TEXTUS RECEPTUS by William W. Combs". No copyright/reproduction statement anywhere in the PDF.
+- fetch Blumell, BYU RSC "The Greek New Testament Text of the King James Version" : identity confirmed (NT History, Culture, and Society, RSC/Deseret 2019, pp. 691-706). No licence on page. PDF byursc.org .../39%20The%20Greek...pdf (not fetched).
+- fetch Blumell & Martin, BYU RSC "The King James Translation of the New Testament" : identity confirmed (pp. 672-690). No licence on page. PDF brightspotcdn .../38%20The%20King...pdf (not fetched).
+- fetch https://biblia.com/books/scrmorph/article/FRONT.1?ssi=0 : Scrivener 1881 NT in Greek, Preface signed F.H.A.S., Christmas 1880. "Copyright 2008 Logos Research Systems, Inc."
+- fetch kjbhistory.com Scrivener preface post : identity confirmed (Timothy Berg, 25 Mar 2020, transcribes 1881 preface). No licence statement.
+- fetch https://www.bible-researcher.com/kjvpref.html : "The Translators to the Reader", from Oxford 1833 exact reprint, spelling and italics modernized. No copyright/terms statement.
+- fetch http://www.bible-researcher.com/kjvhist.html : "History of the King James Version", from Hall ed., Revised New Testament and History of Revision (Hubbard Brothers etc., 1881). No copyright/terms statement.
+- fetch Berg, Text & Canon Institute, 8 Dec 2023 : identity confirmed. Footer "© 2026 Text & Canon Institute".
+- decision: Princeton handlist, Moore TBS lecture: PDFs not rendered by the tool and too big to justify reading whole; terms recorded as not confirmed.
+- decision: Crossref and OpenAlex treated as metadata copies of one article, one entry (Nielson & Skousen) with both links.
+- decision: memo-3 row 27 names the Pollard scan: included as an entry (same archive.org item as kjv-making).
+- decision: Wikisource KJV 1611 texts marked rights "unclear" (UK Crown restriction per the Wikisource file page), matching the hampton-court JSON.
+- decision: LOC Information Bulletin article: rights "unclear" (page states none; possibly a US government work, not confirmed).
+- decision: archive.org items with no rights field at all (cu31924029268708 Scrivener 1910, cyprianusanglicu00heyl, cu31924029272262 Westcott) set download: true on the work being PD plus no stated restriction; flagged in each entry's note.
+- decision: Carleton has no PDF on archive.org; direct file is the _djvu.txt.
+- decision: kjv-afterlife rows are labelled A1-D8, so memoRows there are strings (fetch-sources.mjs does not read memoRows).
+- wrote research/sources/2026-09-22-kjv-making.json (8 entries, 3 download: true)
+- wrote research/sources/2026-09-22-kjv-afterlife.json (26 entries, 2 download: true)
+- wrote research/sources/2026-09-22-kjv-sources-lineage.json (23 entries, 4 download: true)
+

@@ -1,0 +1,184 @@
+{
+  "memo": "2026-09-22-burntisland-1601.md",
+  "sources": [
+    {
+      "id": "booke-universall-kirk-pt3-1839-archive-princeton",
+      "work": "Acts and Proceedings of the General Assemblies of the Kirk of Scotland, from the year M.D.LX. [The Booke of the Universall Kirk of Scotland], Part III (1593-1618)",
+      "author": "Church of Scotland, General Assembly; ed. Thomas Thomson",
+      "edition": "Edinburgh: Bannatyne and Maitland Clubs, 1839 (Bannatyne issue, v. 3; Princeton Theological Seminary Library copy, archive.org actsproceedingso03chur)",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1839; the record text dates from 1593-1618; editor Thomas Thomson's edition is over 180 years old.",
+      "copyTerms": "No rights, licenseurl or possible-copyright-status field in the archive.org metadata (https://archive.org/metadata/actsproceedingso03chur), and the details page shows no rights statement. Terms for the scan are unstated.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/actsproceedingso03chur",
+      "file": "https://archive.org/download/actsproceedingso03chur/actsproceedingso03chur.pdf",
+      "format": "pdf",
+      "download": false,
+      "filename": "booke-universall-kirk-pt3-1839-archive.pdf",
+      "obtain": [
+        "https://archive.org/details/actsproceedingso03chur",
+        "https://www.british-history.ac.uk/church-scotland-records/acts-proceedings/1560-1618/pp1069-1098 (clean transcription of the 1601 Assembly)"
+      ],
+      "memoRows": [1, 4, 5, 6, 7, 8, 21, 22],
+      "note": "download false only because the scan's copy terms are unstated (same practice as the kjv-apocrypha memo). Matt may approve, as he did for the Daemonologie scan. Quotes come from the OCR via the inside.php full-text API; page numbers from actsproceedingso03chur_page_numbers.json plus the printed running heads."
+    },
+    {
+      "id": "booke-universall-kirk-pt3-1839-archive-google",
+      "work": "Acts and Proceedings of the General Assemblies of the Kirk of Scotland, Part III",
+      "author": "Church of Scotland, General Assembly; ed. Thomas Thomson",
+      "edition": "Edinburgh: [Bannatyne Club], 1839, v. 3 (Google scan, archive.org actsandproceedi03assegoog)",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1839.",
+      "copyTerms": "Not checked beyond metadata; no rights field returned in https://archive.org/metadata/actsandproceedi03assegoog.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/actsandproceedi03assegoog",
+      "file": "",
+      "format": "",
+      "download": false,
+      "filename": "booke-universall-kirk-pt3-1839-archive-google.pdf",
+      "obtain": [
+        "https://archive.org/details/actsandproceedi03assegoog"
+      ],
+      "memoRows": [4],
+      "note": "Second scan used only to confirm the p. 970 text (leaf 246)."
+    },
+    {
+      "id": "acts-proceedings-1601-may-bho",
+      "work": "'Appendix: 1601, May', in Acts and Proceedings of the General Assemblies of the Kirk of Scotland, 1560-1618",
+      "author": "Church of Scotland, General Assembly (BHO credits the Maitland Club edition, Edinburgh, 1839)",
+      "edition": "British History Online transcription, pp. 1069-1098 (BHO pagination; conflicts with the print scan, see memo row 20)",
+      "rights": "public-domain",
+      "rightsBasis": "Record text 1601; edition 1839.",
+      "copyTerms": "BHO page: 'This free content was digitised by double rekeying. Public Domain.'",
+      "host": "British History Online",
+      "page": "https://www.british-history.ac.uk/church-scotland-records/acts-proceedings/1560-1618/pp1069-1098",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "acts-proceedings-1601-may-bho.html",
+      "obtain": [
+        "https://www.british-history.ac.uk/church-scotland-records/acts-proceedings/1560-1618/pp1069-1098"
+      ],
+      "memoRows": [5, 8, 20]
+    },
+    {
+      "id": "calderwood-history-kirk-v6-archive",
+      "work": "The History of the Kirk of Scotland, vol. VI",
+      "author": "David Calderwood (1575-1650); ed. Thomas Thomson",
+      "edition": "Edinburgh: printed for the Wodrow Society, 1842-49 series (archive.org date 1842; vol. VI date not confirmed on title page); Princeton Theological Seminary Library copy, archive.org historyofkirkofs06cald",
+      "rights": "public-domain",
+      "rightsBasis": "Author died 1650; edition published in the 1840s.",
+      "copyTerms": "No rights, licenseurl or possible-copyright-status field in the archive.org metadata, and none on the details page. Terms for the scan are unstated.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/historyofkirkofs06cald",
+      "file": "https://archive.org/download/historyofkirkofs06cald/historyofkirkofs06cald.pdf",
+      "format": "pdf",
+      "download": false,
+      "filename": "calderwood-history-kirk-v6-1842-archive.pdf",
+      "obtain": [
+        "https://archive.org/details/historyofkirkofs06cald"
+      ],
+      "memoRows": [2, 9, 21],
+      "note": "download false only because the scan's copy terms are unstated."
+    },
+    {
+      "id": "spottiswoode-history-v3-1847-archive-nls",
+      "work": "The History of the Church of Scotland, beginning the year of Our Lord 203 and continuing to the end of the reign of King James VI, vol. III",
+      "author": "John Spottiswoode (1565-1639); eds M. Russell and Mark Napier",
+      "edition": "Edinburgh: printed for the Spottiswoode Society (Bannatyne Club subscription), archive.org date 1847; the item description notes title pages dated 1850. National Library of Scotland copy, archive.org historyofchurcho03bann",
+      "rights": "public-domain",
+      "rightsBasis": "Author died 1639; edition published 1847-50.",
+      "copyTerms": "archive.org rights field: 'National Library of Scotland holds full rights in this digital resource and agrees to license the resource under the Creative Commons License: Attribution-Noncommercial-Share Alike 2.5 UK: Scotland' (http://creativecommons.org/licenses/by-nc-sa/2.5/scotland/)",
+      "host": "Internet Archive (National Library of Scotland)",
+      "page": "https://archive.org/details/historyofchurcho03bann",
+      "file": "https://archive.org/download/historyofchurcho03bann/historyofchurcho03bann.pdf",
+      "format": "pdf",
+      "download": false,
+      "filename": "spottiswoode-history-v3-1847-archive.pdf",
+      "obtain": [
+        "https://archive.org/details/historyofchurcho03bann",
+        "https://archive.org/details/historyofchurc9303spotuoft (Toronto copy of vol. 3, found in search; its terms were not checked)"
+      ],
+      "memoRows": [3, 11, 13, 14, 15],
+      "note": "download false: the NLS scan is licensed CC BY-NC-SA, which does not sit cleanly with an MIT-licensed public repo. Matt to decide; the Toronto copy may carry fewer restrictions."
+    },
+    {
+      "id": "spottiswoode-history-1655-archive-eebo",
+      "work": "The History of the Church of Scotland",
+      "author": "John Spottiswoode, Archbishop of St Andrews",
+      "edition": "London: printed by [J.] Flesher for R. Royston, 1655 (Early English Books 1641-1700 microfilm; archive.org bim_early-english-books-1641-1700_the-history-of-the-churc_spottiswoode-john-abp_1655)",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1655; author died 1639.",
+      "copyTerms": "No rights, licenseurl or possible-copyright-status field in the archive.org metadata. Microfilm reproduction; redistribution terms not stated.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/bim_early-english-books-1641-1700_the-history-of-the-churc_spottiswoode-john-abp_1655",
+      "file": "https://archive.org/download/bim_early-english-books-1641-1700_the-history-of-the-churc_spottiswoode-john-abp_1655/bim_early-english-books-1641-1700_the-history-of-the-churc_spottiswoode-john-abp_1655.pdf",
+      "format": "pdf",
+      "download": false,
+      "filename": "spottiswoode-history-1655-archive.pdf",
+      "obtain": [
+        "https://archive.org/details/bim_early-english-books-1641-1700_the-history-of-the-churc_spottiswoode-john-abp_1655"
+      ],
+      "memoRows": [12],
+      "note": "download false because the microfilm scan's copy terms are unstated (same practice as the kjv-apocrypha memo). The printer's initial is OCR'd as 'F. Flesher' and needs a check against the image."
+    },
+    {
+      "id": "craig-2011-burntisland-blogspot",
+      "work": "Hampton Court and Burntisland: King James VI & I and the Request for a New Translation of the Scriptures",
+      "author": "William Craig",
+      "edition": "Blog post, The Hampton Court Conference 1604 (Blogger), 6 December 2011",
+      "rights": "in-copyright",
+      "rightsBasis": "Modern blog post; no licence stated.",
+      "copyTerms": "No copyright or licence statement found on the page.",
+      "host": "Blogger",
+      "page": "https://thehamptoncourtconference1604.blogspot.com/2011/12/hampton-court-and-burntisland-king.html",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "craig-2011-burntisland-blogspot.html",
+      "obtain": [
+        "https://thehamptoncourtconference1604.blogspot.com/2011/12/hampton-court-and-burntisland-king.html (read online)"
+      ],
+      "memoRows": [10, 16, 17]
+    },
+    {
+      "id": "westcott-new-poems-james-i-1911-wikisource",
+      "work": "New Poems by James I of England, introduction: 'Poets in the English Court, 1603-1625'",
+      "author": "Allan F. Westcott (ed.)",
+      "edition": "New York: Columbia University Press, 1911 (Wikisource transcription)",
+      "rights": "public-domain",
+      "rightsBasis": "Published in the US in 1911 (before 1931); Wikisource tags it public domain.",
+      "copyTerms": "Wikisource footer: 'Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.'",
+      "host": "Wikisource",
+      "page": "https://en.wikisource.org/wiki/New_Poems_by_James_I/Poets_in_the_English_Court,_1603-1625",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "westcott-new-poems-james-i-1911-wikisource.html",
+      "obtain": [
+        "https://en.wikisource.org/wiki/New_Poems_by_James_I"
+      ],
+      "memoRows": [18]
+    },
+    {
+      "id": "dnb-pont-robert-1896-wikisource",
+      "work": "'Pont, Robert', Dictionary of National Biography, vol. 46",
+      "author": "T. F. H. [Thomas Finlayson Henderson]",
+      "edition": "DNB vol. 46, 1896 (Wikisource transcription)",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1896.",
+      "copyTerms": "Wikisource footer: 'Text is available under the Creative Commons Attribution-ShareAlike License'",
+      "host": "Wikisource",
+      "page": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Pont,_Robert",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "dnb-pont-robert-1896-wikisource.html",
+      "obtain": [
+        "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Pont,_Robert"
+      ],
+      "memoRows": [19],
+      "note": "Vol. 46 and 1896 are as reported by the fetch of the Wikisource page; publisher not captured."
+    }
+  ]
+}

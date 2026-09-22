@@ -1,0 +1,452 @@
+{
+  "memo": "2026-09-22-kjv-sources-lineage.md",
+  "sources": [
+    {
+      "id": "records-of-english-bible-1911-archive",
+      "work": "Records of the English Bible: The Documents Relating to the Translation and Publication of the Bible in English, 1525-1611",
+      "author": "Alfred W. Pollard (ed.)",
+      "edition": "London: Henry Frowde / Oxford University Press, 1911 (University of Toronto copy, archive.org scan recordsofenglish00polluoft)",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1911, before 1931 (US). Pollard died 1944.",
+      "copyTerms": "archive.org metadata: 'possible-copyright-status: NOT_IN_COPYRIGHT'. No rights or license field.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/recordsofenglish00polluoft",
+      "file": "https://archive.org/download/recordsofenglish00polluoft/recordsofenglish00polluoft.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "records-of-english-bible-1911-archive.pdf",
+      "obtain": [],
+      "memoRows": [27],
+      "note": "This memo names the scan only as the place for the print check (rows 26, 27, 29). The pages it wants (pp. 53-55, 339) were not reached here. The same file is listed in the kjv-making sources file."
+    },
+    {
+      "id": "general-view-english-bible-1905-archive",
+      "work": "A General View of the History of the English Bible",
+      "author": "Brooke Foss Westcott; 3rd ed. revised by William Aldis Wright",
+      "edition": "3rd ed., London: Macmillan and Co.; New York: The Macmillan Company, 1905 (archive.org scan generalviewofhis00westrich)",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1905, before 1931 (US). Westcott died 1901 and Wright 1914 (archive.org creator dates).",
+      "copyTerms": "archive.org metadata: 'possible-copyright-status: NOT_IN_COPYRIGHT'. No rights or license field.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/generalviewofhis00westrich",
+      "file": "https://archive.org/download/generalviewofhis00westrich/generalviewofhis00westrich.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "general-view-english-bible-1905-archive.pdf",
+      "obtain": [],
+      "memoRows": [10],
+      "note": "Row 10 is needs-print-check. The memo found no '90%' passage in this copy's OCR."
+    },
+    {
+      "id": "general-view-english-bible-1868-archive",
+      "work": "A General View of the History of the English Bible",
+      "author": "Brooke Foss Westcott",
+      "edition": "archive.org item cu31924029272262 (Cornell University Library), catalogued as 1868. The item's publisher field reads 'London : Macmillan and co., limited; New York, The Macmillan company', which may point to a later printing. Edition not confirmed.",
+      "rights": "public-domain",
+      "rightsBasis": "Westcott died 1901. Any printing of this work that he wrote alone predates 1931.",
+      "copyTerms": "archive.org metadata: contributor 'Cornell University Library', sponsor 'MSN'. No rights, license or possible-copyright-status field on the item.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/cu31924029272262",
+      "file": "https://archive.org/download/cu31924029272262/cu31924029272262.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "general-view-english-bible-1868-archive.pdf",
+      "obtain": [],
+      "memoRows": [10],
+      "note": "The item states no terms at all, so download: true rests on the work being public domain and the scan carrying no stated restriction. Check the title page for the true edition before citing it as 1868."
+    },
+    {
+      "id": "part-of-rheims-1902-archive",
+      "work": "The Part of Rheims in the Making of the English Bible",
+      "author": "James George Carleton",
+      "edition": "Oxford: Clarendon Press, 1902 (Robarts Library, University of Toronto copy, archive.org scan thepartofrheimsi00careuoft), OCR text",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1902; author died 1918 (archive.org creator dates).",
+      "copyTerms": "archive.org metadata: 'possible-copyright-status: NOT_IN_COPYRIGHT'. No rights or license field.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/thepartofrheimsi00careuoft",
+      "file": "https://archive.org/download/thepartofrheimsi00careuoft/thepartofrheimsi00careuoft_djvu.txt",
+      "format": "txt",
+      "download": true,
+      "filename": "part-of-rheims-1902-archive.txt",
+      "obtain": [
+        "https://archive.org/download/thepartofrheimsi00careuoft/thepartofrheimsi00careuoft.djvu (page images, DjVu; this item's file list has no PDF)"
+      ],
+      "memoRows": [28],
+      "note": "The item's file list has no PDF, only DjVu, JP2/JPEG zips and OCR text, so the OCR text is the direct file. The memo quotes this OCR."
+    },
+    {
+      "id": "nielson-skousen-1998-reformation",
+      "work": "How Much of the King James Bible Is William Tyndale's? An Estimation Based on Sampling",
+      "author": "Jon Nielson and Royal Skousen",
+      "edition": "Reformation 3, no. 1 (1998): 49-74, DOI 10.1179/ref_1998_3_1_004 (publisher per Crossref: Informa UK Limited). Abstract read via OpenAlex; identity via Crossref.",
+      "rights": "in-copyright",
+      "rightsBasis": "Journal article, 1998.",
+      "copyTerms": "OpenAlex: 'is_oa: false', 'oa_status: closed', license null. Crossref record has no license field.",
+      "host": "OpenAlex / Crossref (metadata); Taylor & Francis (publisher)",
+      "page": "https://api.openalex.org/works/doi:10.1179/ref_1998_3_1_004?select=abstract_inverted_index",
+      "file": "",
+      "format": "json",
+      "download": false,
+      "filename": "nielson-skousen-1998-openalex.json",
+      "obtain": [
+        "https://api.crossref.org/works/10.1179/ref_1998_3_1_004 (bibliographic record)",
+        "http://www.tandfonline.com/doi/full/10.1179/ref_1998_3_1_004 (publisher, per Crossref; the memo got 403; needs library access)"
+      ],
+      "memoRows": [1, 30]
+    },
+    {
+      "id": "seely-words-fitly-spoken-2004-byu-rsc",
+      "work": "Words 'Fitly Spoken': Tyndale's English Translation of the Bible",
+      "author": "David Rolph Seely",
+      "edition": "In Prelude to the Restoration: From Apostasy to the Restored Church, ed. Harper, Hedges, Smith, Valletta and Woods (BYU Religious Studies Center / Deseret Book, 2004), 212-227",
+      "rights": "in-copyright",
+      "rightsBasis": "Book chapter, 2004.",
+      "copyTerms": "No copyright or licence statement found on the fetched chapter page.",
+      "host": "BYU Religious Studies Center",
+      "page": "https://rsc.byu.edu/prelude-restoration/words-fitly-spoken-tyndales-english-translation-bible",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "seely-words-fitly-spoken-2004-byu.html",
+      "obtain": [
+        "https://rsc.byu.edu/prelude-restoration/words-fitly-spoken-tyndales-english-translation-bible (read online)",
+        "https://brightspotcdn.byu.edu/sites/default/files/pub_content/pdf/13%20Seely.pdf ('Download as PDF' link on the page; not fetched)"
+      ],
+      "memoRows": [2]
+    },
+    {
+      "id": "moore-authorised-version-tyndale-tbs",
+      "work": "The Authorised Version: The Influence of William Tyndale's Translations",
+      "author": "Jonathan D. Moore",
+      "edition": "Lecture, Magdalen College, Oxford, 21 May [2011, per the memo]; Trinitarian Bible Society PDF (article 238-1)",
+      "rights": "in-copyright",
+      "rightsBasis": "Modern lecture text published by the Trinitarian Bible Society.",
+      "copyTerms": "Not confirmed. The fetch returned the PDF (219 KB), but the tool could not render its text, and it was not read.",
+      "host": "Trinitarian Bible Society",
+      "page": "https://cdn.ymaws.com/www.tbsbibles.org/resource/collection/255F0F61-81C1-4992-BC04-CA72788DF0BB/238-1.pdf",
+      "file": "https://cdn.ymaws.com/www.tbsbibles.org/resource/collection/255F0F61-81C1-4992-BC04-CA72788DF0BB/238-1.pdf",
+      "format": "pdf",
+      "download": false,
+      "filename": "moore-authorised-version-tyndale-tbs.pdf",
+      "obtain": [
+        "https://cdn.ymaws.com/www.tbsbibles.org/resource/collection/255F0F61-81C1-4992-BC04-CA72788DF0BB/238-1.pdf (direct PDF; free to read)"
+      ],
+      "memoRows": [2, 6, 27, 29]
+    },
+    {
+      "id": "french-courage-and-genius-1997-loc",
+      "work": "'Courage and Genius': Tyndale Responsible for Most of King James Translation, Says Biographer",
+      "author": "Yvonne French",
+      "edition": "Library of Congress Information Bulletin 56, no. 12 (July 1997), online edition",
+      "rights": "unclear",
+      "rightsBasis": "The page has no rights statement. It may be a US federal work (and so public domain), but the author's employment status was not confirmed.",
+      "copyTerms": "No copyright or rights statement on the page.",
+      "host": "Library of Congress",
+      "page": "https://www.loc.gov/loc/lcib/9707/daniell.html",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "french-courage-and-genius-1997-loc.html",
+      "obtain": [
+        "https://www.loc.gov/loc/lcib/9707/daniell.html (read online)"
+      ],
+      "memoRows": [3]
+    },
+    {
+      "id": "jackson-english-bible-2011-byu-rsc",
+      "work": "The English Bible: A Very Short History",
+      "author": "Kent P. Jackson",
+      "edition": "In The King James Bible and the Restoration (BYU Religious Studies Center, 2011)",
+      "rights": "in-copyright",
+      "rightsBasis": "Book chapter, 2011. Page footer '© 2022 All rights reserved'.",
+      "copyTerms": "Page footer: '© 2022 All rights reserved'.",
+      "host": "BYU Religious Studies Center",
+      "page": "https://rsc.byu.edu/king-james-bible-restoration/english-bible",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "jackson-english-bible-2011-byu.html",
+      "obtain": [
+        "https://rsc.byu.edu/king-james-bible-restoration/english-bible (read online)",
+        "https://brightspotcdn.byu.edu/sites/default/files/pub_content/pdf/The_English_Bible.pdf (PDF link on the page; not fetched)"
+      ],
+      "memoRows": [4]
+    },
+    {
+      "id": "mansbridge-percentage-tyndale-1995-tsj",
+      "work": "The Percentage of Words in the Geneva and King James Versions taken from Tyndale's translation",
+      "author": "Ronald Mansbridge",
+      "edition": "Tyndale Society Journal no. 3 (December 1995), online edition",
+      "rights": "in-copyright",
+      "rightsBasis": "Society journal article, 1995.",
+      "copyTerms": "No copyright or rights statement on the article page or the issue index page.",
+      "host": "The Tyndale Society",
+      "page": "https://www.tyndale.org/journals/tsj03/mansbridge.html",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "mansbridge-percentage-tyndale-1995-tyndale.html",
+      "obtain": [
+        "https://www.tyndale.org/journals/tsj03/mansbridge.html (read online)",
+        "https://www.tyndale.org/journals/tsj03/ (issue index)"
+      ],
+      "memoRows": [7]
+    },
+    {
+      "id": "mombert-tyndale-schaff-herzog-vol12-ccel",
+      "work": "\"Tyndale, William\", New Schaff-Herzog Encyclopedia of Religious Knowledge, vol. XII (Trench - Zwingli)",
+      "author": "J. I. Mombert (signed)",
+      "edition": "CCEL electronic edition",
+      "rights": "unclear",
+      "rightsBasis": "Publication year not shown on the fetched CCEL pages, so not confirmed.",
+      "copyTerms": "CCEL copyright page: 'These books may be used for personal, educational, or non-profit purposes.' ... 'Contact us for permission to republish CCEL works or to use them commercially.' Article footer: 'This document is from the Christian Classics Ethereal Library at Calvin College. Last modified on 10/03/03.'",
+      "host": "Christian Classics Ethereal Library",
+      "page": "https://ccel.org/s/schaff/encyc/encyc12/htm/ii.xv.x.htm",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "mombert-tyndale-schaff-herzog-ccel.html",
+      "obtain": [
+        "https://ccel.org/s/schaff/encyc/encyc12/htm/ii.xv.x.htm (article cited)",
+        "https://www.ccel.org/ccel/schaff/encyc12.html (volume page; lists https://ccel.org/ccel/s/schaff/encyc12/cache/encyc12.pdf and .txt, not fetched)"
+      ],
+      "memoRows": [8],
+      "note": "Reference-work entry: the article is linked, and the volume is not marked for download."
+    },
+    {
+      "id": "smith-domestic-bible-2019-uta",
+      "work": "The Domestic Bible: William Tyndale's Vernacular Translation",
+      "author": "Joul Layne Smith",
+      "edition": "PhD dissertation in English, University of Texas at Arlington, 2019 (advisor Amy L. Tigner), MavMatrix repository",
+      "rights": "in-copyright",
+      "rightsBasis": "Dissertation, 2019, under a CC BY-NC-SA licence.",
+      "copyTerms": "Repository page: 'This work is licensed under a Creative Commons Attribution-NonCommercial-Share Alike 4.0 International License'",
+      "host": "UTA MavMatrix",
+      "page": "https://mavmatrix.uta.edu/english_dissertations/87",
+      "file": "",
+      "format": "pdf",
+      "download": false,
+      "filename": "smith-domestic-bible-2019-uta.pdf",
+      "obtain": [
+        "https://mavmatrix.uta.edu/english_dissertations/87 (landing page and abstract)",
+        "https://mavmatrix.uta.edu/cgi/viewcontent.cgi?article=1086&context=english_dissertations (full-text link on the page; the memo got 403; not fetched here)"
+      ],
+      "memoRows": [9]
+    },
+    {
+      "id": "butterworth-literary-lineage-1941-archive",
+      "work": "The Literary Lineage of the King James Bible, 1340-1611",
+      "author": "Charles C. Butterworth",
+      "edition": "Philadelphia: University of Pennsylvania Press, 1941 (archive.org lending copy literarylineageo0000butt_n4w1)",
+      "rights": "unclear",
+      "rightsBasis": "US publication, 1941. Copyright renewal status not checked.",
+      "copyTerms": "archive.org metadata: 'access-restricted-item: true'; collections include 'printdisabled'. No rights field.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/literarylineageo0000butt_n4w1",
+      "file": "",
+      "format": "",
+      "download": false,
+      "filename": "butterworth-literary-lineage-1941-archive.pdf",
+      "obtain": [
+        "https://archive.org/details/literarylineageo0000butt_n4w1 (borrow via Internet Archive lending)"
+      ],
+      "memoRows": [11]
+    },
+    {
+      "id": "combs-erasmus-textus-receptus-1996-dbsj",
+      "work": "Erasmus and the Textus Receptus",
+      "author": "William W. Combs",
+      "edition": "Detroit Baptist Seminary Journal 1 (Spring 1996): 35-53, PDF on dbts.edu",
+      "rights": "in-copyright",
+      "rightsBasis": "Journal article, 1996.",
+      "copyTerms": "No copyright, licence or reproduction statement anywhere in the PDF (read in full).",
+      "host": "Detroit Baptist Theological Seminary",
+      "page": "https://dbts.edu/wp-content/uploads/1996/10/Erasmus-and-the-Textus-Receptus-Combs.pdf",
+      "file": "https://dbts.edu/wp-content/uploads/1996/10/Erasmus-and-the-Textus-Receptus-Combs.pdf",
+      "format": "pdf",
+      "download": false,
+      "filename": "combs-erasmus-textus-receptus-1996-dbts.pdf",
+      "obtain": [
+        "https://dbts.edu/wp-content/uploads/1996/10/Erasmus-and-the-Textus-Receptus-Combs.pdf (direct PDF; free to read)"
+      ],
+      "memoRows": [12, 13, 14, 15, 16, 17, 18, 19, 21]
+    },
+    {
+      "id": "blumell-greek-nt-text-kjv-2019-byu-rsc",
+      "work": "The Greek New Testament Text of the King James Version",
+      "author": "Lincoln H. Blumell",
+      "edition": "In New Testament History, Culture, and Society: A Background to the Texts of the New Testament, ed. Lincoln H. Blumell (BYU Religious Studies Center / Deseret Book, 2019), 691-706",
+      "rights": "in-copyright",
+      "rightsBasis": "Book chapter, 2019.",
+      "copyTerms": "No copyright or licence statement found on the fetched chapter page.",
+      "host": "BYU Religious Studies Center",
+      "page": "https://rsc.byu.edu/new-testament-history-culture-society/greek-new-testament-text-king-james-version",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "blumell-greek-nt-text-kjv-2019-byu.html",
+      "obtain": [
+        "https://rsc.byu.edu/new-testament-history-culture-society/greek-new-testament-text-king-james-version (read online)",
+        "https://www.byursc.org/sites/default/files/pub_content/pdf/39%20The%20Greek%20New%20Testament%20Text%20of%20the%20King%20James%20Version.pdf (PDF link on the page; not fetched)"
+      ],
+      "memoRows": [12, 14, 17, 19, 21]
+    },
+    {
+      "id": "blumell-martin-kjv-translation-nt-2019-byu-rsc",
+      "work": "The King James Translation of the New Testament",
+      "author": "Lincoln H. Blumell and Jan J. Martin",
+      "edition": "In New Testament History, Culture, and Society, ed. Lincoln H. Blumell (BYU Religious Studies Center / Deseret Book, 2019), 672-690",
+      "rights": "in-copyright",
+      "rightsBasis": "Book chapter, 2019.",
+      "copyTerms": "No copyright or licence statement found on the fetched chapter page.",
+      "host": "BYU Religious Studies Center",
+      "page": "https://rsc.byu.edu/new-testament-history-culture-society/king-james-translation-new-testament",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "blumell-martin-kjv-translation-nt-2019-byu.html",
+      "obtain": [
+        "https://rsc.byu.edu/new-testament-history-culture-society/king-james-translation-new-testament (read online)",
+        "https://brightspotcdn.byu.edu/sites/default/files/pub_content/pdf/38%20The%20King%20James%20Translation%20of%20the%20New%20Testament.pdf (PDF link on the page; not fetched)"
+      ],
+      "memoRows": [26]
+    },
+    {
+      "id": "scrivener-greek-nt-1881-preface-biblia",
+      "work": "Preface to The New Testament in the Original Greek according to the Text Followed in the Authorised Version",
+      "author": "F. H. A. Scrivener (signed F.H.A.S., Christmas 1880)",
+      "edition": "Cambridge University Press, 1881; Logos/Faithlife digital edition on Biblia (scrmorph)",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1881; author died 1891. The digital edition carries its own copyright line (see copyTerms).",
+      "copyTerms": "Biblia page: 'Copyright 2008 Logos Research Systems, Inc.'",
+      "host": "Biblia (Faithlife / Logos)",
+      "page": "https://biblia.com/books/scrmorph/article/FRONT.1?ssi=0",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "scrivener-greek-nt-1881-preface-biblia.html",
+      "obtain": [
+        "https://biblia.com/books/scrmorph/article/FRONT.1?ssi=0 (read online)"
+      ],
+      "memoRows": [19, 20]
+    },
+    {
+      "id": "scrivener-greek-nt-1881-preface-kjbhistory",
+      "work": "Preface to The New Testament in the Original Greek according to the Text Followed in the Authorised Version",
+      "author": "F. H. A. Scrivener; transcribed in a post by Timothy Berg",
+      "edition": "Cambridge University Press, 1881; transcription in 'The Preface To The Greek TR Of F.H.A. Scrivener', kjbhistory.com, 25 March 2020",
+      "rights": "public-domain",
+      "rightsBasis": "Scrivener's preface was published 1881 (author died 1891). Berg's own commentary on the page is modern and in copyright.",
+      "copyTerms": "No copyright or licence statement found on the page.",
+      "host": "kjbhistory.com (WordPress)",
+      "page": "https://kjbhistory.com/the-preface-to-the-greek-tr-of-f-h-a-scrivener/",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "scrivener-greek-nt-1881-preface-kjbhistory.html",
+      "obtain": [
+        "https://kjbhistory.com/the-preface-to-the-greek-tr-of-f-h-a-scrivener/ (read online)"
+      ],
+      "memoRows": [19, 20]
+    },
+    {
+      "id": "translators-to-the-reader-1611-wikisource",
+      "work": "The Translators to the Reader (preface to the 1611 Authorized Version)",
+      "author": "The KJV translators (commonly attributed to Miles Smith)",
+      "edition": "London: Robert Barker, 1611; Wikisource transcription from Index:BibleKJV1611-001.pdf",
+      "rights": "unclear",
+      "rightsBasis": "Public domain in the US (1611). The Wikisource file page for the source scan notes UK 'long-standing restrictions on publication and distribution' (Crown rights).",
+      "copyTerms": "Wikisource footer: 'Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.'",
+      "host": "Wikisource",
+      "page": "https://en.wikisource.org/wiki/Bible_(King_James_Version,_1611)/Translators_to_the_Reader",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "translators-to-the-reader-1611-wikisource.html",
+      "obtain": [
+        "https://en.wikisource.org/wiki/Bible_(King_James_Version,_1611)/Translators_to_the_Reader (read online)",
+        "https://upload.wikimedia.org/wikisource/en/6/69/BibleKJV1611-001.pdf (source scan, part 01 of 24, 86.81 MB; held back only because rights are unclear)"
+      ],
+      "memoRows": [22, 23, 24, 25]
+    },
+    {
+      "id": "translators-to-the-reader-1833-bible-researcher",
+      "work": "The Translators to the Reader (preface to the 1611 Authorized Version)",
+      "author": "The KJV translators; modernized by the Bible Research site editor",
+      "edition": "From The Holy Bible, an Exact Reprint Page for Page of the Authorized Version Published in the Year MDCXI (Oxford, 1833), with spelling and italics modernized; Bible Research (bible-researcher.com)",
+      "rights": "unclear",
+      "rightsBasis": "The 1611 text and the 1833 reprint are old, but this page modernizes the spelling and rearranges headings and references. The status of that editorial layer is not stated.",
+      "copyTerms": "No copyright or terms statement on the page.",
+      "host": "Bible Research (bible-researcher.com)",
+      "page": "https://www.bible-researcher.com/kjvpref.html",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "translators-to-the-reader-1833-bible-researcher.html",
+      "obtain": [
+        "https://www.bible-researcher.com/kjvpref.html (read online)"
+      ],
+      "memoRows": [22, 23, 24, 25]
+    },
+    {
+      "id": "hall-history-of-kjv-1881-bible-researcher",
+      "work": "History of the King James Version (chapter of The Revised New Testament and History of Revision)",
+      "author": "Isaac H. Hall (ed.)",
+      "edition": "Philadelphia: Hubbard Brothers, 1881 (co-publishers C. R. Blackall & Co., Atlanta; A. L. Bancroft & Co., New York); chapter reproduced by Bible Research",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1881, before 1931 (US).",
+      "copyTerms": "No copyright or terms statement on the page.",
+      "host": "Bible Research (bible-researcher.com)",
+      "page": "http://www.bible-researcher.com/kjvhist.html",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "hall-history-of-kjv-1881-bible-researcher.html",
+      "obtain": [
+        "http://www.bible-researcher.com/kjvhist.html (read online)"
+      ],
+      "memoRows": [26],
+      "note": "HTML page only, no direct file. I did not check whether the bracketed glosses ('[Rogers']', '[Cranmer's]') are Hall's or the site editor's."
+    },
+    {
+      "id": "daiches-kjv-1941-archive",
+      "work": "The King James Version of the English Bible: An Account of the Development and Sources of the English Bible of 1611 with Special Reference to the Hebrew Tradition",
+      "author": "David Daiches",
+      "edition": "Chicago: University of Chicago Press, 1941 (archive.org lending copy kingjamesversion0000daic)",
+      "rights": "unclear",
+      "rightsBasis": "US publication, 1941. Renewal status not checked.",
+      "copyTerms": "archive.org metadata: 'access-restricted-item: true'; collections include 'inlibrary' and 'printdisabled'. No rights field.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/kingjamesversion0000daic",
+      "file": "",
+      "format": "",
+      "download": false,
+      "filename": "daiches-kjv-1941-archive.pdf",
+      "obtain": [
+        "https://archive.org/details/kingjamesversion0000daic (borrow via Internet Archive lending)"
+      ],
+      "memoRows": [31],
+      "note": "Row 31 is 'not found'. Daiches is the suggested print check."
+    },
+    {
+      "id": "berg-newly-digitized-bible-2023-textandcanon",
+      "work": "A Newly Digitized Bible Reveals the Origins of the King James Version",
+      "author": "Timothy Berg",
+      "edition": "Text & Canon Institute, 8 December 2023",
+      "rights": "in-copyright",
+      "rightsBasis": "Page footer '© 2026 Text & Canon Institute'.",
+      "copyTerms": "Page footer: '© 2026 Text & Canon Institute'",
+      "host": "Text & Canon Institute",
+      "page": "https://textandcanon.org/a-newly-digitized-bible-reveals-the-origins-of-the-king-james-version/",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "berg-newly-digitized-bible-2023-textandcanon.html",
+      "obtain": [
+        "https://textandcanon.org/a-newly-digitized-bible-reveals-the-origins-of-the-king-james-version/ (read online)"
+      ],
+      "memoRows": [33]
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "memo": "2026-09-22-kjv-afterlife.md",
+  "note": "This memo numbers its claims A1-D8, so memoRows here are strings.",
+  "sources": [
+    {
+      "id": "authorized-edition-english-bible-1910-archive",
+      "work": "The Authorized Edition of the English Bible (1611), its Subsequent Reprints and Modern Representatives",
+      "author": "F. H. A. Scrivener",
+      "edition": "Cambridge: At the University Press; archive.org item dated 1910 (reissue of the 1884 work), Cornell University Library copy, scan cu31924029268708",
+      "rights": "public-domain",
+      "rightsBasis": "First published 1884; this printing dated 1910, before 1931 (US). Author died 1891.",
+      "copyTerms": "archive.org metadata: contributor 'Cornell University Library', sponsor 'MSN'. No rights, license or possible-copyright-status field on the item.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/cu31924029268708",
+      "file": "https://archive.org/download/cu31924029268708/cu31924029268708.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "authorized-edition-english-bible-1910-archive.pdf",
+      "obtain": [],
+      "memoRows": ["A7", "B4", "B6", "C1", "C2", "C6", "C7", "C8", "C9"],
+      "note": "The memo cites the OCR text (archive.org/stream/.../cu31924029268708_djvu.txt). The item states no terms at all, so download: true rests on the work being public domain and the scan carrying no stated restriction. The 1884 printing is also on archive.org as authorizedbible00scriuoft (NOT_IN_COPYRIGHT; see the kjv-making sources file)."
+    },
+    {
+      "id": "cyprianus-anglicus-1671-archive",
+      "work": "Cyprianus Anglicus: or, The History of the Life and Death of ... William [Laud]",
+      "author": "Peter Heylyn",
+      "edition": "London: Printed by J[ohn] M[acock] for A. Seile, 1671 (Brandeis University Libraries copy, archive.org scan cyprianusanglicu00heyl)",
+      "rights": "public-domain",
+      "rightsBasis": "Printed 1671; author died 1662.",
+      "copyTerms": "archive.org metadata: contributor 'Brandeis University Libraries'. No rights, license or possible-copyright-status field on the item.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/cyprianusanglicu00heyl",
+      "file": "https://archive.org/download/cyprianusanglicu00heyl/cyprianusanglicu00heyl.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "cyprianus-anglicus-1671-archive.pdf",
+      "obtain": [],
+      "memoRows": ["B5"],
+      "note": "Row B5 quotes Heylyn secondhand (from the 1668 edition, via BYU Religious Educator). The memo could not find the passage in this 1671 printing's OCR. This copy is listed for the print check."
+    },
+    {
+      "id": "newberry-printed-english-bibles-holdings",
+      "work": "Newberry Holdings: Printed English Bibles through the Authorized King James Version (1611)",
+      "author": "Newberry Library",
+      "edition": "Holdings list, PDF, 8 pp., undated",
+      "rights": "unclear",
+      "rightsBasis": "A modern institutional list with no date or rights statement in the PDF.",
+      "copyTerms": "No copyright or terms statement appears in the PDF (read in full).",
+      "host": "Newberry Library",
+      "page": "https://www.newberry.org/uploads/files/PrintedEnglishBibles.pdf",
+      "file": "https://www.newberry.org/uploads/files/PrintedEnglishBibles.pdf",
+      "format": "pdf",
+      "download": false,
+      "filename": "newberry-printed-english-bibles-newberry.pdf",
+      "obtain": [
+        "https://www.newberry.org/uploads/files/PrintedEnglishBibles.pdf (direct PDF, 53.9 KB; held back because rights are unclear)"
+      ],
+      "memoRows": ["A1", "A4"]
+    },
+    {
+      "id": "askin-queens-ruth-315-2012",
+      "work": "Queens' College Old Library's copy of the 1611 King James Bible and the mystery of Ruth 3:15",
+      "author": "Lindsey Askin",
+      "edition": "Queens' College Old Library blog (WordPress), 14 November 2012",
+      "rights": "in-copyright",
+      "rightsBasis": "Blog post from 2012 with no licence stated.",
+      "copyTerms": "No copyright or licence statement found on the page.",
+      "host": "WordPress (Queens' College Old Library blog)",
+      "page": "https://queenslib.wordpress.com/2012/11/14/queens-college-old-librarys-copy-of-the-1611-king-james-bible-and-the-mystery-of-ruth-315/",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "askin-queens-ruth-315-2012-wordpress.html",
+      "obtain": [
+        "https://queenslib.wordpress.com/2012/11/14/queens-college-old-librarys-copy-of-the-1611-king-james-bible-and-the-mystery-of-ruth-315/ (read online)"
+      ],
+      "memoRows": ["A2", "A6"]
+    },
+    {
+      "id": "garrett-rare-bibles-kjv-libguide",
+      "work": "Rare Bibles: King James Bible First Editions",
+      "author": "Garrett-Evangelical Theological Seminary, Styberg Library",
+      "edition": "LibGuide page, undated",
+      "rights": "in-copyright",
+      "rightsBasis": "A modern library guide with no licence stated.",
+      "copyTerms": "No copyright, licence or terms statement found on the page.",
+      "host": "Springshare LibGuides (Garrett-Evangelical)",
+      "page": "https://guides.garrett.edu/c.php?g=1251239&p=10257447",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "garrett-rare-bibles-kjv-libguide.html",
+      "obtain": [
+        "https://guides.garrett.edu/c.php?g=1251239&p=10257447 (read online)"
+      ],
+      "memoRows": ["A3", "A5", "A9"],
+      "note": "Row A9 (Shaheen, Notes and Queries 2009) failed verification. This guide is the only place it was seen."
+    },
+    {
+      "id": "sefaria-ruth-3-15-miqra-al-pi-ha-masorah",
+      "work": "Ruth 3:15, Hebrew text",
+      "author": "Masoretic text; edition 'Miqra according to the Masorah' (Hebrew Wikisource)",
+      "edition": "Sefaria API response for Ruth.3.15 (Hebrew version 'מקרא על פי המסורה'; English version 'THE JPS TANAKH: Gender-Sensitive Edition')",
+      "rights": "unclear",
+      "rightsBasis": "The underlying Hebrew text is ancient, but this digital edition carries its own licence (CC BY-SA). The English JPS version in the same response is CC BY-NC.",
+      "copyTerms": "Sefaria API fields: heLicense 'CC-BY-SA'; license 'CC-BY-NC' (English JPS version).",
+      "host": "Sefaria",
+      "page": "https://www.sefaria.org/api/texts/Ruth.3.15?context=0",
+      "file": "",
+      "format": "json",
+      "download": false,
+      "filename": "sefaria-ruth-3-15-sefaria.json",
+      "obtain": [
+        "https://www.sefaria.org/api/texts/Ruth.3.15?context=0 (read online)"
+      ],
+      "memoRows": ["A6"],
+      "note": "Held back because it is a single-verse API response with mixed licences, not a document file. Only the Hebrew form is cited."
+    },
+    {
+      "id": "motb-she-bible-book-minute",
+      "work": "The \"She\" Bible (Book Minute)",
+      "author": "Museum of the Bible",
+      "edition": "Web page, undated",
+      "rights": "in-copyright",
+      "rightsBasis": "Page footer '© Museum of the Bible 2026'.",
+      "copyTerms": "Page footer: '© Museum of the Bible 2026'",
+      "host": "Museum of the Bible",
+      "page": "https://www.museumofthebible.org/book-minute/she-bible",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "motb-she-bible-motb.html",
+      "obtain": [
+        "https://www.museumofthebible.org/book-minute/she-bible (read online)"
+      ],
+      "memoRows": ["A8"]
+    },
+    {
+      "id": "princeton-bible-in-english-2004-handlist",
+      "work": "The Bible in English: Before and After the Hampton Court Conference, 1604. Handlist of Exhibits",
+      "author": "Princeton University Library (labels by Paul Needham, per the memo)",
+      "edition": "Exhibition handlist, PDF, 2004",
+      "rights": "in-copyright",
+      "rightsBasis": "A 2004 institutional publication.",
+      "copyTerms": "Not confirmed. The fetch returned the PDF (567.8 KB), but the tool could not render it, and it was not read in full.",
+      "host": "Princeton University Library",
+      "page": "https://library.princeton.edu/sites/g/files/toruqf6021/files/documents/Bible_in_English_2004.pdf",
+      "file": "https://library.princeton.edu/sites/g/files/toruqf6021/files/documents/Bible_in_English_2004.pdf",
+      "format": "pdf",
+      "download": false,
+      "filename": "princeton-bible-in-english-2004-princeton.pdf",
+      "obtain": [
+        "https://library.princeton.edu/sites/g/files/toruqf6021/files/documents/Bible_in_English_2004.pdf (direct PDF; free to read)"
+      ],
+      "memoRows": ["A4", "B1", "B3", "B7", "B9", "B12", "B13", "B14"]
+    },
+    {
+      "id": "motb-wicked-bible-collections-record",
+      "work": "The Wicked Bible (collections record)",
+      "author": "Museum of the Bible",
+      "edition": "Online collections record, URL artifact 6196; object number shown on the page: BIB.002902",
+      "rights": "in-copyright",
+      "rightsBasis": "Modern museum catalogue text and images.",
+      "copyTerms": "Page: 'To acquire permission to use this image, please visit our Rights and Reproduction page.' No other terms on the record.",
+      "host": "Museum of the Bible",
+      "page": "https://collections.museumofthebible.org/artifacts/6196-the-wicked-bible?theme=collections-highlights",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "motb-wicked-bible-record-motb.html",
+      "obtain": [
+        "https://collections.museumofthebible.org/artifacts/6196-the-wicked-bible?theme=collections-highlights (read online)"
+      ],
+      "memoRows": ["B2", "B3", "B14"]
+    },
+    {
+      "id": "uc-press-wicked-bible-project-2024",
+      "work": "The Wicked Bible Project (catalogue page)",
+      "author": "Canterbury University Press; Chris Jones (ed.)",
+      "edition": "Publisher's catalogue page, published 16 July 2024",
+      "rights": "in-copyright",
+      "rightsBasis": "Modern publisher's page (2024).",
+      "copyTerms": "No explicit copyright notice on the page beyond a footer 'Copyright' link. The page calls the digital edition 'Open Access', with no licence named.",
+      "host": "University of Canterbury",
+      "page": "https://www.canterbury.ac.nz/about-uc/what-we-do/canterbury-university-press/canterbury-university-press-catalogue/the-wicked-bible-project",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "uc-press-wicked-bible-project-2024-canterbury.html",
+      "obtain": [
+        "https://www.canterbury.ac.nz/about-uc/what-we-do/canterbury-university-press/canterbury-university-press-catalogue/the-wicked-bible-project (read online)",
+        "https://digitalvoyages.canterbury.ac.nz/omeka-s/s/wicked-bible/page/home (open-access digital edition, as linked from the page; not fetched)"
+      ],
+      "memoRows": ["B3", "B14"]
+    },
+    {
+      "id": "uc-donnithorne-wicked-bible-omeka",
+      "work": "The Donnithorne Wicked Bible: The Story (digital edition page)",
+      "author": "University of Canterbury (digital edition, ed. Chris Jones, per the memo)",
+      "edition": "UC Library Omeka S site",
+      "rights": "unclear",
+      "rightsBasis": "The page could not be read (HTTP 403).",
+      "copyTerms": "Not confirmed: HTTP 403 when fetched in this backfill, as in the memo.",
+      "host": "University of Canterbury (Omeka S)",
+      "page": "https://digitalvoyages.canterbury.ac.nz/omeka-s/s/wicked-bible/page/the-story",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "uc-donnithorne-wicked-bible-canterbury.html",
+      "obtain": [
+        "https://digitalvoyages.canterbury.ac.nz/omeka-s/s/wicked-bible/page/the-story (attempted, 403; try in a browser)"
+      ],
+      "memoRows": ["B10"],
+      "note": "Memo row B10 failed verification. This entry exists so Matt knows what to look for."
+    },
+    {
+      "id": "galbraith-wicked-bible-manifold-greatness-2011",
+      "work": "The Wicked Bible",
+      "author": "Steven Galbraith (posting as curatorsteve)",
+      "edition": "Manifold Greatness blog (WordPress), 28 July 2011",
+      "rights": "in-copyright",
+      "rightsBasis": "Blog post from 2011 with no licence stated.",
+      "copyTerms": "No copyright or licence statement found on the page.",
+      "host": "WordPress (Manifold Greatness blog)",
+      "page": "https://manifoldgreatness.wordpress.com/2011/07/28/the-wicked-bible/",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "galbraith-wicked-bible-2011-wordpress.html",
+      "obtain": [
+        "https://manifoldgreatness.wordpress.com/2011/07/28/the-wicked-bible/ (read online)"
+      ],
+      "memoRows": ["B4", "B14"]
+    },
+    {
+      "id": "jones-wicked-bible-podcast-motb",
+      "work": "From the Podcast: Dr. Chris Jones and the \"Wicked\" Bible",
+      "author": "Chris Jones (interviewee); Museum of the Bible",
+      "edition": "Podcast transcript, Museum of the Bible magazine, undated",
+      "rights": "in-copyright",
+      "rightsBasis": "Page footer '© Museum of the Bible 2026'.",
+      "copyTerms": "Page footer: '© Museum of the Bible 2026'",
+      "host": "Museum of the Bible",
+      "page": "https://www.museumofthebible.org/magazine/impact/from-the-podcast-dr.-chris-jones-and-the-wicked",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "jones-wicked-bible-podcast-motb.html",
+      "obtain": [
+        "https://www.museumofthebible.org/magazine/impact/from-the-podcast-dr.-chris-jones-and-the-wicked (read online)"
+      ],
+      "memoRows": ["B4", "B8", "B9"]
+    },
+    {
+      "id": "huntington-challenges-printing-2004-byu-rsc",
+      "work": "Challenges in Printing Early English Bibles",
+      "author": "Ray L. Huntington, W. Jeffrey Marsh, Andrew C. Skinner and David M. Whitchurch",
+      "edition": "Religious Educator 5, no. 1 (2004): 15-29 (BYU Religious Studies Center)",
+      "rights": "in-copyright",
+      "rightsBasis": "Journal article, 2004. Page footer '© 2022 All rights reserved'.",
+      "copyTerms": "Page footer: '© 2022 All rights reserved'. No licence stated.",
+      "host": "BYU Religious Studies Center",
+      "page": "https://rsc.byu.edu/vol-5-no-1-2004/challenges-printing-early-english-bibles",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "huntington-challenges-printing-2004-byu.html",
+      "obtain": [
+        "https://rsc.byu.edu/vol-5-no-1-2004/challenges-printing-early-english-bibles (read online)",
+        "https://brightspotcdn.byu.edu/sites/default/files/pub_content/pdf/Challenges_in_Printing_Early_English_Bibles.pdf ('Download as PDF' link on the page; not fetched)"
+      ],
+      "memoRows": ["B5"]
+    },
+    {
+      "id": "hcu-wicked-discovery-2024",
+      "work": "A Wicked Discovery",
+      "author": "Houston Christian University (news office)",
+      "edition": "University news article, 13 February 2024",
+      "rights": "in-copyright",
+      "rightsBasis": "Page footer '© 2026 Houston Christian University'.",
+      "copyTerms": "Page footer: '© 2026 Houston Christian University'",
+      "host": "Houston Christian University",
+      "page": "https://hc.edu/news-and-events/2024/02/13/a-wicked-discovery/",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "hcu-wicked-discovery-2024-hc.html",
+      "obtain": [
+        "https://hc.edu/news-and-events/2024/02/13/a-wicked-discovery/ (read online)"
+      ],
+      "memoRows": ["B7", "B9", "B14"]
+    },
+    {
+      "id": "pedersen-wicked-bible-auction-2015-finebooks",
+      "work": "The Wicked Bible Heads to Auction",
+      "author": "Nate Pedersen",
+      "edition": "Fine Books & Collections, 21 October 2015",
+      "rights": "in-copyright",
+      "rightsBasis": "Page footer 'Copyright © 2026 Journalistic, Inc. All Rights Reserved.'",
+      "copyTerms": "Page footer: 'Copyright © 2026 Journalistic, Inc. All Rights Reserved.'",
+      "host": "Fine Books & Collections",
+      "page": "https://www.finebooksmagazine.com/fine-books-news/wicked-bible-heads-auction",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "pedersen-wicked-bible-2015-finebooks.html",
+      "obtain": [
+        "https://www.finebooksmagazine.com/fine-books-news/wicked-bible-heads-auction (read online)"
+      ],
+      "memoRows": ["B9", "B11", "B13"]
+    },
+    {
+      "id": "dnb-blayney-benjamin-wikisource",
+      "work": "\"Blayney, Benjamin\", Dictionary of National Biography, vol. 5",
+      "author": "Henry Bradley (signed H. B.)",
+      "edition": "DNB 1885-1900, vol. 05, p. 208 (per the Wikisource header), Wikisource transcription",
+      "rights": "public-domain",
+      "rightsBasis": "Published in the 1885-1900 DNB run, before 1931 (US). The exact volume year was not shown on the fetched page.",
+      "copyTerms": "Wikisource footer: 'Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.'",
+      "host": "Wikisource",
+      "page": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Blayney,_Benjamin",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "dnb-blayney-benjamin-wikisource.html",
+      "obtain": [
+        "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Blayney,_Benjamin (read online)"
+      ],
+      "memoRows": ["C3", "C7", "C10"],
+      "note": "Reference-work entry: the entry is linked, and the volume is not marked for download."
+    },
+    {
+      "id": "norton-textual-history-kjv-2005-cambridge",
+      "work": "A Textual History of the King James Bible",
+      "author": "David Norton",
+      "edition": "Cambridge: Cambridge University Press, 2005 (ISBN 9780521771009; DOI 10.1017/CBO9780511488115)",
+      "rights": "in-copyright",
+      "rightsBasis": "Published 2005 by Cambridge University Press.",
+      "copyTerms": "Cambridge Core: paywalled; 'The digital format of this book is no longer available to purchase from Cambridge Core.' Site footer 'Cambridge University Press 2026'.",
+      "host": "Cambridge Core",
+      "page": "https://www.cambridge.org/core/product/identifier/9780511488115/type/book",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "norton-textual-history-kjv-2005-cambridge.html",
+      "obtain": [
+        "https://www.cambridge.org/core/product/identifier/9780511488115/type/book (publisher page; hardback for sale)",
+        "https://books.google.com/books/about/A_Textual_History_of_the_King_James_Bibl.html?id=W3oVRK4I7UsC (Google Books: CUP, 10 Jan 2005, 387 pp., preview available)"
+      ],
+      "memoRows": ["C4"],
+      "note": "Row C4 cites only the publisher's description on Cambridge Core and the Google Books description."
+    },
+    {
+      "id": "norton-setting-the-standard-2005-cambridge",
+      "work": "\"Setting the standard, 1762 and 1769\", chapter in A Textual History of the King James Bible, pp. 103-114",
+      "author": "David Norton",
+      "edition": "Cambridge University Press, 2005; DOI 10.1017/CBO9780511488115.006",
+      "rights": "in-copyright",
+      "rightsBasis": "Published 2005 by Cambridge University Press.",
+      "copyTerms": "Cambridge Core chapter page: abstract/preview only; full text paywalled.",
+      "host": "Cambridge Core",
+      "page": "https://www.cambridge.org/core/books/abs/textual-history-of-the-king-james-bible/setting-the-standard-1762-and-1769/9F8F8C10D8CFCBDC1F8B416B9A04A4CC",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "norton-setting-the-standard-2005-cambridge.html",
+      "obtain": [
+        "https://www.cambridge.org/core/books/abs/textual-history-of-the-king-james-bible/setting-the-standard-1762-and-1769/9F8F8C10D8CFCBDC1F8B416B9A04A4CC (preview; full chapter needs library access or the print book)"
+      ],
+      "memoRows": ["C5"]
+    },
+    {
+      "id": "williams-review-norton-themelios-31-1",
+      "work": "Review of David Norton, A Textual History of the King James Bible and The New Cambridge Paragraph Bible",
+      "author": "P. J. Williams",
+      "edition": "Themelios 31, no. 1 (The Gospel Coalition online edition)",
+      "rights": "in-copyright",
+      "rightsBasis": "A modern journal review. No licence was found on the fetched page.",
+      "copyTerms": "No copyright or reuse statement found on the review page.",
+      "host": "The Gospel Coalition (Themelios)",
+      "page": "https://www.thegospelcoalition.org/themelios/review/a-textual-history-of-the-king-james-bible-and-the-new-cambridge-paragraph-bible-hardback-set/",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "williams-review-norton-themelios.html",
+      "obtain": [
+        "https://www.thegospelcoalition.org/themelios/review/a-textual-history-of-the-king-james-bible-and-the-new-cambridge-paragraph-bible-hardback-set/ (read online)",
+        "http://media.thegospelcoalition.org/documents/themelios/Themelios31.1.pdf (whole-issue PDF linked from the page; not fetched)"
+      ],
+      "memoRows": ["C4"]
+    },
+    {
+      "id": "npr-begat-idioms-2010-apr",
+      "work": "How The King James Bible 'Begat' English Idioms",
+      "author": "NPR (Neal Conan interviewing David Crystal)",
+      "edition": "NPR, 22 December 2010; Alabama Public Radio mirror",
+      "rights": "in-copyright",
+      "rightsBasis": "Page states 'Copyright 2023 NPR.'",
+      "copyTerms": "Page: 'Copyright 2023 NPR. To see more, visit https://www.npr.org.'",
+      "host": "Alabama Public Radio (NPR)",
+      "page": "https://www.apr.org/arts-life/2010-12-22/how-the-king-james-bible-begat-english-idioms",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "npr-begat-idioms-2010-apr.html",
+      "obtain": [
+        "https://www.apr.org/arts-life/2010-12-22/how-the-king-james-bible-begat-english-idioms (read online)"
+      ],
+      "memoRows": ["D1", "D2", "D5"]
+    },
+    {
+      "id": "quinion-begat-review-2010-worldwidewords",
+      "work": "Review of David Crystal, Begat",
+      "author": "Michael Quinion",
+      "edition": "World Wide Words, 27 November 2010",
+      "rights": "in-copyright",
+      "rightsBasis": "Page states 'Copyright © Michael Quinion, 1996–. All rights reserved.'",
+      "copyTerms": "Page: 'Copyright © Michael Quinion, 1996–. All rights reserved.'",
+      "host": "World Wide Words",
+      "page": "https://www.worldwidewords.org/re-beg1.html",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "quinion-begat-review-2010-worldwidewords.html",
+      "obtain": [
+        "https://www.worldwidewords.org/re-beg1.html (read online)"
+      ],
+      "memoRows": ["D1", "D3", "D4", "D7"]
+    },
+    {
+      "id": "mlinko-pleasures-of-the-tixte-2010-nation",
+      "work": "Pleasures of the Tixte",
+      "author": "Ange Mlinko",
+      "edition": "The Nation, 7 October 2010",
+      "rights": "in-copyright",
+      "rightsBasis": "A 2010 magazine article.",
+      "copyTerms": "No copyright statement found in the fetched page text.",
+      "host": "The Nation",
+      "page": "https://www.thenation.com/article/archive/pleasures-tixte/",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "mlinko-pleasures-of-the-tixte-2010-nation.html",
+      "obtain": [
+        "https://www.thenation.com/article/archive/pleasures-tixte/ (read online)"
+      ],
+      "memoRows": ["D1", "D4"]
+    },
+    {
+      "id": "the-begat-review-2010",
+      "work": "Begat: The King James Bible and the English Language (review)",
+      "author": "Times Higher Education (reviewer not shown on the page)",
+      "edition": "Times Higher Education, 9 December 2010 (last updated 22 May 2015)",
+      "rights": "in-copyright",
+      "rightsBasis": "Page states 'Copyright © 2026 THE - Times Higher Education'.",
+      "copyTerms": "Page footer: 'Copyright © 2026 THE - Times Higher Education'",
+      "host": "Times Higher Education",
+      "page": "https://www.timeshighereducation.com/books/begat-the-king-james-bible-and-the-english-language/414514.article",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "the-begat-review-2010-timeshighereducation.html",
+      "obtain": [
+        "https://www.timeshighereducation.com/books/begat-the-king-james-bible-and-the-english-language/414514.article (read online)"
+      ],
+      "memoRows": ["D4"]
+    },
+    {
+      "id": "crystal-begat-2010-google-books",
+      "work": "Begat: The King James Bible and the English Language",
+      "author": "David Crystal",
+      "edition": "Oxford: Oxford University Press, 2010 (Google Books record: OUP Oxford, 23 Sep 2010, 336 pp., ISBN 9780191612992; hardback ISBN 978-0-19-958585-4 per Quinion)",
+      "rights": "in-copyright",
+      "rightsBasis": "Published 2010 by Oxford University Press.",
+      "copyTerms": "Google Books catalogue record. The tool reported a preview is available; its extent was not checked.",
+      "host": "Google Books",
+      "page": "https://books.google.com/books/about/Begat.html?id=RPkZhLWHT6cC",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "crystal-begat-2010-google-books.html",
+      "obtain": [
+        "https://books.google.com/books/about/Begat.html?id=RPkZhLWHT6cC (catalogue record; buy or borrow the print book for the D6 print check)"
+      ],
+      "memoRows": ["D6", "D7"]
+    },
+    {
+      "id": "norton-review-begat-sjt-2013",
+      "work": "Review of David Crystal, Begat: The King James Bible and the English Language",
+      "author": "David Norton",
+      "edition": "Scottish Journal of Theology 66, no. 4 (2013): 496-497, DOI 10.1017/S0036930611000767",
+      "rights": "in-copyright",
+      "rightsBasis": "Page states 'Copyright © Scottish Journal of Theology Ltd 2013'.",
+      "copyTerms": "Cambridge Core: 'Copyright © Scottish Journal of Theology Ltd 2013'. Paywalled; purchase 'Temporarily unavailable' when checked.",
+      "host": "Cambridge Core",
+      "page": "https://www.cambridge.org/core/journals/scottish-journal-of-theology/article/abs/david-crystal-begat-the-king-james-bible-and-the-english-language-oxford-oxford-university-press-2010-pp-327-1499-hbk/BFDD0275030B8BEF4E16B81E9A172263",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "norton-review-begat-sjt-2013-cambridge.html",
+      "obtain": [
+        "https://www.cambridge.org/core/journals/scottish-journal-of-theology/article/abs/david-crystal-begat-the-king-james-bible-and-the-english-language-oxford-oxford-university-press-2010-pp-327-1499-hbk/BFDD0275030B8BEF4E16B81E9A172263 (institutional access needed)"
+      ],
+      "memoRows": ["D8"]
+    }
+  ]
+}

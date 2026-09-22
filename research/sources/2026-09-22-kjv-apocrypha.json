@@ -1,0 +1,173 @@
+{
+  "memo": "2026-09-22-kjv-apocrypha.md",
+  "sources": [
+    {
+      "id": "holy-bible-1611-archive-eebo",
+      "work": "The Holy Bible, Conteyning the Old Testament, and the New (King James Version)",
+      "author": "Translators appointed by James I",
+      "edition": "London: Robert Barker, 1611 (Early English Books 1475-1640 microfilm, archive.org item bim_early-english-books-1475-1640_the-holy-bible-conteyni_bible-english_1611, 1469 images)",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1611.",
+      "copyTerms": "archive.org metadata carries no license, rights or possible-copyright-status field for this item (described as 'digitized from microfilm'). Terms for the microfilm scan are unclear.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/metadata/bim_early-english-books-1475-1640_the-holy-bible-conteyni_bible-english_1611",
+      "file": "https://archive.org/download/bim_early-english-books-1475-1640_the-holy-bible-conteyni_bible-english_1611/bim_early-english-books-1475-1640_the-holy-bible-conteyni_bible-english_1611.pdf",
+      "format": "pdf",
+      "download": false,
+      "filename": "holy-bible-1611-archive-eebo.pdf",
+      "obtain": [
+        "https://archive.org/metadata/bim_early-english-books-1475-1640_the-holy-bible-conteyni_bible-english_1611"
+      ],
+      "memoRows": [1, 2],
+      "note": "download false because the scan's copy terms are not stated. The memo quotes OCR through the archive.org full-text search API (inside.php); image numbers are scan indexes."
+    },
+    {
+      "id": "authorized-edition-english-bible-1884-archive",
+      "work": "The Authorized Edition of the English Bible (1611), its Subsequent Reprints and Modern Representatives",
+      "author": "F. H. A. Scrivener",
+      "edition": "Cambridge: University Press, 1884 (University of Toronto copy, archive.org item authorizedbible00scriuoft)",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1884; Scrivener 1813-1891 (dates per archive.org record).",
+      "copyTerms": "archive.org metadata: possible-copyright-status 'NOT_IN_COPYRIGHT'. No license field.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/metadata/authorizedbible00scriuoft",
+      "file": "https://archive.org/download/authorizedbible00scriuoft/authorizedbible00scriuoft.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "authorized-edition-english-bible-1884-archive.pdf",
+      "obtain": [],
+      "memoRows": [3, 8, 9, 10, 12, 14, 15],
+      "note": "Quotes were taken through the inside.php full-text API; page numbers there are 1-based scan images. Printed pages were inferred from Scrivener's index."
+    },
+    {
+      "id": "records-of-english-bible-1911-archive",
+      "work": "Records of the English Bible: The Documents Relating to the Translation and Publication of the Bible in English, 1525-1611",
+      "author": "Alfred W. Pollard (ed.)",
+      "edition": "London: Henry Frowde, 1911 (University of Toronto copy, archive.org item recordsofenglish00polluoft)",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1911; Pollard 1859-1944 (dates per archive.org record).",
+      "copyTerms": "archive.org metadata: possible-copyright-status 'NOT_IN_COPYRIGHT'. No license field.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/metadata/recordsofenglish00polluoft",
+      "file": "https://archive.org/download/recordsofenglish00polluoft/recordsofenglish00polluoft.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "records-of-english-bible-1911-archive.pdf",
+      "obtain": [],
+      "memoRows": [4, 5, 7],
+      "note": "Same item as the kjv-making memo's entry. Links are BookReaderGetTextWrapper URLs (0-based leaf indexes)."
+    },
+    {
+      "id": "records-stationers-company-1883-archive",
+      "work": "The Records of the Worshipful Company of Stationers [a paper]",
+      "author": "Charles Robert Rivington",
+      "edition": "1883 (Google scan of an Oxford University copy, archive.org item recordsworshipf00rivigoog); publisher not given in metadata",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1883, before 1931 (US public domain). Author's death date not checked.",
+      "copyTerms": "archive.org metadata: possible-copyright-status 'NOT_IN_COPYRIGHT'; description 'Book digitized by Google from the library of Oxford University and uploaded to the Internet Archive by user tpb.'",
+      "host": "Internet Archive",
+      "page": "https://archive.org/metadata/recordsworshipf00rivigoog",
+      "file": "https://archive.org/download/recordsworshipf00rivigoog/recordsworshipf00rivigoog.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "records-stationers-company-1883-archive.pdf",
+      "obtain": [],
+      "memoRows": [11]
+    },
+    {
+      "id": "history-bfbs-vol1-1904-archive",
+      "work": "A History of the British and Foreign Bible Society, vol. 1",
+      "author": "William Canton",
+      "edition": "London: John Murray, 1904 (archive.org item historyofbritish0001cant)",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1904; Canton 1845-1926 (dates per archive.org records of other copies).",
+      "copyTerms": "archive.org metadata reports the item as public domain (published 1904). No license field seen.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/metadata/historyofbritish0001cant",
+      "file": "https://archive.org/download/historyofbritish0001cant/historyofbritish0001cant.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "history-bfbs-vol1-1904-archive.pdf",
+      "obtain": [],
+      "memoRows": [16, 17, 18, 19]
+    },
+    {
+      "id": "dnb-abbot-george-1885-wikisource",
+      "work": "Abbot, George (1562-1633), in Dictionary of National Biography, vol. 1",
+      "author": "Sidney Lee",
+      "edition": "London: Smith, Elder, 1885 (Wikisource transcription)",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1885; Sidney Lee died 1926.",
+      "copyTerms": "Wikisource transcription of a public-domain text; site text under CC BY-SA per Wikisource footer (not re-checked for this page).",
+      "host": "Wikisource",
+      "page": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Abbot,_George_(1562-1633)",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "dnb-abbot-george-1885-wikisource.html",
+      "obtain": [
+        "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Abbot,_George_(1562-1633)"
+      ],
+      "memoRows": [13],
+      "note": "Reference-work entry; not downloaded per the reference-works rule."
+    },
+    {
+      "id": "thirty-nine-articles-bcp-1863-wikisource",
+      "work": "Articles of Religion (Thirty-nine Articles), in The Book of Common Prayer",
+      "author": "Church of England",
+      "edition": "Book of Common Prayer (1863 printing), Wikisource transcription 'Book of Common Prayer (1863)/Articles of Religion' from 'The Book Of Common Prayer (1863).djvu'",
+      "rights": "public-domain",
+      "rightsBasis": "Text confirmed by Convocation 1571; this printing 1863.",
+      "copyTerms": "Wikisource footer: 'Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.'",
+      "host": "Wikisource",
+      "page": "https://en.wikisource.org/wiki/Thirty-Nine_Articles_of_Religion",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "thirty-nine-articles-bcp-1863-wikisource.html",
+      "obtain": [
+        "https://en.wikisource.org/wiki/Thirty-Nine_Articles_of_Religion"
+      ],
+      "memoRows": [20, 21],
+      "note": "No direct file link fetched, so download is false."
+    },
+    {
+      "id": "articles-of-religion-bcp1662-eskimo",
+      "work": "Articles of Religion (web transcription, BCP 1662 site)",
+      "author": "Church of England; transcription by L. Howell",
+      "edition": "Web transcription at eskimo.com/~lhowell/bcp1662; edition not stated on the page",
+      "rights": "public-domain",
+      "rightsBasis": "Text of 1571; underlying work out of copyright.",
+      "copyTerms": "unclear: no terms seen on the page.",
+      "host": "eskimo.com (personal site)",
+      "page": "https://www.eskimo.com/~lhowell/bcp1662/articles/articles.html",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "articles-of-religion-bcp1662-eskimo.html",
+      "obtain": [
+        "https://www.eskimo.com/~lhowell/bcp1662/articles/articles.html"
+      ],
+      "memoRows": [20]
+    },
+    {
+      "id": "cul-kjv-exhibition-captions-2011",
+      "work": "Great and Manifold Blessings: The Making of the King James Bible (exhibition captions)",
+      "author": "Cambridge University Library",
+      "edition": "Online exhibition captions, 2011",
+      "rights": "in-copyright",
+      "rightsBasis": "Modern institutional web text.",
+      "copyTerms": "unclear: no terms seen in the fetched content.",
+      "host": "Cambridge University Library",
+      "page": "https://wwwe.lib.cam.ac.uk/CUL/exhibitions/KJV/captions.html",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "cul-kjv-exhibition-captions-2011.html",
+      "obtain": [
+        "https://wwwe.lib.cam.ac.uk/CUL/exhibitions/KJV/captions.html"
+      ],
+      "memoRows": [6]
+    }
+  ]
+}

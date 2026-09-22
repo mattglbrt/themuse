@@ -1,0 +1,160 @@
+{
+  "memo": "2026-09-22-james-vi-and-i-dates.md",
+  "sources": [
+    {
+      "id": "dnb-james-vi-and-i-wikisource",
+      "work": "James VI and I (Dictionary of National Biography, vol. 29)",
+      "author": "Samuel Rawson Gardiner",
+      "edition": "Dictionary of National Biography, 1885-1900, vol. 29 (London: Smith, Elder & Co.); Wikisource transcription, transcluded from Page:Dictionary of National Biography volume 29.djvu/167-187",
+      "rights": "public-domain",
+      "rightsBasis": "Published in the DNB 1885-1900 series (series dates per Wikisource), so it is public domain in the US as a pre-1929 publication. The contributor's death date was not checked this session.",
+      "copyTerms": "Wikisource terms for this page were not checked this session.",
+      "host": "Wikisource",
+      "page": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/James_VI_and_I",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "",
+      "obtain": [
+        "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/James_VI_and_I",
+        "https://en.wikisource.org/wiki/Page:Dictionary_of_National_Biography_volume_29.djvu/186"
+      ],
+      "memoRows": [1, 5, 7, 11, 17, 23, 27, 31, 34, 37]
+    },
+    {
+      "id": "dnb-anne-of-denmark-wikisource",
+      "work": "Anne of Denmark (Dictionary of National Biography, vol. 1)",
+      "author": "Adolphus William Ward",
+      "edition": "Dictionary of National Biography, 1885-1900, vol. 1 (London: Smith, Elder & Co.), with 1904 errata appended; Wikisource transcription from Page:Dictionary of National Biography volume 01.djvu/445-455",
+      "rights": "public-domain",
+      "rightsBasis": "Published in the DNB 1885-1900 series, so it is public domain in the US as a pre-1929 publication. The contributor's death date was not checked this session.",
+      "copyTerms": "Wikisource terms for this page were not checked this session.",
+      "host": "Wikisource",
+      "page": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Anne_of_Denmark",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "",
+      "obtain": [
+        "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Anne_of_Denmark",
+        "https://en.wikisource.org/wiki/Page:Dictionary_of_National_Biography_volume_01.djvu/449"
+      ],
+      "memoRows": [8, 12, 20, 33]
+    },
+    {
+      "id": "eb1911-james-i-wikisource",
+      "work": "James I. of Great Britain and Ireland (Encyclopaedia Britannica, 11th ed., vol. 15)",
+      "author": "Unsigned on the pages fetched",
+      "edition": "Encyclopaedia Britannica, 11th edition, vol. 15, 1911; Wikisource page scans EB1911 - Volume 15.djvu/152-153",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1911 (public domain in the US as a pre-1929 publication).",
+      "copyTerms": "Wikisource terms for this page were not checked this session.",
+      "host": "Wikisource",
+      "page": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/James_I._of_Great_Britain_and_Ireland",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "",
+      "obtain": [
+        "https://en.wikisource.org/wiki/Page:EB1911_-_Volume_15.djvu/152",
+        "https://en.wikisource.org/wiki/Page:EB1911_-_Volume_15.djvu/153"
+      ],
+      "memoRows": [4, 36]
+    },
+    {
+      "id": "westminster-abbey-james-i-and-anne-of-denmark",
+      "work": "James I and Anne of Denmark",
+      "author": "Westminster Abbey (unsigned)",
+      "edition": "Westminster Abbey website, Abbey commemorations: Royals (accessed 2026-09-22)",
+      "rights": "unclear",
+      "rightsBasis": "A modern institutional web page. No copyright or licence statement was checked this session.",
+      "copyTerms": "Not checked this session.",
+      "host": "Westminster Abbey",
+      "page": "https://www.westminster-abbey.org/abbey-commemorations/royals/james-i-and-anne-of-denmark",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "",
+      "obtain": [
+        "https://www.westminster-abbey.org/abbey-commemorations/royals/james-i-and-anne-of-denmark"
+      ],
+      "memoRows": [3, 22, 32, 35, 38]
+    },
+    {
+      "id": "papers-relative-marriage-james-vi-1828-archive",
+      "work": "Papers relative to the Marriage of King James the Sixth of Scotland, with the Princess Anna of Denmark; A.D. MDLXXXIX. and the Form and Manner of Her Majesty's Coronation at Holyroodhouse, A.D. MDXC",
+      "author": "Bannatyne Club (presented by J. T. Gibson Craig)",
+      "edition": "Edinburgh: [Bannatyne Club], 1828; University of Guelph copy scanned for Internet Archive",
+      "rights": "public-domain",
+      "rightsBasis": "Printed at Edinburgh 1828 per the title page. The archive.org metadata reads 'no visible notice of copyright; stated date is 1828'.",
+      "copyTerms": "archive.org item metadata: rights 'NOT_IN_COPYRIGHT' (checked https://archive.org/metadata/papersrelative2600geneuoft).",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/papersrelative2600geneuoft",
+      "file": "https://archive.org/download/papersrelative2600geneuoft/papersrelative2600geneuoft.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "papers-relative-marriage-james-vi-1828-archive.pdf",
+      "obtain": [
+        "https://archive.org/stream/papersrelative2600geneuoft/papersrelative2600geneuoft_djvu.txt"
+      ],
+      "memoRows": [9, 10, 13, 14, 15, 16, 18, 19, 21, 24, 25, 26]
+    },
+    {
+      "id": "diurnal-of-occurrents-1833-archive",
+      "work": "A Diurnal of Remarkable Occurrents that have passed within the country of Scotland since the death of King James the Fourth till the year M.D.LXXV",
+      "author": "Anonymous (16th-century manuscript); ed. Thomas Thomson",
+      "edition": "Edinburgh: Bannatyne Club, 1833; Internet Archive scan diurnalofremarka00thom",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1833 (Bannatyne Club, M.D.CCC.XXXIII, per the title page). The underlying text is a 16th-century manuscript.",
+      "copyTerms": "archive.org item metadata: licenseurl http://creativecommons.org/licenses/by-nc-sa/2.5/scotland/ (Creative Commons Attribution-Noncommercial-Share Alike 2.5 UK: Scotland). Redistribution is allowed with attribution, non-commercially, under the same licence.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/diurnalofremarka00thom",
+      "file": "https://archive.org/download/diurnalofremarka00thom/diurnalofremarka00thom.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "diurnal-of-occurrents-1833-archive.pdf",
+      "obtain": [
+        "https://archive.org/stream/diurnalofremarka00thom/diurnalofremarka00thom_djvu.txt"
+      ],
+      "memoRows": [2, 6]
+    },
+    {
+      "id": "accession-proclamation-1603-archive",
+      "work": "Forasmuch as it hath pleased Almighty God to call to His mercy ... Elizabeth late Queene of England (proclamation of James I's accession)",
+      "author": "England. Privy Council [catalogued as England-Proclamations]",
+      "edition": "London: Robert Barker, 'March, 24. Anno Domini, 1602' [i.e. 1603 N.S.]; Early English Books 1475-1640 microfilm scan (source IA40312814-87; collection catalog number 8297)",
+      "rights": "public-domain",
+      "rightsBasis": "Printed 24 March 1602/3 per its imprint.",
+      "copyTerms": "No rights, licenseurl or possible-copyright-status field in the archive.org item metadata (checked https://archive.org/metadata/bim_early-english-books-1475-1640_forasmuch-as-it-hath-ple_england-proclamations_1602). This is a microfilm reproduction, and no redistribution terms are stated.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/bim_early-english-books-1475-1640_forasmuch-as-it-hath-ple_england-proclamations_1602",
+      "file": "https://archive.org/download/bim_early-english-books-1475-1640_forasmuch-as-it-hath-ple_england-proclamations_1602/bim_early-english-books-1475-1640_forasmuch-as-it-hath-ple_england-proclamations_1602.pdf",
+      "format": "pdf",
+      "download": false,
+      "filename": "accession-proclamation-1603-archive.pdf",
+      "obtain": [
+        "https://archive.org/stream/bim_early-english-books-1475-1640_forasmuch-as-it-hath-ple_england-proclamations_1602/bim_early-english-books-1475-1640_forasmuch-as-it-hath-ple_england-proclamations_1602_djvu.txt"
+      ],
+      "memoRows": [28]
+    },
+    {
+      "id": "register-privy-council-scotland-vol6-1884-archive",
+      "work": "The Register of the Privy Council of Scotland, vol. VI, A.D. 1599-1604",
+      "author": "David Masson (ed.)",
+      "edition": "Edinburgh, 1884; Internet Archive scan registerofprivyc0006davi",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1884 (public domain in the US as a pre-1929 publication). The editor's death date was not checked this session.",
+      "copyTerms": "No rights, licenseurl or possible-copyright-status field in the archive.org item metadata (checked https://archive.org/metadata/registerofprivyc0006davi).",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/registerofprivyc0006davi",
+      "file": "https://archive.org/download/registerofprivyc0006davi/registerofprivyc0006davi.pdf",
+      "format": "pdf",
+      "download": false,
+      "filename": "register-privy-council-scotland-vol6-1884-archive.pdf",
+      "obtain": [
+        "https://archive.org/stream/registerofprivyc0006davi/registerofprivyc0006davi_djvu.txt"
+      ],
+      "memoRows": [29, 30]
+    }
+  ]
+}

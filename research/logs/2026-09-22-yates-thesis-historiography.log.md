@@ -1,0 +1,116 @@
+# Working log: yates-thesis-historiography (Q7b, retry)
+
+- decision: retry after crash on large PDF. No prior log found; memo file is empty stub, will overwrite. Rule for this run: abstracts, landing pages, reviews, SEP only. No whole books / big PDFs.
+- search: "Yates thesis" Hermeticism Scientific Revolution historiography Westman Vickers -> leads: Hesse 1970 (UMN conservancy PDF), Hanegraaff-adjacent "Refiner's Fire and the Yates Thesis" (researchgate), thehermeticum.com (blog, map only), juvenileinstructor (blog).
+- search: SEP Bruno Yates -> SEP bruno entry, UChicago press page for GBHT.
+- fetch: plato.stanford.edu/entries/bruno/ -> identity ok (rev. 2024-03-12) but no Yates discussion per fetch. Not useful.
+- fetch: press.uchicago.edu bo3639032 -> identity ok (Yates, GBHT, UChicago 1990 reprint ISBN 9780226950075). Blurb only; weak.
+- search: Hanegraaff "Beyond the Yates Paradigm" -> Aries 1:1 (2001) 5-37; zenodo 19980127 (CC BY 4.0), dare.uva.nl record.
+- search: Westman McGuire Hermeticism and the Scientific Revolution 1977 -> Clark Library 1977; reviews BJHS (Wood 1980), Isis 70:2, Ren Q.
+- fetch: zenodo.org/records/19980127 -> identity ok, CC-BY-4.0, no abstract on page.
+- fetch: BJHS review PDF (Wood 1980) -> metadata only, no text. dead end for quotes.
+- fetch: dare.uva.nl record -> identity ok, no abstract.
+- fetch: journals.uchicago.edu/doi/abs/10.1086/352258 (Isis review) -> 403. dead end.
+- fetch: zenodo api record -> file "2001 Yates Paradigm.pdf" 2.1MB, article (~33pp, not a book). decision: fetch via WebFetch with narrow prompt only; do not Read.
+- fetch: zenodo PDF content -> OCR corrupted per fetch model; no quotes extractable. dead end (Hanegraaff 2001 text). WebFetch saved bin to tool-results; not reading it (crash risk).
+- search: brill Aries Beyond the Yates Paradigm -> DOI 10.1163/157005901X00020.
+- fetch: doi -> redirect brill.com/view/journals/arie/1/1/article-p5_2.xml -> 403. dead end.
+- search: Copenhaver natural magic hermetism occultism Reappraisals -> CUP 1990 pp.261-302 (Lindberg & Westman eds); Copenhaver "Magic" ch.22 Cambridge History of Science; Waddell 2021 CUP ch.1.
+- fetch: cambridge.org CHS ch.22 Magic (Copenhaver) -> identity ok, abstract accessible.
+- quote: "But in the late fifteenth century, magic enjoyed a remarkable rebirth, acquiring the energy that kept it at the center of cultural attention for nearly two hundred years" (CHS Magic landing)
+- quote: "Eventually, however, as Europe's most creative thinkers lost confidence in it, magic became even more disreputable than it had been before Ficino revived it." (same)
+- fetch: cambridge.org Waddell 2021 ch.1 -> identity ok; abstract only; mentions Ficino 1460 Corpus Hermeticum; no Yates. Marginal (other agent's territory).
+- fetch: brill Aries -> 403.
+- search: Vickers "Frances Yates and the Writing of History" -> JMH 51:2 (1979) 287-316, doi 10.1086/241901; Newman response PDF (warwick); Curry 1985 essay review Hist Sci.
+- search: Vickers Occult and Scientific Mentalities 1984 -> archive.org occultscientific0000unse; BJHS review (Dear 1986); MUSE review.
+- fetch: semanticscholar Vickers JMH -> empty page. dead end.
+- fetch: archive.org occultscientific0000unse -> identity ok, access-restricted (printdisabled lending). no description quote usable.
+- fetch: muse.jhu.edu/article/226666 -> verification wall. dead end.
+- fetch: BJHS Dear review 1986 -> metadata only.
+- search: "two separate mentalities" -> SEARCH BUDGET EXHAUSTED (200/200 for session). decision: continue with fetch only: URLs from earlier results, SEP entries, archive.org advancedsearch API, DOIs. Any guessed URL must be identity-confirmed on fetch or dropped.
+- fetch: plato.stanford.edu/entries/pico-della-mirandola/ -> ok; no Yates; one Hermetic sentence (fetch model inserted bracket "prefer[red]" - must re-verify exact wording).
+- fetch: plato.stanford.edu/entries/ficino/ -> Celenza, rev 2024-05-28; Yates only in bibliography; cites Copenhaver "Hermetic Magic or Neoplatonic Magic?" in bibliography.
+- fetch: sagepub Curry 1985 -> 403.
+- fetch: warwick Newman response PDF -> binary, unparsed; saved locally but Read cannot render PDF (no pdftoppm). dead end.
+- fetch: conservancy.umn.edu Hesse 1970 -> 403. dead end.
+- fetch: SEP pico re-check -> author Brian Copenhaver; exact: "Imitating Proclus, Pico preferred Chaldean prophets and Orphic bards to the Egyptian Hermes. As for a tradition called 'Hermetic', the _Conclusions_ had nothing good to say."
+- quote: above, SEP pico.
+- fetch: thehermeticum.com Yates page -> blog/map only. leads: Clulee (Dee), Gatti (Bruno), Hanegraaff 2012.
+- fetch: doi 10.1017/CBO9781139048064 -> Hanegraaff, Esotericism and the Academy, CUP 2012, identity ok, description accessible.
+- quote: "Expelled from the academy on the basis of Protestant and Enlightenment polemics, these traditions have come to be perceived as the Other by which academics define their identity to the present day." (CUP landing)
+- fetch: JMH doi 10.1086/241901 (Vickers 1979) -> 403. dead end.
+- fetch: archive.org advancedsearch Yates -> lending items: giordanobrunoher0000yate, rosicrucianenlig0000yate, occultphilosophy0000yate. Many other items are user uploads of in-copyright books; decision: do not cite those.
+- fetch: archive.org metadata occultphilosophy0000yate -> 1979 RKP, ISBN 071000320X, access-restricted.
+- fetch: archive.org inside.php full-text search -> 403. dead end (wanted Yates's own words on James I).
+- fetch: archive.org details occultphilosophy0000yate -> identity ok; borrow-only; description generic.
+- fetch: CUP Hanegraaff ch.4, intro -> no abstracts, preview images only. dead end.
+- fetch: SEP natphil-ren (Del Soldato, rev 2023-09-18) -> Yates only in bibliography; no historiography discussion. marginal.
+- fetch: arthistorians.info/yatesf -> tertiary, no reception sentences; cites Vickers JMH 1979.
+- fetch: juvenileinstructor (blog, map) -> leads: Copenhaver 1988 in Merkel & Debus eds, Hermeticism and the Renaissance (Folger); Cohen 1994 Scientific Revolution historiographical inquiry; Clulee 1988; Ebeling 2007.
+- fetch: wikipedia GBHT (map) -> leads: Giglioni 2014 "Who is Afraid of Frances Yates?" Bruniana & Campanelliana JSTOR 24339075; de Santillana AHR 1965.
+- fetch: wikipedia Frances Yates (map) -> leads: Hanegraaff 2004 de Gruyter pp.507-08; Vickers 1984 pp.5-6.
+- fetch: jstor 24339075 -> JS load error. dead end.
+- fetch: dare.uva.nl search -> query ignored, junk. dead end.
+- fetch: zenodo api q=Yates Hermetic -> junk; q=Hanegraaff -> 400 rate limit. dead end.
+- fetch: philpapers WESHAT-10 -> 403. CUP RQ review -> redirect to doi 10.2307/2860388 (JSTOR; not followed, JSTOR failing). dash.harvard.edu PDF -> 405. dead ends.
+- fetch: historyofphilosophy.net/magic-copenhaver -> ep 367, 28 Feb 2021, Adamson w/ Copenhaver; biblio lists Copenhaver 1988 Merkel & Debus pp.79-111.
+- fetch: .../magic-copenhaver/transcript -> identity ok. Yates not mentioned.
+- quote: Copenhaver: "But those Hermetic writings, the ones that Ficino translated, aren't about magic, and Ficino understood that." (transcript)
+- quote: "So if you go to books published around 1550, 1575, 1600, throughout the 17th and 18th centuries, you'll very often find the word Hermetic used in that way as basically a synonym for alchemical." (transcript)
+- fetch: enotes Copenhaver, academia 124717902 -> 403 both.
+- decision: SEP/encyclopedia tension. Task brief allows "encyclopedias of record (e.g. SEP)"; agent rule 8 says encyclopedias = maps. Resolution: signed SEP entries by named specialists (Copenhaver on Pico) treated as the named scholar's statement of his own position, flagged in source-quality notes; not used alone for load-bearing consensus claims.
+- fetch: googleapis books x3 (Yates titles) -> 429 all. dead end.
+- fetch: archive.org details rosicrucianenlig0000yate (RKP 1972, ISBN 0710073801, borrow-only), giordanobrunoher0000yate (UChicago 1964, borrow-only) -> identity ok; descriptions are catalog subject lines, not usable quotes.
+- fetch: books.google IhwRAQAAIAAJ -> Westman & McGuire, Clark Library 1977, 150pp. identity ok (existence only).
+- fetch: SEP site search "Frances Yates" -> hit in Bruno entry (Dilwyn Knox), snippet "...such as those of Frances Yates, valuable though they remain". Snippet only.
+- fetch: SEP bruno (current + spr2026 archive) asking for that sentence -> fetch model cannot find it (page likely truncated). dead end; snippet NOT cited.
+- fetch: routledge.com Occult Philosophy (Routledge Classics, 9780415254090) -> identity ok; verbatim description obtained (publisher marketing).
+- quote: "To her work can be attributed the contemporary understanding of the occult origins of much of Western scientific thinking, indeed of Western civilization itself." (Routledge OPEA page)
+- quote: "The book is invaluable in illuminating the relationship between occultism and Renaissance thought, which in turn had a profound impact on the rise of science in the seventeenth century." (same)
+- fetch: routledge.com Rosicrucian Enlightenment 9780415267694 -> identity ok (Routledge, 2nd ed ©2000 per page).
+- quote: "A history of the role that the occult has played in the formation of modern science and medicine" (Routledge RE page)
+- fetch: princeton catalog -> bot wall. dead end.
+- fetch: cambridge.org/core/search "Yates thesis" -> 0 results (probably JS). dead end.
+- fetch: api.crossref.org works query Yates Hermetic thesis -> useful: Coudert 2012 Aries 10.1163/147783512x614885; Trapp 2003 Proc Brit Acad memoir 10.5871/bacad/9780197263020.003.0025 (abstract in crossref); Debus Isis 1964 review 10.1086/349887; D.P. Walker MLR 1966 10.2307/3724090.
+- fetch: crossref query Hermeticism scientific revolution Yates -> leads: Schmitt 1978 Hist Sci essay review; Rattansi JHP 1981 review; Shea JHA 1979; Osler 2010 CUP; John Henry 1997/2008 Palgrave; Fleming, Asprem & Taves 2015 J Mormon Hist 41:4 198-209.
+- fetch: crossref works Coudert -> 429.
+- fetch: springer Henry 2008 ch1 -> 404. CUP Osler 2010 ch -> summary accessible, no Yates. scholarlypublishingcollective Fleming et al. -> 403.
+- fetch: semanticscholar API Vickers JMH, Fleming et al. -> no abstracts (elided). dead ends.
+- fetch: openalex Fleming et al. -> not OA, no abstract. dead end.
+- fetch: openalex works search "Yates thesis Hermeticism" -> KEY LEAD: Hanegraaff, "How Hermetic was Renaissance Hermetism?", Aries 15:2 (2015) 179-209, bronze OA; pdfs at brill downloadpdf and pure.uva.nl. Also Hesse 1970 handle 11299/184660; Ren & Ref 2009 review (utoronto OA).
+- fetch: openalex doi 10.1163/15700593-01502001 -> abstract via inverted index (reconstructed by fetch model; need to verify against a publisher/repository copy).
+- fetch: pure.uva.nl Hanegraaff 2015 PDF -> binary, unparsed. brill landing + brill downloadpdf -> 403. UMN handle page -> 403.
+- fetch: semanticscholar + crossref for 10.1163/15700593-01502001 -> identity confirmed (Aries 15:2, 179-209, 2015), no abstract.
+- fetch: openalex select=abstract_inverted_index (2nd reconstruction) -> matches 1st except two spots ("Close study of [Ficino's] original translation"; "of/in any meaningful sense"). decision: quote only segments identical in both reconstructions; flag method in notes.
+- quote: "it has been widely assumed that an important "Hermetic Tradition" emerged during the Renaissance" / "This article argues that these assumptions need to be revised." / "Hence we seem to be dealing with a discourse about Hermes, but hardly a "tradition"" (openalex)
+- fetch: openalex search Westman magical reform -> no Westman chapter record; leads: Pietra 2024 Temporalidades (UFMG, CC BY) on construction of "tese Yates"; Aroney 2023 Hist J OA; Hanegraaff 2000 "Het einde van de hermetische traditie".
+- fetch: openalex search Rosicrucian critique -> Coudert Nova Religio 2015 review of Hanegraaff (escholarship); Asprem & Strube 2020 Brill OA.
+- fetch: periodicos.ufmg.br Pietra 2024 view -> identity ok, CC BY 4.0, Portuguese abstract only.
+- quote: "Para isso, seguimos a recepção do texto por uma década a partir do momento de sua publicação, 1964, quando o paradigma é fundado por Robert Westman e James McGuire." (Pietra)
+- fetch: cambridge.org Aroney 2023 Hist J 66:5 -> identity ok, CC BY 4.0, abstract verbatim.
+- quote: "Long assumed to be a casualty of the 'scientific revolution' and 'Enlightenment', since the 1970s historians have questioned the power of intellectual developments to carry the weight of this major shift" (Aroney)
+- fetch: escholarship 2hp042v7 -> empty. dead end.
+- fetch: crossref container "The Occult Philosophy in the Elizabethan Age" -> Routledge 2003 chapter DOIs (10.4324/9780203167113-*), titles incl. "REACTIONS AGAINST THE OCCULT PHILOSOPHY: THE WITCH CRAZE", "THE REACTION: CHRISTOPHER MARLOWE ON CONJURORS, IMPERIALISTS AND JEWS", "SHAKESPEAREAN FAIRIES, WITCHES, MELANCHOLY: KING LEAR AND THE DEMONS", "PROSPERO: THE SHAKESPEAREAN MAGUS", "JOHN DEE: CHRISTIAN CABALIST".
+- fetch: crossref container RE with author filter -> 0; without -> Routledge chapters (10.4324/9780203166017-*): "A ROYAL WEDDING", "JOHN DEE AND THE RISE OF 'CHRISTIAN ROSENCREUTZ'", "FROM THE INVISIBLE COLLEGE TO THE ROYAL SOCIETY".
+- decision: chapter titles are metadata only; any claim about Yates's argument in those chapters = needs-print-check.
+- fetch: springer Henry 1997 ch -> auth redirect. dead end.
+- fetch: crossref Coudert 2012 -> Aries 12:1 165-169, no abstract. dead end for content.
+- fetch: openalex Casaubon / Jacobean searches -> mostly theses; Forshaw 2017 Ambix OA; Levitin 2012 HJ. tandfonline Forshaw -> 403.
+- fetch: Aroney 2023 body sentences -> Thomas/Hunter sentences.
+- quote: "As Keith Thomas and others looked to 'popular' religion and belief, including 'popular' astrology, they found that regardless of elite disinvestment, astrology continued to thrive in popular culture." (Aroney)
+- quote: "Now, Michael Hunter's _Decline of magic_ (2019) argues that Enlightenment intellectuals rejected magic not for 'good' (intellectual) reasons, but for 'bad' (non-intellectual) ones." (Aroney)
+- decision: stop searching (budget exhausted, access walls everywhere). Draft memo; verification pass next.
+- verify: uchicago GBHT blurb -> verbatim yes.
+- verify: crossref Trapp 10.5871/bacad/9780197263020.003.0025 direct record -> abstract verbatim yes (switched row link to direct record).
+- verify: CUP CHS Magic -> both sentences verbatim yes.
+- verify: routledge OPEA -> both quotes yes, Routledge Classics, "1st Edition, Copyright 1979". routledge RE -> yes, Routledge Classics, 2nd ed (c)2000.
+- verify: SEP pico -> verbatim yes; first pub 3 Jun 2008, rev 21 Aug 2024; Copenhaver.
+- verify: HoPWaG transcript -> verbatim yes.
+- verify: openalex Hanegraaff 2015 (3rd reconstruction) -> segments a/b/c yes; divergent words ("Ficino's", "of/in") unstable, excluded from quote.
+- verify: CUP Hanegraaff 2012 -> verbatim yes. CUP Aroney -> 3 quotes verbatim yes, CC BY 4.0. Pietra -> verbatim yes, CC BY 4.0.
+- verify: crossref OPEA + RE chapter titles -> all yes with DOIs/pages.
+- verify: semanticscholar Vickers JMH metadata -> yes (51, 287-316). books.google Westman -> yes. archive.org Vickers 1984 -> yes.
+- decision: SEP Bruno Knox sentence -> row kept as "failed verification: snippet only".
+- decision: removed from sources JSON obtain lists any link not itself fetched (wellcome record, Aroney PDF, Pietra PDF, brill downloadpdf).
+- done: memo written (22 rows; 21 confirmed, 4 of those needs-print-check; 1 failed), sources JSON written.
+- quote: Trapp abstract: "Giordano Bruno and the Hermetic Tradition of 1964 and The Art of Memory of 1966 were then the latest in a series of studies notable for adventurous argument and scope of learning." (crossref)

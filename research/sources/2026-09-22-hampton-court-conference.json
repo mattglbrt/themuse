@@ -1,0 +1,545 @@
+{
+  "memo": "2026-09-22-hampton-court-conference.md",
+  "sources": [
+    {
+      "id": "summe-and-substance-1604-eebo-tcp",
+      "work": "The Summe and Substance of the Conference ... at Hampton Court, Ianuary 14. 1603",
+      "author": "William Barlow",
+      "edition": "London: Iohn Windet for Mathew Law, 1604 (EEBO-TCP Phase I transcription A04434, TEI XML)",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1604; author died 1613. The TCP transcription is dedicated CC0.",
+      "copyTerms": "TEI header and repo README: 'This Phase I text is available for reuse, according to the terms of Creative Commons 0 1.0 Universal. The text can be copied, modified, distributed and performed, even for commercial purposes, all without asking permission.'",
+      "host": "Text Creation Partnership (GitHub)",
+      "page": "https://github.com/textcreationpartnership/A04434",
+      "file": "https://raw.githubusercontent.com/textcreationpartnership/A04434/master/A04434.xml",
+      "format": "xml",
+      "download": true,
+      "filename": "summe-and-substance-1604-eebo-tcp.xml",
+      "obtain": [],
+      "memoRows": [
+        12,
+        14,
+        16,
+        17,
+        18,
+        22,
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "id": "summe-and-substance-1965-facsimile-archive",
+      "work": "The Summe and Substance of the Conference ... at Hampton Court, January 14, 1603 (1604)",
+      "author": "William Barlow",
+      "edition": "Facsimile of the 1604 edition, Gainesville, FL: Scholars' Facsimiles & Reprints, 1965 (archive.org scan)",
+      "rights": "unclear",
+      "rightsBasis": "The underlying 1604 text is public domain (author died 1613). The 1965 facsimile edition's status is not stated on the item page.",
+      "copyTerms": "archive.org item marked 'Access-restricted-item: true'; download section shows 'No suitable files to display here' (lending-library only). No rights field shown.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/summesubstanceof0000barl",
+      "file": "",
+      "format": "",
+      "download": false,
+      "filename": "summe-and-substance-1965-archive.pdf",
+      "obtain": [
+        "https://archive.org/details/summesubstanceof0000barl (borrow via Internet Archive lending)",
+        "Free alternatives: EEBO-TCP A04434 XML and the 1804 reprint PDF (entries above and below)"
+      ],
+      "memoRows": [
+        12
+      ]
+    },
+    {
+      "id": "summe-and-substance-1804-archive",
+      "work": "The Summe and Substance of the Conference ... at Hampton Court Jan. 14. 1603",
+      "author": "William Barlow",
+      "edition": "Reprint, Clerkenwell: Bye and Law, 1804 (Library of Congress copy, archive.org scan)",
+      "rights": "public-domain",
+      "rightsBasis": "Text first published 1604 (author died 1613); this reprint published 1804.",
+      "copyTerms": "archive.org item: 'The Library of Congress is unaware of any copyright restrictions for this item.'",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/summesubstanceof00barl",
+      "file": "https://archive.org/download/summesubstanceof00barl/summesubstanceof00barl.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "summe-and-substance-1804-archive.pdf",
+      "obtain": [],
+      "memoRows": [
+        27
+      ]
+    },
+    {
+      "id": "millenary-petition-1896-hanover",
+      "work": "The Millenary Petition (1603)",
+      "author": "Puritan ministers (anonymous); ed. Henry Gee and William John Hardy",
+      "edition": "Gee & Hardy (eds.), Documents Illustrative of English Church History (Macmillan, 1896), pp. 508-11, transcribed from Fuller's Church-History (1655); online transcription by the Hanover Historical Texts Project",
+      "rights": "public-domain",
+      "rightsBasis": "Petition 1603; Gee & Hardy edition published 1896. Hanover claims copyright in its electronic form (see copyTerms).",
+      "copyTerms": "Hanover project page: 'the electronic forms of public domain texts that we have created for the Collection are under copyright.' ... 'We grant permission to copy and use items in the Hanover Historical Texts Collection for educational purposes; we ask that you acknowledge the Hanover Historical Texts Collection. We do not grant permission for commercial uses.'",
+      "host": "Hanover College, Hanover Historical Texts Project",
+      "page": "https://history.hanover.edu/texts/engref/er88.html",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "millenary-petition-1896-hanover.html",
+      "obtain": [
+        "https://history.hanover.edu/texts/engref/er88.html (read online; non-commercial terms bar redistribution in an MIT repo)",
+        "https://archive.org/details/documentsillustrx00geeh (the named 1896 edition, public-domain scan, next entry)"
+      ],
+      "memoRows": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "documents-illustrative-1896-archive",
+      "work": "Documents Illustrative of English Church History",
+      "author": "Henry Gee and William John Hardy (eds.)",
+      "edition": "London: Macmillan and Co.; New York: Macmillan & Co., 1896 (Wellesley College Library copy, archive.org scan)",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1896.",
+      "copyTerms": "archive.org metadata: 'Possible copyright status: NOT_IN_COPYRIGHT'. No other rights field.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/documentsillustrx00geeh",
+      "file": "https://archive.org/download/documentsillustrx00geeh/documentsillustrx00geeh.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "documents-illustrative-1896-archive.pdf",
+      "obtain": [],
+      "memoRows": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "note": "I have not checked that the petition falls on pp. 508-11 of this scan (the Hanover citation). A second archive.org copy (documentsillustr00hard) is catalogued as 1910 and was not used."
+    },
+    {
+      "id": "new-schaff-herzog-vol5-ccel",
+      "work": "\"Hampton Court Conference\", New Schaff-Herzog Encyclopedia of Religious Knowledge, vol. V (Goar - Innocent)",
+      "author": "Unsigned article; Philip Schaff (ed., per the CCEL book page)",
+      "edition": "CCEL electronic edition",
+      "rights": "unclear",
+      "rightsBasis": "Publication year not shown on the fetched CCEL pages. Probably an early-20th-century work, but I haven't confirmed that, so no guess.",
+      "copyTerms": "CCEL copyright policy: 'These books may be used for personal, educational, or non-profit purposes.' CCEL also claims copyright on its formatting.",
+      "host": "Christian Classics Ethereal Library",
+      "page": "https://www.ccel.org/ccel/schaff/encyc05.html",
+      "file": "",
+      "format": "pdf",
+      "download": false,
+      "filename": "new-schaff-herzog-vol5-ccel.pdf",
+      "obtain": [
+        "https://www.ccel.org/s/schaff/encyc/encyc05/htm/ii.iv.iii.htm (article cited)",
+        "https://www.ccel.org/ccel/schaff/encyc05.html (book page, which lists PDF /ccel/s/schaff/encyc05/cache/encyc05.pdf and TXT /ccel/s/schaff/encyc05/cache/encyc05.txt; these relative links were not fetched)"
+      ],
+      "memoRows": [
+        2,
+        13,
+        20
+      ]
+    },
+    {
+      "id": "oxford-companion-lockyer-encyclopediacom",
+      "work": "\"millenary petition\", The Oxford Companion to British History",
+      "author": "Roger Lockyer",
+      "edition": "Oxford Companion to British History, as reproduced on Encyclopedia.com",
+      "rights": "in-copyright",
+      "rightsBasis": "Modern Oxford University Press reference work.",
+      "copyTerms": "Encyclopedia.com footer: '© 2019 Encyclopedia.com | All rights reserved.'",
+      "host": "Encyclopedia.com",
+      "page": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/millenary-petition",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "oxford-companion-lockyer-encyclopediacom.html",
+      "obtain": [
+        "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/millenary-petition (read online)"
+      ],
+      "memoRows": [
+        3
+      ]
+    },
+    {
+      "id": "dnb-egerton-stephen-wikisource",
+      "work": "\"Egerton, Stephen\", Dictionary of National Biography, vol. 17",
+      "author": "Alsager Richard Vian",
+      "edition": "DNB 1885-1900, vol. 17 (1889), Wikisource transcription",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1889 (Commons scan dates vol. 17 to 1889). Public domain in the US as a pre-1931 publication.",
+      "copyTerms": "Wikisource site footer: 'Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.'",
+      "host": "Wikisource",
+      "page": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Egerton,_Stephen",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "dnb-egerton-stephen-1889-wikisource.html",
+      "obtain": [
+        "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Egerton,_Stephen (read online)",
+        "Facsimile of the whole volume: entry dnb-vol17-1889-commons"
+      ],
+      "memoRows": [
+        10
+      ],
+      "note": "No direct file confirmed. The ws-export EPUB/PDF link returned a bot-protection (Anubis) page when fetched. The footer terms were quoted from the Rainolds page and apply site-wide."
+    },
+    {
+      "id": "dnb-hildersam-arthur-wikisource",
+      "work": "\"Hildersam, Arthur\", Dictionary of National Biography, vol. 26",
+      "author": "Alexander Gordon (1841-1931)",
+      "edition": "DNB 1885-1900, vol. 26 (1891), Wikisource transcription",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1891 (Commons scan dates vol. 26 to April 1891), so pre-1931 in the US. The author died in 1931 (per the Wikisource header), so it is also out of copyright under life+70 terms.",
+      "copyTerms": "Wikisource site footer: 'Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.'",
+      "host": "Wikisource",
+      "page": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Hildersam,_Arthur",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "dnb-hildersam-arthur-1891-wikisource.html",
+      "obtain": [
+        "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Hildersam,_Arthur (read online)",
+        "Facsimile of the whole volume: entry dnb-vol26-1891-commons"
+      ],
+      "memoRows": [
+        11
+      ],
+      "note": "No direct file confirmed (ws-export blocked by bot protection)."
+    },
+    {
+      "id": "dnb-bancroft-richard-wikisource",
+      "work": "\"Bancroft, Richard\", Dictionary of National Biography, vol. 3",
+      "author": "James Bass Mullinger (signed J. B. M.)",
+      "edition": "DNB 1885-1900, vol. 3 (Baker - Beadon), Wikisource transcription",
+      "rights": "public-domain",
+      "rightsBasis": "DNB vol. 3, published in the 1885-1900 run (archive.org search lists it as 1885), so pre-1931 in the US.",
+      "copyTerms": "Wikisource site footer: 'Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.'",
+      "host": "Wikisource",
+      "page": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Bancroft,_Richard",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "dnb-bancroft-richard-1885-wikisource.html",
+      "obtain": [
+        "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Bancroft,_Richard (read online)",
+        "Facsimile of the whole volume: entry dnb-vol03-1885-commons"
+      ],
+      "memoRows": [
+        19
+      ],
+      "note": "No direct file confirmed (ws-export blocked by bot protection)."
+    },
+    {
+      "id": "dnb-rainolds-john-wikisource",
+      "work": "\"Rainolds, John\", Dictionary of National Biography, vol. 47",
+      "author": "Thomas Fowler",
+      "edition": "DNB 1885-1900, vol. 47, pp. 186-188 (per the Wikisource header), Wikisource transcription",
+      "rights": "public-domain",
+      "rightsBasis": "Published in the 1885-1900 DNB run, so pre-1931 in the US.",
+      "copyTerms": "Wikisource footer (quoted from this page): 'Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy.'",
+      "host": "Wikisource",
+      "page": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Rainolds,_John",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "dnb-rainolds-john-wikisource.html",
+      "obtain": [
+        "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Rainolds,_John (read online)",
+        "Facsimile of the whole volume: entry dnb-vol47-commons"
+      ],
+      "memoRows": [
+        15
+      ],
+      "note": "The page lists EPUB/PDF export links (ws-export.wmcloud.org), but the fetch returned a bot-protection page, so no direct file is confirmed."
+    },
+    {
+      "id": "translators-to-the-reader-1611-wikisource",
+      "work": "The Translators to the Reader (preface to the 1611 Authorized Version)",
+      "author": "The KJV translators (commonly attributed to Miles Smith; the attribution is not sourced in the memo)",
+      "edition": "London: Robert Barker, 1611, Wikisource transcription from Index:BibleKJV1611-001.pdf",
+      "rights": "unclear",
+      "rightsBasis": "Public domain in the US (1611). But the Wikisource file page notes that in the UK the 1611 text carries 'certain long-standing restrictions on publication and distribution' (Crown letters patent), so not unrestricted everywhere.",
+      "copyTerms": "Wikisource footer: 'Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.'",
+      "host": "Wikisource",
+      "page": "https://en.wikisource.org/wiki/Bible_(King_James_Version,_1611)/Translators_to_the_Reader",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "translators-to-the-reader-1611-wikisource.html",
+      "obtain": [
+        "https://en.wikisource.org/wiki/Bible_(King_James_Version,_1611)/Translators_to_the_Reader (read online)",
+        "Scan: entry kjv-1611-part01-wikisource-scan"
+      ],
+      "memoRows": [
+        21
+      ]
+    },
+    {
+      "id": "kjv-1611-part01-wikisource-scan",
+      "work": "The Holy Bible (King James Version), 1611, scan part 01 of 24",
+      "author": "The KJV translators",
+      "edition": "London: Robert Barker, 1611 (Wikisource file; source given as archive.org item 1611TheAuthorizedKingJamesBible)",
+      "rights": "unclear",
+      "rightsBasis": "File page: public domain 'in some countries and areas outside the United Kingdom, including the United States', with UK 'long-standing restrictions on publication and distribution' (Crown rights). Matt's call.",
+      "copyTerms": "Wikisource file page: the work is public domain in some countries outside the UK, including the US, but carries UK 'certain long-standing restrictions on publication and distribution'.",
+      "host": "Wikisource (Wikimedia upload)",
+      "page": "https://en.wikisource.org/wiki/File:BibleKJV1611-001.pdf",
+      "file": "https://upload.wikimedia.org/wikisource/en/6/69/BibleKJV1611-001.pdf",
+      "format": "pdf",
+      "download": false,
+      "filename": "kjv-1611-part01-wikisource.pdf",
+      "obtain": [
+        "https://upload.wikimedia.org/wikisource/en/6/69/BibleKJV1611-001.pdf (direct PDF, 86.81 MB; held back only because rights are unclear under UK Crown restrictions)",
+        "https://en.wikisource.org/wiki/Index:BibleKJV1611-001.pdf"
+      ],
+      "memoRows": [
+        21
+      ],
+      "note": "The file is described as 'Partial scan of the 1611 King James Bible; part 01 of 24'. I have not checked that the preface falls in this part, beyond Wikisource transcribing it from this index. The copying library is not named."
+    },
+    {
+      "id": "geneva-notes-1599-exodus-reformedreader",
+      "work": "Geneva Bible notes (1599), Exodus",
+      "author": "Geneva translators/annotators",
+      "edition": "Modernized online transcription, 'Exodus From the 1599 Geneva Bible Notes', Reformed Reader",
+      "rights": "unclear",
+      "rightsBasis": "The 1599 notes are public domain, but this is a modernized text of unstated origin. The modernization's status is unknown.",
+      "copyTerms": "No copyright, terms or source statement found on the fetched page.",
+      "host": "The Reformed Reader",
+      "page": "https://www.reformedreader.org/gbn/gbnexodus.htm",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "geneva-notes-1599-exodus-reformedreader.html",
+      "obtain": [
+        "https://www.reformedreader.org/gbn/gbnexodus.htm (read online)",
+        "For the original wording: https://archive.org/details/genevabiblefacsi0000unse (1560 facsimile, University of Wisconsin Press 1969, borrow-only when checked)"
+      ],
+      "memoRows": [
+        28
+      ]
+    },
+    {
+      "id": "geneva-notes-1599-exodus-biblehub",
+      "work": "Geneva Bible notes (1599), Exodus 1",
+      "author": "Geneva translators/annotators",
+      "edition": "'The Geneva Bible Translation Notes [1599]', modernized text on BibleHub",
+      "rights": "unclear",
+      "rightsBasis": "The 1599 notes are public domain; the status of the modernized text is unknown.",
+      "copyTerms": "No copyright or terms statement found on the fetched page. The only attribution line is 'The Geneva Bible Translation Notes [1599]'.",
+      "host": "BibleHub",
+      "page": "https://biblehub.com/commentaries/gsb/exodus/1.htm",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "geneva-notes-1599-exodus-biblehub.html",
+      "obtain": [
+        "https://biblehub.com/commentaries/gsb/exodus/1.htm (read online)"
+      ],
+      "memoRows": [
+        28
+      ]
+    },
+    {
+      "id": "geneva-notes-1599-2chronicles-biblehub",
+      "work": "Geneva Bible notes (1599), 2 Chronicles 15",
+      "author": "Geneva translators/annotators",
+      "edition": "'The Geneva Bible Translation Notes [1599]', modernized text on BibleHub",
+      "rights": "unclear",
+      "rightsBasis": "The 1599 notes are public domain; the status of the modernized text is unknown.",
+      "copyTerms": "No copyright or terms statement found on the fetched page. The only attribution line is 'The Geneva Bible Translation Notes [1599]'.",
+      "host": "BibleHub",
+      "page": "https://biblehub.com/commentaries/gsb/2_chronicles/15.htm",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "geneva-notes-1599-2chronicles-biblehub.html",
+      "obtain": [
+        "https://biblehub.com/commentaries/gsb/2_chronicles/15.htm (read online)"
+      ],
+      "memoRows": [
+        29
+      ]
+    },
+    {
+      "id": "geneva-notes-2chronicles-christianitycom",
+      "work": "Geneva Study Bible notes, 2 Chronicles 15",
+      "author": "Geneva translators/annotators",
+      "edition": "'The Geneva Study Bible', modernized text on Christianity.com (edition year not stated on the page)",
+      "rights": "unclear",
+      "rightsBasis": "The underlying notes are public domain; the modernized text's origin and status are unstated.",
+      "copyTerms": "Page footer: '© 2026 Christianity.com. All Rights Reserved. Article Images Copyright © 2026 JupiterImages Corporation.'",
+      "host": "Christianity.com",
+      "page": "http://www.christianity.com/bible/comments/2chronicles/geneva/2chronicles15.htm",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "geneva-notes-2chronicles-christianitycom.html",
+      "obtain": [
+        "http://www.christianity.com/bible/comments/2chronicles/geneva/2chronicles15.htm (read online)"
+      ],
+      "memoRows": [
+        29
+      ]
+    },
+    {
+      "id": "trew-law-1918-perseus",
+      "work": "The Trew Law of Free Monarchies (1598), in The Political Works of James I",
+      "author": "James VI and I; ed. Charles Howard McIlwain",
+      "edition": "The Political Works of James I: Reprinted from the Edition of 1616, ed. C. H. McIlwain (Cambridge, MA: Harvard University Press, 1918), Perseus Digital Library text 1999.03.0071",
+      "rights": "public-domain",
+      "rightsBasis": "Treatise 1598; McIlwain edition published in the US in 1918, before 1931.",
+      "copyTerms": "Perseus: 'This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 United States License.'",
+      "host": "Perseus Digital Library (Tufts)",
+      "page": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.03.0071",
+      "file": "",
+      "format": "xml",
+      "download": false,
+      "filename": "trew-law-1918-perseus.xml",
+      "obtain": [
+        "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.03.0071:section%3D4:subsection%3D2 (passage cited)",
+        "https://www.perseus.tufts.edu/hopper/dltext?doc=Perseus%3Atext%3A1999.03.0071 (XML link listed on the page; returned HTTP 503 twice, so not confirmed as a direct file)"
+      ],
+      "memoRows": [
+        30
+      ]
+    },
+    {
+      "id": "political-works-james-1918-archive",
+      "work": "The Political Works of James I",
+      "author": "James VI and I; ed. Charles Howard McIlwain",
+      "edition": "Cambridge, MA: Harvard University Press, 1918 (Harvard copy digitized by Google, archive.org scan)",
+      "rights": "public-domain",
+      "rightsBasis": "Published in the US in 1918, before 1931. Texts by James, who died in 1625.",
+      "copyTerms": "archive.org metadata: 'NOT_IN_COPYRIGHT'; 'digitized by Google from the library of Harvard University.'",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/politicalworksj00mcilgoog",
+      "file": "https://archive.org/download/politicalworksj00mcilgoog/politicalworksj00mcilgoog.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "political-works-james-1918-archive.pdf",
+      "obtain": [],
+      "memoRows": [
+        30
+      ],
+      "note": "Google-digitized PDFs sometimes carry a Google usage-guidelines front page. The archive.org item shows no such restriction."
+    },
+    {
+      "id": "furniss-2009-strathprints",
+      "work": "Reading the Geneva Bible: notes toward an English revolution?",
+      "author": "Tom Furniss",
+      "edition": "Prose Studies 31.1 (2009): 1-21, DOI 10.1080/01440350903156995; Strathprints repository record (preprint deposited)",
+      "rights": "in-copyright",
+      "rightsBasis": "Journal article published in 2009.",
+      "copyTerms": "No licence statement found on the Strathprints record. The file is labelled 'Preprint'.",
+      "host": "University of Strathclyde (Strathprints)",
+      "page": "https://strathprints.strath.ac.uk/18607/",
+      "file": "",
+      "format": "pdf",
+      "download": false,
+      "filename": "furniss-2009-strathprints.pdf",
+      "obtain": [
+        "https://strathprints.strath.ac.uk/18607/6/strathprints018607.pdf (open preprint PDF, free to read; no reuse licence stated)",
+        "https://doi.org/10.1080/01440350903156995 (publisher version; DOI as given on the Strathprints record, landing not fetched)"
+      ],
+      "memoRows": [
+        31,
+        32
+      ]
+    },
+    {
+      "id": "shriver-1982-cambridge",
+      "work": "Hampton Court Re-visited: James I and the Puritans",
+      "author": "Frederick Shriver",
+      "edition": "Journal of Ecclesiastical History 33.1 (1982): 48-71, DOI 10.1017/S0022046900024489",
+      "rights": "in-copyright",
+      "rightsBasis": "Page states 'Copyright © Cambridge University Press 1982'.",
+      "copyTerms": "Cambridge Core: 'Copyright © Cambridge University Press 1982'. Paywalled; purchase was 'Temporarily unavailable' when checked.",
+      "host": "Cambridge Core",
+      "page": "https://www.cambridge.org/core/journals/journal-of-ecclesiastical-history/article/abs/hampton-court-revisited-james-i-and-the-puritans/776FED905F393C17B6C1C7DC6F0D12FE",
+      "file": "",
+      "format": "pdf",
+      "download": false,
+      "filename": "shriver-1982-cambridge.pdf",
+      "obtain": [
+        "https://www.cambridge.org/core/journals/journal-of-ecclesiastical-history/article/abs/hampton-court-revisited-james-i-and-the-puritans/776FED905F393C17B6C1C7DC6F0D12FE (institutional access or purchase; also via JSTOR/library)"
+      ],
+      "memoRows": [
+        34
+      ]
+    },
+    {
+      "id": "curtis-1961-wiley",
+      "work": "The Hampton Court Conference and its Aftermath",
+      "author": "Mark H. Curtis",
+      "edition": "History 46 (1961), DOI 10.1111/j.1468-229X.1961.tb02453.x (as given in search results; not confirmed by a fetched page)",
+      "rights": "in-copyright",
+      "rightsBasis": "Journal article published in 1961 (per search results only).",
+      "copyTerms": "Not confirmed: the Wiley landing page returned HTTP 403.",
+      "host": "Wiley Online Library",
+      "page": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-229X.1961.tb02453.x",
+      "file": "",
+      "format": "pdf",
+      "download": false,
+      "filename": "curtis-1961-wiley.pdf",
+      "obtain": [
+        "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-229X.1961.tb02453.x (attempted, 403; try with library access)"
+      ],
+      "memoRows": [
+        35
+      ],
+      "note": "Memo row 35 failed its identity check. This entry exists so Matt knows what to look for."
+    },
+    {
+      "id": "craig-2008-barlow-intro-blogspot",
+      "work": "An Introduction to William Barlow's The Summe and Substance of the Conference, 4: The Reaction to Barlow's Summe and Substance (II)",
+      "author": "William Craig",
+      "edition": "Blog post, The Hampton Court Conference, 1604 (Blogger), September 2008",
+      "rights": "in-copyright",
+      "rightsBasis": "Modern blog post; no licence stated.",
+      "copyTerms": "No copyright or licence statement found on the page.",
+      "host": "Blogger",
+      "page": "https://thehamptoncourtconference1604.blogspot.com/2008/09/introduction-to-william-barlows-summe_23.html",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "craig-2008-barlow-intro-blogspot.html",
+      "obtain": [
+        "https://thehamptoncourtconference1604.blogspot.com/2008/09/introduction-to-william-barlows-summe_23.html (read online)"
+      ],
+      "memoRows": [
+        33
+      ]
+    },
+    {
+      "id": "craig-2011-burntisland-blogspot",
+      "work": "Hampton Court and Burntisland: King James VI & I and the Request for a New Translation of the Scriptures",
+      "author": "William Craig",
+      "edition": "Blog post (address to the Arts and Letters Club, Toronto), 6 December 2011",
+      "rights": "in-copyright",
+      "rightsBasis": "Modern blog post; no licence stated.",
+      "copyTerms": "No copyright or licence statement found on the page.",
+      "host": "Blogger",
+      "page": "https://thehamptoncourtconference1604.blogspot.com/2011/12/hampton-court-and-burntisland-king.html",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "craig-2011-burntisland-blogspot.html",
+      "obtain": [
+        "https://thehamptoncourtconference1604.blogspot.com/2011/12/hampton-court-and-burntisland-king.html (read online)"
+      ],
+      "memoRows": [
+        36
+      ]
+    }
+  ]
+}

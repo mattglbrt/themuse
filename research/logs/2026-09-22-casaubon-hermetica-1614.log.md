@@ -1,0 +1,59 @@
+# Log: casaubon-hermetica-1614 (2026-09-22)
+
+Question: Casaubon 1614 Exercitationes on Hermes: section, pages, Latin conclusion, grounds, modern characterisation. WebSearch quota exhausted; using archive.org / OpenAlex / Semantic Scholar / Crossref direct.
+
+- fetch — inside.php q=Trismegisti (bub_gb_D23scf3zIVcC) — 0 matches (OCR long-s: "Trifmegifti").
+- fetch — inside.php q=Hermetis — 2 matches: page 123 (section summary, "Probatur librum qui fub nomine Mercurq Trifmc^ifti circumfertur...") and page 138 (argument: Phidias, Eunomus, Pythian games, style). Raw JSON obtained.
+- fetch — https://archive.org/metadata/bub_gb_D23scf3zIVcC — identity confirmed: title "Isaaci Casauboni De rebus sacris et ecclesiasticis exercitationes 16...", 1614, Londini Ex officina Nortoniana apud Ioan. Billium; license "Creative Commons Public Domain Mark 1.0"; 872 images; files bub_gb_D23scf3zIVcC.pdf, _djvu.txt.
+- fetch — archive.org/download/.../_djvu.txt → 302 to ia800504; refetched: too long, truncated, Hermes passage not in the portion the fetcher saw. Dead end for full text.
+- fetch — _page_numbers.json — leaf 123 → printed p. 71; leaf 138 → p. 86; leaves 115–145 sequential (63–93), confidence 100. (Whether inside.php "page" = leafNum needs image check.)
+- quote — p.138 OCR: "non poteil ab eo fcriptus elTe hic Uber; in quo Phidiz ilatuarijUt mentio" ... "prius, quia flylus huius libri alieniflimus eft i Termone illo quo Grgci Hermetis xquales Tuntvli" (inside.php q=Hermetis)
+- fetch — inside.php q=Poemander — scan 131, 133 ("Pfeudomercurius", "Poemander ... quem diximus ede Chrillum").
+- fetch — inside.php q=Mercurio — scan 124 (opening of Apparatus Num. XVIII: suspicion "quo apertiora sunt, eo fieri mihi suspectiora"), 127 (Iamblichus, Salaminiaca, Cyril), 139 (conclusion "Falfiflimum etiam cll...").
+- fetch — page image BookReaderImages.php page=n138.jpg (via 302 from archive.org/download/.../page/n138.jpg); saved JPG, read visually. Running head "86 / Is. Casauboni Exercit. I." CONFIRMED scan n138 = printed p. 86. Transcribed style/vocabulary argument (αὐθεντία, ἀρχοντικὴ προσφάνεια? , ὑλότης, οὐσιότης; "Nego etiam ex alia lingua versa haec esse"; Phidias p.97, Eunomus p.98).
+- fetch — page image n139.jpg — p. 87 "ad Apparatum Annalium." Conclusion read from image: "Falsum igitur est, imò falsissimum, quod iste planus in epistola ad Ammonem persuadere vult nobis; à Mercurio prius Aegyptiaco sermone ista fuisse conscripta. Falsissimum etiam est quod docti indocti videntur hactenus credidisse; aut scripta haec fuisse à Mercurio Trismegisto, vetustissimo Aegypti sapiente; aut ex illius scriptis esse versa. quorum vtrumque probauimus esse longe absurdissimum." Next section "XI. An lege aliqua Christiani vetiti fuerint oracula Sibyllina legere" (Apparatus Num. XX) begins same page.
+- fetch — page image n123.jpg — p. 71; section summary continues; "Apparat. Num. XVIII." heading; summary includes "Probatur librum qui sub nomine Mercurij Trismegisti circumfertur, falsum esse." and "Rerum argumentis probatur librum Mercurio tributum esse ψευδεπίγραφον, è Platone & Scripturis concinnatum." and "Probatur idem è stylo & dictione, atque historijs obiter memoratis. Phidias. Eunomus Locrus. Pythicus agon."
+- fetch — page image n122.jpg — p. 70, running head "Is. Casauboni Exercit. I."; section "X. Indicatur error Baronij & aliorum, nimium tribuentium vaticinijs Sibyllarum, Hydaspis, Mercurij Trismegisti & similium. ..." begins at foot of p.70. => Exercitatio I, section X, pp. 70–87.
+- fetch — inside.php q=Pfeudomercurius — scan 132 (androgyne division "e Platonis Sympofio ... videtur tranfcripfiffe"), 133.
+- fetch — inside.php q=Chriftianus — no hits 120–140 (91, 263, 772). q=fraude — scan 126 hit. q=Apoftolorum — none in range.
+- fetch — page image n126.jpg — p. 74 (Exercit. I). Read: "Sed tempore opus erat, vt fraus detegeretur." ... ends "ita librum integrum, qui sub nomine Mercurij Trismegisti cir-" [continues p.75].
+- fetch — page image n127.jpg — p. 75. Read: "cumferri ab aliquot seculis cepit, non veremur pronuntiare, & omni asseueratione confirmare, esse ψευδεπίγραφον: vtpote qui sit Christiani alicuius, vel vt dicam melius, semichristiani merum figmentum." Also "Lau-do propositum: consilium vehementer improbo" ; "Porrò quis fuerit hic Mercurius, aut quando vixerit, omitto hic quærere."
+- fetch — page image n129.jpg — p. 77. Read: "primis illis seculis nascentis Christianismi ... extitisse aliquem sacris nostrae pietatis leuiter imbutum" ; "in eo libro contineri non Aegyptiacam Mercurij doctrinam; sed partim Græcam è Platonis & Platonicorum libris, & quidem persæpe ipsis eorũ verbis, depromptam: partim Christianam è libris sacris petitam." ; "Pœmander hic siue Pastor, Christus est".
+- search — OpenAlex works?search=Casaubon Hermes Trismegistus — Grafton 1983 (not OA); Hanegraaff "How Hermetic was Renaissance Hermetism?" Aries 2015 (bronze OA); Levitin HJ 2012 (green, Edinburgh); van Miert 2023 (KNAW PDF); Waddell CUP 2021 ch.1.
+- fetch — brill.com/downloadpdf/.../article-p179_1.pdf — 403. brill.com/view/... — 403.
+- fetch — pure.knaw.nl van Miert PDF — fetched but fetcher could not extract text; Read tool cannot render PDF (no pdftoppm). Dead end.
+- fetch — research.ed.ac.uk Levitin PDF — 403.
+- fetch — Semantic Scholar search — 429.
+- search — archive.org advancedsearch Copenhaver Hermetica — only user uploads (collections opensource/fringe/deemphasize), not an authorised copy. decision: not used (copyright; not a legitimate copy to cite).
+- search — archive.org Yates Giordano Bruno — lending copies giordanobrunoher0000yate etc. metadata: access-restricted, djvu private. inside.php q=Casaubon → 403. Dead end.
+- search — archive.org Scott Hermetica — ScottHermeticaVolOne (1924, Clarendon Press; coll. bibliotechetorino/europeanlibraries; no license field). inside.php on dn760008/dn790008 → 404. djvu.txt via 302 → dn760008 fetched.
+- quote — Scott vol.1: "And that is what was commonly thought by people who knew of these writings, for about thirteen hundred years, from the time of Lactantius to that of Casaubon." ; "the Hermetica which have come down to us were most of them, if not all, written in the third century after Christ. Some of them may have been written before the end of the second century; but probably none so early as the first century."
+- fetch — Cambridge Waddell ch.1 PDF — fetcher refused/couldn't extract. Dead end.
+- fetch — pure.uva.nl Hanegraaff Aries preprint PDF — fetcher could not extract text. Dead end.
+- search — OpenAlex "Ende des Hermetismus" — Mulsow 2002 (Aleph record), Mohr Siebeck 2025 ebook DOI 10.1628/978-3-16-165314-8, Hanegraaff review 2004 (UvA-DARE), Böenker-Vallon review RQ 2004.
+- search — OpenAlex "Casaubon Corpus Hermeticum" is_oa — OpenEdition: Van den Kerchove RHR 2014 (rhr/8192), Scarpi ASR 2012 (asr/1072).
+- fetch — https://journals.openedition.org/rhr/8192 — identity: Anna Van den Kerchove, "Poimandrès, figure d'autorité dans la tradition hermétique", RHR 1|2014, 27-46; license "Tous droits réservés". Quotes: "La première hypothèse, la seule à être fondée sur le grec, a été avancée par celui-là même qui mit en cause l'ancienneté des écrits hermétiques, le Genevois protestant Isaac Casaubon." ; "ce rapprochement est lié à son idée que les textes hermétiques ont été écrits par des chrétiens." ; CH "rassemble 17 textes grecs, écrits au cours du iie et du iiie siècle". Fn 12 cites "Isaac Casaubon, Cohortationes in Gentiles 57, 1614" via R. Marcus JNES 1949 — citation looks garbled vs the Exercitationes (primary has Poemander=Christ + John at p.77).
+- fetch — https://journals.openedition.org/asr/1072 — Paolo Scarpi, Annuaire EPHE SR 119 (2012) 157-162. Quote: "La polémique entre le calviniste Isaac Casaubon (1614) et le cardinal César Baronius a donné un coup très grave à l'hermétisme." ; "La datation de ces textes ... demeure encore problématique et très difficile à déterminer."
+- fetch — jstor.org/stable/751115 — page error (JS). Dead end.
+- fetch — api.crossref.org/works/10.2307/751115 — Grafton, JWCI 46(1), 78-93, 1983, U Chicago Press; no abstract.
+- fetch — OpenAlex Hanegraaff Aries locations → Zenodo 19922252 (CC-BY-4.0, desc "Aries 15:2 (2015), 179-209.") → PDF file fetched but fetcher could not extract text. Dead end (PDF parsing).
+- fetch — wouterjhanegraaff.blogspot.com/search?q=Casaubon — no Casaubon posts. BMCR 2019.04.38 — no Hermes mentions.
+- fetch — search.openedition.org — JS page, no results. Dead end.
+- search — OpenAlex "Casaubon Hermès Trismégiste" is_oa — rhr/9884 Audureau 2019; kernos/2485 Borgeaud 2017.
+- fetch — https://journals.openedition.org/rhr/9884 — Florian Audureau, "Trismégistos. Circulation et contextes d'un nom divin", RHR 3|2019, 475-506. quote: "À la suite de plusieurs philologues du xvie siècle, Isaac Casaubon réussit à prouver en 1614 qu'il s'agissait de textes tardifs alors qu'on les avait tenus pour la révélation de la prisca theologia des Anciens." fn 88 cites Purnell in Mulsow ed., Das Ende des Hermetismus ... Dokumentation und Analyse der Debatte um die Datierung der hermetischen Schriften von Genebrard bis Casaubon (1567–1614), 2002, p. 105–126.
+- fetch — kernos/2485 Borgeaud — Casaubon only in a list of names. Not useful.
+- search — OpenAlex Copenhaver Hermetica — only review DOIs. Crossref query → book DOI 10.1017/cbo9781107050075; Introduction .002 pp. xiii–lxi.
+- fetch — doi 10.1017/cbo9781107050075.002 → cambridge.org/core/books/hermetica/introduction/41528E94942CE23A3592D66A11485571 — identity: Copenhaver, Hermetica, CUP 1992, Introduction pp. xiii–lxi; only first-page extract (Memphis/ibis); Casaubon not visible. → needs-print-check.
+- fetch — openlibrary search Defenders of the Text — Grafton, HUP 1991, no ebook. Not used.
+- decision — Yates 1964 ch. 21 not reachable (lending copy restricted; search-inside 403). Left out of table; listed as gap.
+- decision — primary rows marked single-source (primary facsimile) unless a secondary independently corroborates.
+- decision — no published translation of the Latin found; memo gives a working translation labelled as the assistant's, for Latinist check.
+- verify — inside.php q=figmentum → scan 127 OCR "fcmichriiliaui merum figmentum" confirms p.75 reading. q=Platonicorum → scan 129 OCR confirms p.77 passage. q=Sibyllarum → no scan-122 hit (heading OCR hyphenated "Si-byllarum"); p.70 heading relies on image reading only.
+- verify — Scott djvu re-fetch: both quotes confirmed verbatim; title page "OXFORD: AT THE CLARENDON PRESS, 1924", ed. Walter Scott, vol. I.
+- verify — rhr/9884 re-fetch: quote confirmed; first pass returned truncated fn 88; third fetch confirmed Purnell/Mulsow text in fn 88.
+- verify — asr/1072 re-fetch: both quotes confirmed. rhr/8192 re-fetch: all four strings confirmed.
+- verify — Crossref 10.2307/751115 re-fetch: confirmed. Cambridge Introduction page re-fetch: confirmed identity; "Casaubon" not on page.
+- fetch — doi 10.1075/bpjam.00105.law → jbe-platform 403.
+- decision — Scott 1924 download:false (IA item has no license field; Scott death date not verified). Audureau/Scarpi licence lines not captured → download false.
+- decision — row 14 tier set to Established (single scholarly source), not Contested: no opposing source fetched.
+- done — memo, sources JSON written. Verification: 22/22 rows confirmed; 19–21 needs-print-check. doi 10.1628/978-3-16-165314-8 → mohrsiebeck.com page with no book content. Crossref for it → 429.

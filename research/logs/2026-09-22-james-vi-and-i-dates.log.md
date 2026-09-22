@@ -1,0 +1,90 @@
+# Log: james-vi-and-i-dates (2026-09-22)
+
+Question: James VI and I birth/death/accession dates (Scotland, England) + marriage to Anne of Denmark 1589-90. Two sources per date; OS/NS notes. WebSearch quota exhausted; discovery via fetched search endpoints.
+
+- fetch https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/James_I_(1566-1625) -> 404
+- search (wikisource) "Dictionary of National Biography James I 1566-1625" -> Author:James_I_of_England_and_Ireland
+- fetch https://en.wikisource.org/wiki/Author:James_I_of_England_and_Ireland -> lists DNB entry "James VI and I", EB1911 "James I. of Great Britain and Ireland"
+- fetch https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/James_VI_and_I -> identity confirmed: vol 29, Samuel Rawson Gardiner. Rendered text truncated (ends at 1622).
+- quote "JAMES VI (1566–1625), king of Scotland, afterwards James I, king of England, son of Henry Stuart, lord Darnley, and Mary Queen of Scots, was born on 19 June 1566, in Edinburgh Castle." (DNB page)
+- quote "On 24 July 1567" abdication; "was crowned at Stirling on 29 July" (DNB page)
+- quote "marriage was celebrated by proxy at Copenhagen on 20 Aug. 1589" ... "driven by a storm to Norway ... set sail from Leith on 22 Oct. ... Opslo ... married on 23 Nov." ... "on 21 April 1590 James and his queen sailed for Scotland, landing at Leith on 1 May" (DNB page)
+- quote "At last, on 24 March 1603, Elizabeth died, and James was at once proclaimed in England by the title of James I, king of England" ... "He left Edinburgh for his new kingdom on 5 April." (DNB page)
+- fetch action=raw -> transcludes Page:Dictionary of National Biography volume 29.djvu 167-187
+- fetch Page:..djvu/185 -> no death. Page:..djvu/186 -> death paragraph found.
+- quote "On 5 March 1625 James was attacked by a tertian ague. ... James's condition varied from day to day, but on 27 March he died at Theobalds. He was buried in Westminster Abbey on 5 May." (djvu/186)
+- fetch https://www.royal.uk/james-vi-and-i -> 404
+- fetch https://www.royal.uk/james-i -> identity ok (Royal Household), but no dates beyond "(r. 1603-1625)" and "King of Scotland for 36 years". Not useful for specific dates.
+- fetch https://www.westminster-abbey.org/abbey-commemorations/royals/james-i-and-anne-of-denmark -> identity ok, useful
+- quote "James Stuart was born at Edinburgh Castle in Scotland on 19th June 1566" / "married Anne, daughter of the King Frederick II of Denmark, on 21st January 1590 at Kronberg" / "His coronation, with Anne, took place on 25th July 1603" / "James died on 27th March 1625 at Theobald's Park in Hertfordshire" / "his funeral took place at the Abbey on 17th May" (WA)
+- decision: WA 21 Jan 1590 Kronberg and funeral 17 May differ from DNB (Oslo 23 Nov; buried 5 May). Flag as discrepancies, not resolve.
+- fetch https://doi.org/10.1093/ref:odnb/14592 -> 302 to oxforddnb.com; fetch https://www.oxforddnb.com/view/article/14592 -> 403. crossref metadata: no title/author. dead end ODNB.
+- fetch https://www.rct.uk/collection/search... -> 403. dead end RCT.
+- search (archive.org advancedsearch) title:(marriage James Sixth Anna Denmark) -> Bannatyne Club 1828 "Papers relative to the marriage..." ids papersrelative2600geneuoft, papersrelativeto00bann etc.
+- fetch https://archive.org/stream/papersrelative2600geneuoft/papersrelative2600geneuoft_djvu.txt -> identity ok (Edinburgh 1828, J. T. Gibson Craig, Bannatyne Club). Useful.
+- quote (Prefatory Notice p. vi, chronicle extract) "vpone the penult day of October 1589, he maid faill him felue, and paft to the queine to Noruay" / "landit at Leith the firft day of Maij 1590, with a fleeit of xvi fliips" / "vpone the 17 day of the fame mounthe the queine was crouned in the Abey kirk"
+- quote (p. 4, Kingis Proclamatioun) "At Leith, the xxij day of October inftant"
+- decision: chronicle "penult day of October" vs DNB "22 Oct." sailing: flag discrepancy; proclamation signed at Leith 22 Oct only proves presence at Leith that day.
+- fetch https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/James_I._of_Great_Britain_and_Ireland (+action=raw) -> transcludes Page:EB1911 - Volume 15.djvu/152-154
+- fetch Page:EB1911_-_Volume_15.djvu/152 -> quote "He was born in the castle of Edinburgh on the 19th of June 1566, and was proclaimed king of Scotland on the 24th of July 1567, upon the forced abdication of his mother."
+- fetch Page:EB1911_-_Volume_15.djvu/153 -> quote "just before his death on the 5th of March 1625 at his favourite residence, Theobalds. James married in 1589 Anne, second daughter of Frederick II., king of Denmark."
+- decision: EB1911 death date 5 March conflicts with DNB/WA 27 March (DNB: 5 March = onset of ague). Record as discrepancy row; EB1911 tertiary, not support.
+- fetch Page:EB1911_-_Volume_15.djvu/154 -> James II article; no signature found for James I.
+- search (archive.org) title:(proclamation) AND date:1603 -> EEBO microfilm scans incl. Scottish accession proclamation (Waldegrave 1603)
+- fetch archive metadata + djvu.txt for bim_..._by-the-king-forasmuch-as_scotland-proclamations_1603 -> dated "the fourth of Apryle", Edinburgh, Waldegrave 1603. Not used (does not give 24 March).
+- fetch https://www.nrscotland.gov.uk/search?keys=calendar+1600+new+year -> 0 results. dead end.
+- search (OpenAlex) "Scotland 1600 new year calendar January" -> Cope 2017 JEMS "Marking the New Year" (OA)
+- fetch Cope PDF https://oajournals.fupress.net/index.php/bsfm-jems/article/download/7078/7076 -> binary, unparseable; local Read failed (no pdftoppm). Landing page fetched (identity ok, CC-BY-NC-ND) but abstract lacks calendar facts. dead end; not cited.
+- search (archive.org) title:(register privy council scotland) -> vol 6 (1599-1604) registerofprivyc0006davi
+- fetch https://archive.org/stream/registerofprivyc0006davi/registerofprivyc0006davi_djvu.txt -> identity ok (RPCS vol VI, 1599-1604, ed. David Masson, 1884). Useful.
+- quote (intro, p. xiii per fetch) "ought to be noted the important ordinance of Council, of date 17th December 1599, by which New Year's Day in Scotland was changed from the 25th of March" ... ; "Till 1752 the 25th of March continued to be, for most purposes of dating, the first day of the New Year in England, while in Scotland the New Year had been counted from the Ist of January, as by the present ordinance, ever since 1600."
+- search (archive.org) title:(forasmuch) date 1602-1603 -> bim_..._forasmuch-as-it-hath-ple_england-proclamations_1602 (STC/collection no. 8297)
+- fetch djvu.txt of that item -> English accession proclamation. quote "Printed at London by Robert Barker, Printer to our late Soveraigne Lady Queene Elizabeth, March, 24. Anno Domini, 1602"; "James the first, King of England, France and Ireland, defender of the faith"
+- fetch archive metadata for it -> title "Forasmuch as it hath pleased ... 1602", date 1602, microfilm IA40312814-87, catalog no 8297, no rights fields.
+- search (archive.org) RPCS vol 1 -> 0 results. dead end.
+- search (archive.org) title:(diurnal remarkable occurrents) -> diurnalofremarka00thom (Bannatyne Club 1833)
+- fetch djvu.txt -> identity ok (Bannatyne Club 1833, ed. Thomas Thomson) but truncated at 1545.
+- fetch archive metadata diurnalofremarka00thom -> server ia800106, dir /30/items/diurnalofremarka00thom, license CC BY-NC-SA 2.5 Scotland.
+- fetch fulltext/inside.php q=crownit -> leaf 134 coronation entry. quote "Vpoun the tuantie nynt day of Julij 1567, James prince of Scotland wes crownit in the parifli kirk of Stirling"
+- fetch inside.php q=nyntene -> leaf 116. quote "Vpoun the nyntene day of Junij, the geir of God foirfaid, James prince of Scotland was borne in the caftell of Edinburgh of his moder."
+- fetch inside.php q=1566 -> leaf 116 running head "100 DIURNAL OF OCCURRENTS 1566." (so printed p. 100); leaf 115 entries dated 1566 precede.
+- fetch archive metadata papersrelative2600geneuoft -> server ia601409, dir /23/items/..., rights NOT_IN_COPYRIGHT, "no visible notice of copyright; stated date is 1828", contributor Univ. of Guelph
+- fetch inside.php q=Upslo -> leaf 51 "GRANT BY THE KING TO THE QUENIS GRACE, OF THE LORDSHIP OF DUMFERMLING, IN MORROWING GIFT. AT UPSLO, 24 NOV. 1589." ; leaf 127 "Upon the 23 day of November 1589, the King and Queine wer maried in Upslo, be Mr David Lyndsay, minister at Leith."
+- fetch inside.php q=Moysie -> leaf 127 line attributed "(Memoirs by David Moysie.)"; leaf 71 Moysie "His Majestic with the Quenis grace arryvit at Leithe upone the morne at nicht, being the first of Maij, 1590"
+- fetch inside.php q=Cronenburg -> 0 matches (Kronborg ceremony not found in this book under that spelling)
+- fetch inside.php q=Slaikray -> leaf 127 "Upon the 28 day of the moneth of October, the Kingis Majestic landit at Slaikray, on the coast of Norroway ... upon the 19 day of November therafter"
+- fetch inside.php q=APPENDIX -> leaves 14, 121 (No. I), 131, 143
+- fetch inside.php q=embarkit -> leaf 17 "upon the 22 day of October, without lang deliberatioun, he embarkit himfelf, with his Chancellor Maitland ... at the port of Leyth"
+- fetch inside.php q=mareit -> leaf 16 "In the moneth of Auguft of the nixt yeir 1589, Queyne Anne ... was mareit in Denmarc to King James the 6 of Scotland, be his ambafiador the Erie Marfhall"
+- fetch inside.php q=Marjoribanks -> leaf 15 note "Annals of Scotland, by George Marjoribanks, burgess of Edinburgh. He died on the 15th November, 1591"; leaf 16 "According to another contemporary, but unknown historian..."
+- fetch inside.php q=penult -> leaf 16 "vpone the penult day of Oc- tober 1589, he maid faill him felue"
+- fetch inside.php q=Annalist -> leaf 15 "copied from a contemporary Annalist ... to marie the King of Denmark's daughter, named Anna, quhilk wes donne in the mounthe of Julay therafter ... by contrarious vind and tempeft of wether wer driuen vnto ane found of Norway, called Ypflo"
+- decision: Bannatyne preface quotes two contemporary chronicles that disagree with each other (proxy marriage July vs August; sailing penult Oct vs 22 Oct). Record both; DNB's 20 Aug / 22 Oct matches the "unknown historian" + the 22 Oct Leith declaration. Leaf numbers are scan leaves, not printed pages.
+- fetch djvu.txt stream (full) -> truncated by fetch tool; used inside.php search instead.
+- fetch DNB James VI and I page (verbatim pass) -> quote "On 24 July 1567 he became king by his mother's enforced abdication, and was crowned at Stirling on 29 July." / "These negotiations had been hampered by the objections of Elizabeth; but James resolved to persevere, and the marriage was celebrated by proxy at Copenhagen on 20 Aug. 1589." / "He found her at Opslo, near the site of the modern Christiania, where the pair were married on 23 Nov." / "The winter was spent in Denmark, and on 21 April 1590 James and his queen sailed for Scotland, landing at Leith on 1 May." No 1603 coronation sentence found.
+- fetch WA page (verbatim pass) -> quote "After various different ceremonies he married Anne, daughter of the King Frederick II of Denmark, on 21st January 1590 at Kronberg." / "His coronation, with Anne, took place on 25th July 1603, uniting the two kingdoms of Scotland and England." / "James died on 27th March 1625 at Theobald's Park in Hertfordshire and his funeral took place at the Abbey on 17th May." No Oslo/Norway mention.
+- search (archive.org) title:(coronation) date 1603 -> 0 results. dead end.
+- fetch https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Anne_of_Denmark -> identity ok: vol 1, Adolphus William Ward, 1904 errata appended.
+- quote (DNB Anne) "on 20 Aug. the Princess Anne was duly married by proxy to King James VI"; "tempestuous winds drove them upon the coast of Norway"; "On the 23rd they were married at Upslo by David Lyndsay, minister at Leith."; errata "Anne of Denmark: for Upslo read Opsloe"; "On 21 April 1590 the royal couple sailed from Kronenborg, and on 1 May they landed at Leith"; "On 24 July both were crowned, 'it being then very bad weather and the pestilence mightily raging.'"
+- fetch action=raw Anne -> Page:Dictionary of National Biography volume 01.djvu 445-455
+- fetch Page:Dictionary_of_National_Biography_volume_01.djvu/449 -> "On 24 July both were crowned" confirmed on page; status Proofread (not validated)
+- decision: English coronation date conflict (WA 25 July vs DNB Anne 24 July) -> Contested between sources / needs-print-check. DNB Anne not independent of Bannatyne papers on the Oslo marriage (same Moysie wording).
+- fetch https://witches.hca.ed.ac.uk/case/C/EGD/63 -> identity ok; no voyage dates. Not used (voyage-date question). dead end for dates.
+- fetch archive metadata registerofprivyc0006davi -> server dn710800.ca.archive.org; no rights fields
+- fetch dn710800 inside.php q=1752 -> 404. (RPCS quotes rest on djvu stream fetch.)
+- dead end: no fetched source states that Scotland/England/Denmark used the Julian calendar in 1589-1625; only year-start (25 March / 1 Jan) is sourced. Left open.
+- VERIFICATION PASS
+- fetch DNB Anne (recheck) -> "on 20 Aug. the Princess Anne was duly married by proxy to King James VI." / "tempestuous winds drove them upon the coast of Norway, where they stayed for some time awaiting fair weather." / "On 21 April 1590 the royal couple sailed from Kronenborg, and on 1 May they landed at Leith." / "The queen's solemn entry into Edinburgh was to have taken place on the same day as her coronation, 17 May." confirmed
+- fetch Bannatyne inside q=crouned -> leaf 16 full Marjoribanks passage confirmed incl. "remained ther by the fpace of halffe a yeir, and marriet of new : and came hame to Scotland, and landit at Leith the firft day of Maij 1590"
+- fetch Bannatyne inside q=Maij -> leaf 71 Moysie "first of Maij, 1590" confirmed; leaf 83 coronation form
+- fetch inside q=fevinteine -> leaf 83 "THE fevinteine day of Maij, Ane thowfand fyve hunder four fcoir ten, quhilk wes ane Sunday, being appoyntit for Coronatione of the Queine"
+- fetch inside q=Lyndsay -> leaf 83 "The Coronatioun wes within the Abhay kirk, upone the xvij day"; leaf 127 Moysie 23 Nov confirmed
+- fetch inside q=MORROWING -> leaf 51 "GRANT BY THE KING TO THE QUENIS GRACE, OF THE LORDSHIP OF DUMFERMLING, IN MORROWING GIFT.* AT UPSLO, 24 NOV. 1589." confirmed
+- fetch proclamation djvu (recheck) -> raw OCR "our late Soueraigne Lady Queene Elizabeth, / March, 24. Anno Domini, 1602," and "Iames the firſt, KingofEngland, France and Jreland" (earlier normalised wording replaced by raw OCR)
+- fetch RPCS djvu (recheck) -> both intro sentences confirmed verbatim
+- fetch Diurnal inside q=borne -> leaf 116 birth entry confirmed
+- fetch DNB James (recheck) -> opening sentence, "Elizabeth died" sentence, "He left Edinburgh for his new kingdom on 5 April." confirmed
+- fetch EB1911 djvu/152 (recheck) -> birth/proclaimed sentence confirmed
+- decision: download true only for Bannatyne 1828 (NOT_IN_COPYRIGHT) and Diurnal 1833 (CC BY-NC-SA 2.5 Scotland); proclamation and RPCS vol VI false (no copy terms stated).
+- memo written: research/2026-09-22-james-vi-and-i-dates.md, 38 rows; sources JSON written (8 sources). Verification 38/38.
+

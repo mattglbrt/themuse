@@ -1,0 +1,159 @@
+{
+  "memo": "2026-09-22-kjv-making.md",
+  "sources": [
+    {
+      "id": "records-of-english-bible-1911-archive",
+      "work": "Records of the English Bible: The Documents Relating to the Translation and Publication of the Bible in English, 1525-1611",
+      "author": "Alfred W. Pollard (ed.)",
+      "edition": "London: Henry Frowde / Oxford University Press, 1911 (University of Toronto copy, archive.org scan recordsofenglish00polluoft)",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1911, before 1931 (US). Pollard died 1944, so it is also out of copyright under life+70 terms.",
+      "copyTerms": "archive.org metadata: 'possible-copyright-status: NOT_IN_COPYRIGHT'. No rights or license field.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/recordsofenglish00polluoft",
+      "file": "https://archive.org/download/recordsofenglish00polluoft/recordsofenglish00polluoft.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "records-of-english-bible-1911-archive.pdf",
+      "obtain": [],
+      "memoRows": [3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 26, 27, 28, 29, 30, 31, 35, 36, 37, 38, 39, 41],
+      "note": "The memo quotes the per-leaf OCR through the BookReader text endpoint. Its links are BookReaderGetTextWrapper URLs for this item. Leaf numbers are scan indexes, not printed pages."
+    },
+    {
+      "id": "general-view-english-bible-1905-archive",
+      "work": "A General View of the History of the English Bible",
+      "author": "Brooke Foss Westcott; 3rd ed. revised by William Aldis Wright",
+      "edition": "3rd ed., London: Macmillan and Co.; New York: The Macmillan Company, 1905 (archive.org scan generalviewofhis00westrich)",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1905, before 1931 (US). Westcott died 1901 and Wright 1914 (archive.org creator dates).",
+      "copyTerms": "archive.org metadata: 'possible-copyright-status: NOT_IN_COPYRIGHT'. No rights or license field.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/generalviewofhis00westrich",
+      "file": "https://archive.org/download/generalviewofhis00westrich/generalviewofhis00westrich.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "general-view-english-bible-1905-archive.pdf",
+      "obtain": [],
+      "memoRows": [2, 4, 12, 16, 20, 22, 23, 27, 28, 41, 43],
+      "note": "Rows 2, 23, 27 and 28 quote the Dort report (Ward, Acta Synodi Dordrechtanae, 1620) as Westcott prints it in Appendix XIII. The 1620 Acta was not fetched."
+    },
+    {
+      "id": "authorized-edition-english-bible-1884-archive",
+      "work": "The Authorized Edition of the English Bible (1611), its Subsequent Reprints and Modern Representatives",
+      "author": "F. H. A. Scrivener",
+      "edition": "Cambridge: At the University Press, 1884 (University of Toronto copy, archive.org scan authorizedbible00scriuoft)",
+      "rights": "public-domain",
+      "rightsBasis": "Published 1884; author died 1891.",
+      "copyTerms": "archive.org metadata: 'possible-copyright-status: NOT_IN_COPYRIGHT'. No rights or license field.",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/authorizedbible00scriuoft",
+      "file": "https://archive.org/download/authorizedbible00scriuoft/authorizedbible00scriuoft.pdf",
+      "format": "pdf",
+      "download": true,
+      "filename": "authorized-edition-english-bible-1884-archive.pdf",
+      "obtain": [],
+      "memoRows": [32, 33, 34]
+    },
+    {
+      "id": "cul-great-and-manifold-blessings-2011",
+      "work": "Great and Manifold Blessings: The Making of the King James Bible (exhibition captions)",
+      "author": "Cambridge University Library",
+      "edition": "Online exhibition captions, 2011",
+      "rights": "in-copyright",
+      "rightsBasis": "Page states '©2011 Cambridge University Library'.",
+      "copyTerms": "Page footer: '©2011 Cambridge University Library'. No reuse licence stated.",
+      "host": "Cambridge University Library",
+      "page": "https://wwwe.lib.cam.ac.uk/CUL/exhibitions/KJV/captions.html",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "cul-great-and-manifold-blessings-2011-cam.html",
+      "obtain": [
+        "https://wwwe.lib.cam.ac.uk/CUL/exhibitions/KJV/captions.html (read online)"
+      ],
+      "memoRows": [1, 6, 19, 24, 35, 36, 38, 45]
+    },
+    {
+      "id": "bishops-bible-1602-arch-a-b18-bodleian",
+      "work": "The Holy Bible (Bishops' Bible), London: Robert Barker, 1602, with the KJV translators' manuscript annotations: Bodleian Library Arch. A b.18",
+      "author": "Bishops' Bible translators; annotations by KJV translators",
+      "edition": "Digital Bodleian IIIF manifest (catalogue metadata and exhibition caption) for Arch. A b.18",
+      "rights": "public-domain",
+      "rightsBasis": "Printed 1602; annotations made before 1611. The photographs are licensed separately (see copyTerms).",
+      "copyTerms": "IIIF manifest attribution: 'Photo: © Bodleian Libraries, University of Oxford. Terms of use: CC BY-NC 4.0'",
+      "host": "Bodleian Libraries (Digital Bodleian)",
+      "page": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/8f45d791-61c5-42f2-9ce3-a27ee8ac7e90.json",
+      "file": "",
+      "format": "json",
+      "download": false,
+      "filename": "bishops-bible-1602-bodleian.json",
+      "obtain": [
+        "https://digital.bodleian.ox.ac.uk/objects/8f45d791-61c5-42f2-9ce3-a27ee8ac7e90/ (Digital Bodleian viewer, linked from the manifest; not fetched in this backfill, and the memo found it JavaScript-only)",
+        "https://iiif.bodleian.ox.ac.uk/iiif/manifest/8f45d791-61c5-42f2-9ce3-a27ee8ac7e90.json (manifest: metadata and image links)"
+      ],
+      "memoRows": [18, 25],
+      "note": "Held back because the images are CC BY-NC (non-commercial) and there is no single direct file. The memo cites only the manifest's metadata and caption text."
+    },
+    {
+      "id": "kjv-1611-title-page-wikisource",
+      "work": "The Holy Bible (King James Version, 1611): title page",
+      "author": "The KJV translators",
+      "edition": "London: Robert Barker, 1611; Wikisource transcription from Index:BibleKJV1611-001.pdf",
+      "rights": "unclear",
+      "rightsBasis": "Public domain in the US (1611). The Wikisource template says it is public domain 'in some countries and areas outside the United Kingdom, including the United States'. The file page notes UK 'long-standing restrictions on publication and distribution' (Crown rights).",
+      "copyTerms": "Wikisource footer: 'Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.'",
+      "host": "Wikisource",
+      "page": "https://en.wikisource.org/wiki/Bible_(King_James_Version,_1611)",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "kjv-1611-title-page-wikisource.html",
+      "obtain": [
+        "https://en.wikisource.org/wiki/Bible_(King_James_Version,_1611) (read online)",
+        "https://upload.wikimedia.org/wikisource/en/6/69/BibleKJV1611-001.pdf (source scan, part 01 of 24, 86.81 MB; direct PDF, held back only because rights are unclear under the UK restriction)",
+        "https://ws-export.wmcloud.org/?format=epub&lang=en&page=Bible_%28King_James_Version%2C_1611%29 (export link listed on the page; not fetched)"
+      ],
+      "memoRows": [32]
+    },
+    {
+      "id": "translators-to-the-reader-1611-wikisource",
+      "work": "The Translators to the Reader (preface to the 1611 Authorized Version)",
+      "author": "The KJV translators (attributed to Miles Smith by Pollard 1911 and Westcott 1905, per memo row 41)",
+      "edition": "London: Robert Barker, 1611; Wikisource transcription from Index:BibleKJV1611-001.pdf",
+      "rights": "unclear",
+      "rightsBasis": "Public domain in the US (1611). UK Crown 'long-standing restrictions on publication and distribution' per the Wikisource file page for the source scan.",
+      "copyTerms": "Wikisource footer: 'Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.'",
+      "host": "Wikisource",
+      "page": "https://en.wikisource.org/wiki/Bible_(King_James_Version,_1611)/Translators_to_the_Reader",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "translators-to-the-reader-1611-wikisource.html",
+      "obtain": [
+        "https://en.wikisource.org/wiki/Bible_(King_James_Version,_1611)/Translators_to_the_Reader (read online)",
+        "https://upload.wikimedia.org/wikisource/en/6/69/BibleKJV1611-001.pdf (source scan, part 01 of 24; see the title-page entry)",
+        "https://ws-export.wmcloud.org/?format=pdf&lang=en&page=Bible_%28King_James_Version%2C_1611%29%2FTranslators_to_the_Reader (export link listed on the page; not fetched)"
+      ],
+      "memoRows": [40, 42, 43, 44]
+    },
+    {
+      "id": "bonhams-he-bible-lot-2003-2019",
+      "work": "KING JAMES \"HE\" BIBLE. The Holy Bible, Conteyning the Old Testament, and the New (lot description)",
+      "author": "Bonhams",
+      "edition": "Extraordinary Books and Manuscripts, New York, 12 March 2019, lot 2003 (online catalogue)",
+      "rights": "in-copyright",
+      "rightsBasis": "Modern auction catalogue text (2019).",
+      "copyTerms": "Page footer: 'Copyright © Bonhams 2001-2026'",
+      "host": "Bonhams",
+      "page": "https://www.bonhams.com/auction/25259/lot/2003/king-james-he-bible-the-holy-bible-conteyning-the-old-testament-and-the-new-london-robert-barker-1611/",
+      "file": "",
+      "format": "html",
+      "download": false,
+      "filename": "bonhams-he-bible-2019-bonhams.html",
+      "obtain": [
+        "https://www.bonhams.com/auction/25259/lot/2003/king-james-he-bible-the-holy-bible-conteyning-the-old-testament-and-the-new-london-robert-barker-1611/ (read online)"
+      ],
+      "memoRows": [33, 34]
+    }
+  ]
+}

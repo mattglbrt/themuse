@@ -1,0 +1,296 @@
+{
+  "memo": "2026-09-22-yates-thesis-historiography.md",
+  "sources": [
+    {
+      "id": "giordano-bruno-hermetic-tradition-1964-uchicago",
+      "work": "Giordano Bruno and the Hermetic Tradition",
+      "author": "Frances A. Yates",
+      "edition": "University of Chicago Press, orig. 1964; paperback (c)1990, ISBN 9780226950075 (publisher page cited for description only)",
+      "rights": "in-copyright",
+      "rightsBasis": "Published 1964; author died 1981.",
+      "copyTerms": "Publisher catalog page; no redistribution terms stated. archive.org copy is 'Access-restricted item' (controlled lending).",
+      "host": "University of Chicago Press",
+      "page": "https://press.uchicago.edu/ucp/books/book/chicago/G/bo3639032.html",
+      "file": null,
+      "format": "html",
+      "download": false,
+      "filename": "giordano-bruno-hermetic-tradition-1964-uchicago.html",
+      "obtain": [
+        "https://press.uchicago.edu/ucp/books/book/chicago/G/bo3639032.html",
+        "https://archive.org/details/giordanobrunoher0000yate"
+      ],
+      "memoRows": [1]
+    },
+    {
+      "id": "occult-philosophy-elizabethan-age-1979-routledge",
+      "work": "The Occult Philosophy in the Elizabethan Age",
+      "author": "Frances Yates",
+      "edition": "London: Routledge & Kegan Paul, 1979 (ISBN 071000320X); Routledge Classics reissue (publisher page); Routledge 2003 eBook chapter records in Crossref (DOI prefix 10.4324/9780203167113)",
+      "rights": "in-copyright",
+      "rightsBasis": "Published 1979; author died 1981.",
+      "copyTerms": "Publisher catalog page and Crossref metadata only; archive.org 1979 scan is 'Access-restricted-item' (borrow only).",
+      "host": "Routledge / Crossref",
+      "page": "https://www.routledge.com/The-Occult-Philosophy-in-the-Elizabethan-Age/Yates/p/book/9780415254090",
+      "file": null,
+      "format": "html",
+      "download": false,
+      "filename": "occult-philosophy-elizabethan-age-1979-routledge.html",
+      "obtain": [
+        "https://www.routledge.com/The-Occult-Philosophy-in-the-Elizabethan-Age/Yates/p/book/9780415254090",
+        "https://archive.org/details/occultphilosophy0000yate",
+        "https://api.crossref.org/works?query.container-title=The+Occult+Philosophy+in+the+Elizabethan+Age&rows=30&select=DOI,title,container-title,issued,page"
+      ],
+      "memoRows": [2, 4, 5, 6]
+    },
+    {
+      "id": "rosicrucian-enlightenment-1972-routledge",
+      "work": "The Rosicrucian Enlightenment",
+      "author": "Frances Yates",
+      "edition": "London: Routledge & Kegan Paul, 1972 (ISBN 0710073801); Routledge Classics page shows 2nd ed. (c)2000; Routledge eBook chapter records in Crossref (DOI prefix 10.4324/9780203166017)",
+      "rights": "in-copyright",
+      "rightsBasis": "Published 1972; author died 1981.",
+      "copyTerms": "Publisher catalog page and Crossref metadata only; archive.org 1972 scan is access-restricted (borrow only).",
+      "host": "Routledge / Crossref",
+      "page": "https://www.routledge.com/The-Rosicrucian-Enlightenment/Yates/p/book/9780415267694",
+      "file": null,
+      "format": "html",
+      "download": false,
+      "filename": "rosicrucian-enlightenment-1972-routledge.html",
+      "obtain": [
+        "https://www.routledge.com/The-Rosicrucian-Enlightenment/Yates/p/book/9780415267694",
+        "https://archive.org/details/rosicrucianenlig0000yate",
+        "https://api.crossref.org/works?query.container-title=Rosicrucian+Enlightenment&rows=30&select=DOI,title,container-title,issued,page"
+      ],
+      "memoRows": [3, 7]
+    },
+    {
+      "id": "trapp-yates-memoir-2003-crossref",
+      "work": "Frances Amelia Yates 1899-1981 (Proceedings of the British Academy 120, Biographical Memoirs of Fellows II)",
+      "author": "J. B. Trapp",
+      "edition": "British Academy, 2003, DOI 10.5871/bacad/9780197263020.003.0025 (abstract via Crossref)",
+      "rights": "in-copyright",
+      "rightsBasis": "Published 2003.",
+      "copyTerms": "Crossref metadata record; no license field seen.",
+      "host": "Crossref",
+      "page": "https://api.crossref.org/works/10.5871/bacad/9780197263020.003.0025",
+      "file": null,
+      "format": "json",
+      "download": false,
+      "filename": "trapp-yates-memoir-2003-crossref.json",
+      "obtain": [
+        "https://api.crossref.org/works/10.5871/bacad/9780197263020.003.0025"
+      ],
+      "memoRows": [8]
+    },
+    {
+      "id": "pietra-tese-yates-2024-temporalidades",
+      "work": "A construção da \"Tese Yates\": a constituição de um paradigma entre a história da ciência e a história intelectual (1964-1974)",
+      "author": "Lucas Augusto Pietra",
+      "edition": "Temporalidades (UFMG) v. 15 n. 2 (2024)",
+      "rights": "in-copyright",
+      "rightsBasis": "Published 2024; licensed CC BY 4.0 (author retains copyright).",
+      "copyTerms": "Page states: Creative Commons Attribution 4.0 International License (CC BY 4.0).",
+      "host": "Temporalidades / UFMG",
+      "page": "https://periodicos.ufmg.br/index.php/temporalidades/article/view/48188",
+      "file": null,
+      "format": "html",
+      "download": false,
+      "filename": "pietra-tese-yates-2024-temporalidades.html",
+      "obtain": [
+        "https://periodicos.ufmg.br/index.php/temporalidades/article/view/48188"
+      ],
+      "memoRows": [9]
+    },
+    {
+      "id": "westman-mcguire-hermeticism-scientific-revolution-1977-google-books",
+      "work": "Hermeticism and the Scientific Revolution: Papers Read at a Clark Library Seminar, March 9, 1974",
+      "author": "Robert S. Westman; J. E. McGuire",
+      "edition": "Los Angeles: William Andrews Clark Memorial Library, University of California, 1977, 150 pp.",
+      "rights": "unclear",
+      "rightsBasis": "Published 1977 by a university library; no rights statement seen.",
+      "copyTerms": "Google Books catalog record only; no preview text.",
+      "host": "Google Books",
+      "page": "https://books.google.com/books/about/Hermeticism_and_the_Scientific_Revolutio.html?id=IhwRAQAAIAAJ",
+      "file": null,
+      "format": "html",
+      "download": false,
+      "filename": "westman-mcguire-hermeticism-scientific-revolution-1977-google-books.html",
+      "obtain": [
+        "https://books.google.com/books/about/Hermeticism_and_the_Scientific_Revolutio.html?id=IhwRAQAAIAAJ"
+      ],
+      "memoRows": [10]
+    },
+    {
+      "id": "copenhaver-pico-sep-2024",
+      "work": "Giovanni Pico della Mirandola (Stanford Encyclopedia of Philosophy)",
+      "author": "Brian Copenhaver",
+      "edition": "First published 3 June 2008; substantive revision 21 Aug 2024",
+      "rights": "in-copyright",
+      "rightsBasis": "Published 2008/2024.",
+      "copyTerms": "SEP online entry; no redistribution license seen on fetch.",
+      "host": "Stanford Encyclopedia of Philosophy",
+      "page": "https://plato.stanford.edu/entries/pico-della-mirandola/",
+      "file": null,
+      "format": "html",
+      "download": false,
+      "filename": "copenhaver-pico-sep-2024.html",
+      "obtain": [
+        "https://plato.stanford.edu/entries/pico-della-mirandola/"
+      ],
+      "memoRows": [11]
+    },
+    {
+      "id": "copenhaver-renaissance-magic-2021-hopwag",
+      "work": "Brian Copenhaver on Renaissance Magic (History of Philosophy without any gaps, episode 367), transcript",
+      "author": "Peter Adamson (host); Brian P. Copenhaver (guest)",
+      "edition": "Podcast episode 367, 28 February 2021; online transcript",
+      "rights": "in-copyright",
+      "rightsBasis": "Published 2021.",
+      "copyTerms": "No license statement seen on fetch.",
+      "host": "historyofphilosophy.net",
+      "page": "https://historyofphilosophy.net/podcast/renaissance-reformation/italy/magic-copenhaver/transcript",
+      "file": null,
+      "format": "html",
+      "download": false,
+      "filename": "copenhaver-renaissance-magic-2021-hopwag.html",
+      "obtain": [
+        "https://historyofphilosophy.net/magic-copenhaver",
+        "https://historyofphilosophy.net/podcast/renaissance-reformation/italy/magic-copenhaver/transcript"
+      ],
+      "memoRows": [12]
+    },
+    {
+      "id": "copenhaver-magic-2006-cambridge-history-of-science",
+      "work": "Magic (ch. 22), in The Cambridge History of Science, ed. Katharine Park and Lorraine Daston",
+      "author": "Brian Copenhaver",
+      "edition": "Cambridge University Press, 2006 (online 2008), pp. 518-540",
+      "rights": "in-copyright",
+      "rightsBasis": "Published 2006.",
+      "copyTerms": "Cambridge Core landing page; abstract public, full text paywalled.",
+      "host": "Cambridge Core",
+      "page": "https://www.cambridge.org/core/books/abs/cambridge-history-of-science/magic/88A48C4B7FA899018814CDFF7984DAD9",
+      "file": null,
+      "format": "html",
+      "download": false,
+      "filename": "copenhaver-magic-2006-cambridge-history-of-science.html",
+      "obtain": [
+        "https://www.cambridge.org/core/books/abs/cambridge-history-of-science/magic/88A48C4B7FA899018814CDFF7984DAD9"
+      ],
+      "memoRows": [13, 14]
+    },
+    {
+      "id": "hanegraaff-how-hermetic-2015-aries-openalex",
+      "work": "How Hermetic was Renaissance Hermetism?",
+      "author": "Wouter J. Hanegraaff",
+      "edition": "Aries 15, no. 2 (2015): 179-209, DOI 10.1163/15700593-01502001 (abstract via OpenAlex)",
+      "rights": "in-copyright",
+      "rightsBasis": "Published 2015.",
+      "copyTerms": "OpenAlex marks it bronze open access with no license; Brill and UvA copies exist but could not be parsed/fetched.",
+      "host": "OpenAlex (metadata); Brill; UvA Pure",
+      "page": "https://api.openalex.org/works/doi:10.1163/15700593-01502001",
+      "file": null,
+      "format": "json",
+      "download": false,
+      "filename": "hanegraaff-how-hermetic-2015-aries-openalex.json",
+      "obtain": [
+        "https://pure.uva.nl/ws/files/2591988/169836_How_Hermetic_was_Renaissance_Hermetism_.pdf"
+      ],
+      "memoRows": [15]
+    },
+    {
+      "id": "hanegraaff-esotericism-academy-2012-cup",
+      "work": "Esotericism and the Academy: Rejected Knowledge in Western Culture",
+      "author": "Wouter J. Hanegraaff",
+      "edition": "Cambridge University Press, 2012, DOI 10.1017/CBO9781139048064",
+      "rights": "in-copyright",
+      "rightsBasis": "Published 2012.",
+      "copyTerms": "Cambridge Core landing page; description public, text paywalled.",
+      "host": "Cambridge Core",
+      "page": "https://www.cambridge.org/core/product/identifier/9781139048064/type/book",
+      "file": null,
+      "format": "html",
+      "download": false,
+      "filename": "hanegraaff-esotericism-academy-2012-cup.html",
+      "obtain": [
+        "https://doi.org/10.1017/CBO9781139048064"
+      ],
+      "memoRows": [16]
+    },
+    {
+      "id": "vickers-occult-scientific-mentalities-1984-archive",
+      "work": "Occult and Scientific Mentalities in the Renaissance",
+      "author": "Brian Vickers (ed.)",
+      "edition": "Cambridge University Press, 1984, ISBN 0521258790",
+      "rights": "in-copyright",
+      "rightsBasis": "Published 1984.",
+      "copyTerms": "archive.org: 'Access-restricted-item' (printdisabled / controlled lending).",
+      "host": "Internet Archive",
+      "page": "https://archive.org/details/occultscientific0000unse",
+      "file": null,
+      "format": "html",
+      "download": false,
+      "filename": "vickers-occult-scientific-mentalities-1984-archive.html",
+      "obtain": [
+        "https://archive.org/details/occultscientific0000unse"
+      ],
+      "memoRows": [17]
+    },
+    {
+      "id": "vickers-yates-writing-of-history-1979-jmh",
+      "work": "Frances Yates and the Writing of History",
+      "author": "Brian Vickers",
+      "edition": "Journal of Modern History 51 (1979): 287-316, DOI 10.1086/241901 (metadata via Semantic Scholar)",
+      "rights": "in-copyright",
+      "rightsBasis": "Published 1979.",
+      "copyTerms": "Publisher page returned 403; metadata only.",
+      "host": "Semantic Scholar (metadata); University of Chicago Press Journals",
+      "page": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1086/241901?fields=title,authors,year,venue,journal",
+      "file": null,
+      "format": "json",
+      "download": false,
+      "filename": "vickers-yates-writing-of-history-1979-jmh.json",
+      "obtain": [
+        "https://www.journals.uchicago.edu/doi/10.1086/241901"
+      ],
+      "memoRows": [18]
+    },
+    {
+      "id": "aroney-marginalization-astrology-2023-historical-journal",
+      "work": "Reassessing the Marginalization of Astrology in the Early Modern World",
+      "author": "Michelle Aroney",
+      "edition": "The Historical Journal 66, no. 5 (2023), DOI 10.1017/S0018246X23000328",
+      "rights": "in-copyright",
+      "rightsBasis": "Published 2023; licensed CC BY 4.0.",
+      "copyTerms": "Cambridge Core: Creative Commons Attribution (CC-BY) 4.0.",
+      "host": "Cambridge Core",
+      "page": "https://www.cambridge.org/core/product/identifier/S0018246X23000328/type/journal_article",
+      "file": null,
+      "format": "html",
+      "download": false,
+      "filename": "aroney-marginalization-astrology-2023-historical-journal.html",
+      "obtain": [
+        "https://www.cambridge.org/core/product/identifier/S0018246X23000328/type/journal_article"
+      ],
+      "memoRows": [19, 20, 21]
+    },
+    {
+      "id": "knox-bruno-sep-2024",
+      "work": "Giordano Bruno (Stanford Encyclopedia of Philosophy)",
+      "author": "Dilwyn Knox",
+      "edition": "First published 30 May 2018; substantive revision 12 Mar 2024",
+      "rights": "in-copyright",
+      "rightsBasis": "Published 2018/2024.",
+      "copyTerms": "SEP online entry; no redistribution license seen on fetch.",
+      "host": "Stanford Encyclopedia of Philosophy",
+      "page": "https://plato.stanford.edu/entries/bruno/",
+      "file": null,
+      "format": "html",
+      "download": false,
+      "filename": "knox-bruno-sep-2024.html",
+      "obtain": [
+        "https://plato.stanford.edu/entries/bruno/"
+      ],
+      "memoRows": [22]
+    }
+  ]
+}

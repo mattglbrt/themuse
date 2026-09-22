@@ -1,0 +1,73 @@
+# Log: 2026-09-22 kjv-apocrypha (retry of Phase 1 Q5)
+
+- decision: no prior log for this slug found (Glob research/**/*apocrypha* empty); starting fresh.
+- decision: sibling memo kjv-making rows 11-12 point to Pollard 1911 archive.org leaf 65/70 for the Apocrypha company; re-fetch myself.
+- fetch Pollard leaf 65 (BookReaderGetTextWrapper): tool summary garbled (attributed Apocrypha to Saravia); need stricter re-fetch.
+- search "1615 Archbishop Abbot forbade printing Bible without Apocrypha one year imprisonment source": NOT PERFORMED, session WebSearch budget exhausted (200/200). All further discovery must be via direct fetches (archive.org advancedsearch API, known institutional URLs, Wikipedia as map).
+- fetch Pollard leaf 65 again (x2, targeted): strings "Deivport","Branthwait","Boyes","Warde, Reg" confirmed present; "The Prayer of Ala- > nasses and the rest of the Apocrypha." confirmed. OCR interleaves notes (Saravia note adjacent, not part of the Apocrypha list).
+- fetch Pollard leaf 70: quote "This relates to one of the second Cambridge group, to whom was committed the translation of the Apocrypha, Dr. John Boys" + Boys account "Sure I am, that part of the Apocrypha was alotted to him (for he hath shewed me the very copy he translated by)".
+- fetch archive.org/metadata/recordsofenglish00polluoft: identity confirmed: Pollard, Records of the English Bible, H. Frowde 1911, NOT_IN_COPYRIGHT.
+- fetch archive.org advancedsearch Scrivener: 4 items; chose authorizedbible00scriuoft (Cambridge UP 1884).
+- fetch archive.org/metadata/authorizedbible00scriuoft: identity confirmed Scrivener, Authorized Edition of the English Bible (1611), Cambridge UP 1884, NOT_IN_COPYRIGHT; server ia801605, dir /23/items/...
+- fetch inside.php q=Esdras: matches p.59 (leaf), 60, 67, 142, 156...
+- fetch BookReaderGetTextWrapper page=59, 58: coordinate format; tool could not give clean verbatim. Switched to inside.php snippets.
+- fetch inside.php q=Aldus: full paragraph leaf 59 (printed p.47 per index "Aldus 47"); leaf 152 (printed p.140) on second Cambridge Company.
+- quote (Scrivener leaf 59): "The second book of Esdras, though the style is redolent of a Hebrew or Aramaic origin, exists only in the common Latin version and in Junius' paraphrase"
+- quote (Scrivener leaf 59): "is not in the Complutensian Polyglott (1517), so that Aldus' s Greek Bible (1518) was primarily resorted to" ... "our Translators had before them the Roman Septuagint of I586"
+- quote (Scrivener leaf 59): "The Prayer of Manasses had to be drawn from the same source, for the Greek was first published in Walton's Polyglott (1657)"
+- quote (Scrivener leaf 152): "Of the performance of the fourth, or second Cambridge Company, to which the Apocrypha was consigned, little favourable can be said. It was the earliest party to complete its share"
+- fetch churchofengland.org articles-religion page: article text not in fetched content (nav only). dead end for this URL.
+- fetch eskimo.com/~lhowell/bcp1662/articles/articles.html: Art. VI present but tool list omitted "rest of Esther"; edition not stated. Low-quality host; backup only.
+- fetch en.wikisource.org/wiki/Thirty-Nine_Articles: disambiguation page.
+- fetch en.wikisource.org/wiki/Thirty-Nine_Articles_of_Religion: Art. VI full; list incl. "The rest of the Book of Esther"; page says transcribes 1863 BCP; CC BY-SA.
+- quote (Wikisource Art VI): "And the other Books (as Hierome saith) the Church doth read for example of life and instruction of manners; but yet doth it not apply them to establish any doctrine"
+- fetch CUL KJV exhibition captions: identity "Great and Manifold Blessings: The Making of the King James Bible", CUL. quote: Bois "He was appointed to the second Cambridge company to work on the translation of the Apocrypha." Downes: "With his pupil John Bois, Downes was a member of the second Cambridge company of Bible translators."
+- fetch archive.org advancedsearch holy bible 1611: 19 items; chose bim_early-english-books-1475-1640_the-holy-bible-conteyni_bible-english_1611 (EEBO microfilm, 1469 images).
+- fetch metadata bim_...1611: title "The holy bible, conteyning the old testament, ... 1611"; no license field; no imprint in metadata.
+- fetch inside.php q=Apocrypha (1611): contents p.21 "Bookes alled Apocrypha"; running head "Apocrypha" on image pages 962-1168.
+- fetch inside.php q=Testament: NT gospel text from ~1208; contents p.21 "The Bookes of the New Testament" after 2 Maccabees.
+- fetch inside.php q=Bookes p.21 raw: "i Bookes alled Apocrypha 1 & Sdras hath Chapters 9 ... 2. Eſdras | 16 ... Tobit 14 ... ludeth 16 ... reſt of Eſther 6 The prayer of Manaſſch." + "Wiledome 19 I. Maccabees 16 Ecceſiaſticus 51 | 2.Maccabees 15 The Bookes of the New Teſtament."
+- fetch inside.php Scrivener q="without the Apocrypha": no matches.
+- fetch en.wikipedia Biblical_apocrypha (map): no Abbot 1615; 1826 sentence cites Flick, "Christian heritage fellowship" (blog-level) -> not used.
+- fetch en.wikipedia King_James_Version (map): Apocrypha "rendered from the Septuagint and Latin Vulgate" [fn 19]; references truncated; not used as source.
+- fetch advancedsearch Canton History of BFBS: 25 items. metadata britishbiblesoc01cantuoft (EU server) + historyofbritish01cantiala (CA server): inside.php 404 on both. dead end on those servers.
+- fetch djvu.txt britishbiblesoc01cantuoft: truncated at ch. III; TOC says ch. XVII "THE APOCRYPHA CONTROVERSY" begins p. 319.
+- fetch cu31924092358294 inside q=Apocrypha: foreign-work volume (not vol 1); no 1826 resolution.
+- fetch metadata historyofbritish0001cant: vol 1, London: John Murray 1904, US server ia601608, public domain.
+- fetch inside.php historyofbritish0001cant q=1826, resolution, Apocrypha, fundamental, 1825, "Regulations were drawn up", November, "never been attempted", excluding.
+- quote (Canton v1 leaf 373): "agreed on a recommendation which was accepted on the 21st November at a meeting of the General Committee, attended by some seventy members, and embodied in the following resolution"
+- quote (leaf 373/374): "I. That the fundamental law of the Society, which limits its opeiations" ... "to the circulation of the Holy Scriptures, be fully and distinctly recognised as excluding the circulation of the Apocrypha."
+- quote (leaf 376): "In England the resolution of November 1825, which on its adoption had been extensively circulated, met with general acceptance"
+- quote (leaf 373): "Regulations were drawn up on the basis of the resolution, and adopted at the annual general meetings in 1826 and 1827."
+- quote (leaf 37): "In consequence of the Apocrypha controversy, there were added at the General Meetings in 1826 and 1827 four supplementary provisions"
+- quote (leaf 372): "the circulation of the Apocrypha in our own versions — a course which had never been attempted, and which would not be tolerated"
+- decision: leaf 371 carries running head "340 THE APOCRYPHA CONTROVERSY", so leaves 372-376 ~ printed pp. 341-345 (inferred). Cite leaf numbers.
+- fetch inside Pollard q=Apocrypha: p.77 (inside 1-based) Selden passage "(as the Apocrypha to Andrew Downs)". inside.php page numbers are 1-based; BookReaderGetTextWrapper page= is 0-based (inside 66 = wrapper 65).
+- fetch Pollard wrapper page=76: attribution "Selden, in whose Table-Talk we read" + "That part of the Bible was given to him who was most excellent in such a tongue (as the Apocrypha to Andrew Downs)".
+- fetch inside Westcott q=Apocrypha: no Abbot/1615/omission-of-KJV-Apocrypha material.
+- fetch en.wikipedia George_Abbot_(bishop), Apocrypha, Deuterocanonical_books, KJV action=raw: no Abbot 1615 sentence found (raw possibly truncated). dead end as map.
+- fetch advancedsearch "introduction to the apocrypha": Metzger 1957 OUP item introductiontoap0000metz_z7f4; metadata access-restricted; inside.php 403. dead end (could not read).
+- fetch inside Scrivener q=Apocrypha / "leaving out" / omitted / "Archbishop Abbot" / Rivington / imprisonment / "Thus early" / forbidden / "Bonham Norton" / "worse paper" / "not contain the Apocrypha".
+- fetch Scrivener wrapper page=30: tool reconstruction of footnote 1 (Abbot 1615) + main text section (6) 1629 quarto.
+- quote (Scrivener leaf 31 main text): "The volume of 1629, however, is printed on much worse paper, and does not contain the Apocrypha1, although APO- still remains, as in its fellow, below the tail-piece at the end of Malachi."
+- quote (Scrivener leaf 31 heading): "(6) The Holy Bible, small quarto, 1629 "Imprinted at London by Bonham Norton and John Bill Printers to the King's most excellent Majestic.""
+- quote (Scrivener leaf 31 fn 1, two-column OCR, fragments each confirmed by inside.php): "Thus early began the practice" + "of leaving out the Apocrypha, al-" + "though it had been forbidden by" + "Archbishop Abbot in 1615 on pain" + "of a year's imprisonment (C. R. 10)." ; index leaf 323 "Rivington, C. R 19 n." (so printed p. 19 n.)
+- decision: Abbot 1615 rests on Scrivener citing Rivington's Records of the Stationers' Company ("C. R. 10"); primary not yet seen -> single-source/needs-print-check unless Rivington found.
+- fetch advancedsearch creator rivington title stationers: recordsworshipf00rivigoog "The records of the Worshipful company of stationers [a paper]", C. R. Rivington 1883 (Google/Oxford scan), NOT_IN_COPYRIGHT, server ia600100.
+- fetch inside Rivington q=Apocrypha / 1615 / Archbishop / Canterbury / Abbot(no match).
+- quote (Rivington leaf 32-33): "The Archbishop of Canterbury had priBviously, in" [running head "22 RECORDS OF THE STATIONERS* COMPANY."] + "1615, directed public notice to be given that no bibles were to be bound up and sold without the apocrypha on pain of a whole year's imprisonment."
+- decision: Rivington names only "the Archbishop of Canterbury", not Abbot; says "bound up and sold", not "printed". Scrivener's "C. R. 10" page ref does not match this copy's p. 22-23 (different printing? unresolved). Scrivener depends on Rivington -> not independent. Row = single-source chain; the Court Book entry itself is needs-print-check.
+- fetch wrapper page=32 Rivington: empty content returned (tool). Used inside.php instead.
+- fetch wikisource DNB Abbot, George (1562-1633), Sidney Lee, vol 1: "On 4 March 1610–11 Abbot was formally nominated to the see of Canterbury, and on 9 April was 'very honorably installed at Lambeth'"; "The archbishop died at Croydon, 4 Aug. 1633, aged seventy-one." Also Abbot on Oxford Gospels/Acts/Apocalypse company.
+- fetch advancedsearch Browne BFBS 1859: 4 items; metadata historyofbritish01brow (CA), historybritisha00browgoog (CA), historybritisha01browgoog (EU); inside.php 404 on CA server. dead end: Browne unread.
+- fetch inside 1611 EEBO q=Barker: image 1174 "R Barker , Pi inter to the Kings mo­ft Excellent Maie­ftie."; q=Malachi: 958, 959, 961.
+- fetch wrapper 1611 page=961 (0-based): Malachi ch. 4 end. page=962: I Esdras opens ("ESDRAS"). page=1173: II Maccabees with running head "A P OC ryph d." page=1174: NT title page, Robert Barker, ANNO 1611 (tool-normalised spelling; not quoted).
+- decision: placement row rests on page sequence of one facsimile (EEBO microfilm, no license field) + Scrivener "APO- ... below the tail-piece at the end of Malachi" (for the 1629 setting and its fellow). Two sources, different kinds.
+- fetch inside Scrivener q=Apocrypha pages 18/41/45/46: p.41 notes a copy where the Apocrypha is bound to follow, not precede, the NT ("this unusual arrangement"). Not used as a row.
+- fetch wikisource Thirty-Nine_Articles_of_Religion (verification): Art. VI heading + "And the other Books ... such are these following:" confirmed; source "Book of Common Prayer (1863)/Articles of Religion". "In the name of the holy Scripture" sentence NOT confirmed by tool -> not quoted.
+- fetch eskimo.com articles (verification): Art. VI phrase confirmed verbatim; "The rest of the Book of Esther" present; no edition stated; ratification 1571 present.
+- fetch inside Scrivener q="second Cambridge Company" (verification): leaf 152 quote confirmed.
+- fetch wikisource Thirty-Nine_Articles_of_Religion: ratification paragraph "... in the Year of our Lord 1571." quoted.
+- decision: rows 22-23 recorded as not found (single "decider" of KJV omission; 1640/1666 printings). Leads for rerun: Herbert Historical Catalogue; Jackson, Records of the Court of the Stationers' Company 1602-1640; Selden Table-Talk edition; BFBS annual reports 1826-27; Browne 1859 on a US server copy.
+- decision: EEBO 1611 scan download:false (no copy terms in metadata).
+- wrote memo research/2026-09-22-kjv-apocrypha.md and sources JSON. Verification: 21/21 sourced rows confirmed; caveats: needs-print-check rows 11, 15; OCR-only rows 1-2.
