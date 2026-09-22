@@ -1,0 +1,31 @@
+---
+// Type spec: docs/TYPOGRAPHY.md. Fonts are self-hosted from public/fonts/.
+import '../styles/fonts.css';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  full?: boolean;
+}
+const { title, description = 'The Muse: a reference library of primary documents, linked.', full = false } = Astro.props;
+const pageTitle = title ? `${title} · The Muse` : 'The Muse';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="preload" href="/fonts/literata-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/eb-garamond-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+  </head>
+  <body class:list={{ full }}>
+    <header class="site-header">
+      <a href="/" class="wordmark">The Muse</a>
+    </header>
+    <slot />
+  </body>
+</html>

@@ -1,0 +1,261 @@
+---
+import Base from '../layouts/Base.astro';
+import Graph from '../components/Graph.astro';
+import { getVault, toGraphJson, backlinksFor, outlinksFor } from '../lib/vault.mjs';
+import { renderMarkdown, renderInline } from '../lib/render.mjs';
+import { NODE_TYPES, typeColor } from '../lib/types.mjs';
+
+export function getStaticPaths() {
+  return [...getVault().nodes.keys()].map((slug) => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params;
+const vault = getVault();
+const node = vault.nodes.get(slug);
+if (!node) return Astro.redirect('/');
+
+const graph = toGraphJson(vault);
+const bySlug = new Map(graph.nodes.map((n) => [n.slug, n]));
+const backlinks = backlinksFor(graph, slug).map((s) => bySlug.get(s));
+const outlinks = outlinksFor(graph, slug).map((s) => bySlug.get(s));
+const html = await renderMarkdown(node.body, vault);
+
+// Frontmatter shown as a fact box; empty template fields stay hidden.
+const HIDDEN = new Set(['title', 'type', 'status', 'tags']);
+const isEmpty = (v) => v == null || v === '' || (Array.isArray(v) && v.length === 0);
+const renderValue = (v) =>
+  typeof v === 'string' && /^https?:\/\/\S+$/.test(v)
+    ? `<a href="${v}" rel="noopener">${renderInline(v, vault)}</a>`
+    : renderInline(v, vault);
+const meta = Object.entries(node.data)
+  .filter(([k, v]) => !HIDDEN.has(k) && !isEmpty(v))
+  .map(([k, v]) => [k.replace(/-/g, ' '), (Array.isArray(v) ? v : [v]).map(renderValue).join('<br>')]);
+const typeInfo = NODE_TYPES[node.type];
+const edited = new Date(node.lastEdited);
+---
+
+<Base title={node.title}>
+  <div class="node-page">
+    <article>
+      <p class="kicker">
+        <span class="swatch" style={`background:${typeColor(node.type)}`}></span>
+        {typeInfo?.label ?? node.type}
+        <span class="status">{node.status}</span>
+      </p>
+      <h1>{node.title}</h1>
+      {node.status === 'seed' && (
+        <p class="seed-note">Seed node. Not yet researched: nothing on this page is a sourced claim yet.</p>
+      )}
+      {meta.length > 0 && (
+        <dl class="meta">
+          {meta.map(([k, v]) => (
+            <>
+              <dt>{k}</dt>
+              <dd set:html={v} />
+            </>
+          ))}
+        </dl>
+      )}
+      <div class="prose" set:html={html} />
+      {node.tags.length > 0 && <p class="tags">{node.tags.map((t) => <span>#{t}</span>)}</p>}
+    </article>
+
+    <aside>
+      <section>
+        <h2>Local graph</h2>
+        <div class="local-graph"><Graph focus={slug} /></div>
+      </section>
+      <section>
+        <h2>Linked from</h2>
+        {backlinks.length ? (
+          <ul>{backlinks.map((n) => <li><a href={`/${n.slug}/`}>{n.title}</a></li>)}</ul>
+        ) : (
+          <p class="empty">Nothing links here yet.</p>
+        )}
+      </section>
+      <section>
+        <h2>Links to</h2>
+        {outlinks.length ? (
+          <ul>{outlinks.map((n) => <li><a href={`/${n.slug}/`}>{n.title}</a></li>)}</ul>
+        ) : (
+          <p class="empty">No outbound links yet.</p>
+        )}
+      </section>
+      <section>
+        <h2>Last edited</h2>
+        <p class="edited">
+          <time datetime={node.lastEdited}>{edited.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
+        </p>
+      </section>
+    </aside>
+  </div>
+</Base>
+
+<style>
+  .node-page {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2rem;
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 4rem;
+  }
+  @media (min-width: 60rem) {
+    .node-page {
+      grid-template-columns: minmax(0, 1fr) 20rem;
+    }
+    aside {
+      position: sticky;
+      top: 1rem;
+      align-self: start;
+    }
+  }
+  article {
+    min-width: 0;
+  }
+  article > * {
+    max-width: var(--measure);
+  }
+  h1 {
+    margin: 0.2rem 0 1rem;
+    font-size: clamp(2.25rem, 1.6rem + 2.4vw, 3.25rem);
+    font-weight: 500;
+  }
+  .prose :global(h2) {
+    margin: 2.4em 0 0.5em;
+    font-size: 1.6em;
+  }
+  .prose :global(h3) {
+    margin: 1.8em 0 0.4em;
+    font-size: 1.25em;
+  }
+  .prose :global(blockquote) {
+    margin: 1.4em 0;
+    padding: 0 0 0 1.1em;
+    border-left: 2px solid var(--rule);
+  }
+  .prose :global(ul),
+  .prose :global(ol) {
+    padding-left: 1.4em;
+  }
+  .prose :global(li) {
+    margin-bottom: 0.35em;
+  }
+  .prose :global(hr) {
+    margin: 2.5em 0;
+    border: 0;
+    border-top: 1px solid var(--rule);
+  }
+  .prose :global(img) {
+    max-width: 100%;
+    height: auto;
+  }
+  .prose :global(table) {
+    border-collapse: collapse;
+    font-family: var(--font-ui);
+    font-size: 0.8em;
+  }
+  .prose :global(th),
+  .prose :global(td) {
+    padding: 0.35em 0.7em;
+    border-bottom: 1px solid var(--rule);
+    text-align: left;
+  }
+  /* Bibliography: last section by template. Smaller, hanging indent. */
+  .prose :global(#bibliography ~ ul),
+  .prose :global(#bibliography ~ ol),
+  .prose :global(#bibliography ~ p) {
+    font-size: 0.875em;
+    line-height: 1.55;
+  }
+  .prose :global(#bibliography ~ ul) {
+    list-style: none;
+    padding-left: 0;
+  }
+  .prose :global(#bibliography ~ ul > li) {
+    padding-left: 1.6em;
+    text-indent: -1.6em;
+    margin-bottom: 0.6em;
+    overflow-wrap: anywhere;
+  }
+  .kicker,
+  aside,
+  .meta,
+  .tags,
+  .seed-note {
+    /* Interface, not reading: system sans at a fixed UI size and weight. */
+    font-family: var(--font-ui);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .kicker {
+    margin: 0;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .swatch {
+    display: inline-block;
+    width: 0.6rem;
+    height: 0.6rem;
+    margin-right: 0.4rem;
+    border-radius: 50%;
+  }
+  .status {
+    margin-left: 0.6rem;
+    padding: 0.05rem 0.45rem;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+  }
+  .seed-note {
+    padding: 0.6rem 0.8rem;
+    border-left: 3px solid var(--muted);
+    background: var(--surface);
+    color: var(--muted);
+  }
+  .meta {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.3rem 1rem;
+    padding: 0.8rem 1rem;
+    background: var(--surface);
+  }
+  .meta dt {
+    color: var(--muted);
+    text-transform: capitalize;
+  }
+  .meta dd {
+    margin: 0;
+  }
+  .tags span {
+    margin-right: 0.6rem;
+    color: var(--muted);
+  }
+  aside h2 {
+    margin: 0 0 0.5rem;
+    font-family: var(--font-ui);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+  }
+  aside section + section {
+    margin-top: 1.5rem;
+  }
+  aside ul {
+    margin: 0;
+    padding-left: 1.1rem;
+  }
+  .local-graph {
+    --graph-halo: var(--surface);
+    height: 18rem;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+  }
+  .empty,
+  .edited {
+    color: var(--muted);
+    margin: 0;
+  }
+</style>

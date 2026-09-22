@@ -1,0 +1,21 @@
+.DS_Store
+.claude/settings.local.json
+.env
+
+# build
+node_modules/
+dist/
+.astro/
+
+# Obsidian: per-device state and personal preferences. Shared vault config
+# (app, core-plugins, templates, graph color groups) stays tracked.
+vault/.obsidian/workspace.json
+vault/.obsidian/workspace-mobile.json
+vault/.obsidian/workspaces.json
+vault/.obsidian/appearance.json
+vault/.obsidian/themes/
+vault/.obsidian/snippets/
+vault/.obsidian/cache
+vault/.obsidian/plugins/*/data.json
+.trash/
+vault/.trash/

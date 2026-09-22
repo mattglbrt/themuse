@@ -1,0 +1,143 @@
+/*
+ * Type is locked (docs/TYPOGRAPHY.md): Literata for reading, EB Garamond for
+ * headings/display, system sans for interface. Colors are first-pass; the
+ * brand pass (Phase 2) owns them.
+ */
+:root {
+  --font-body: 'Literata', Georgia, 'Times New Roman', serif;
+  --font-display: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  --font-ui: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --measure: 60ch; /* ≈70 real characters per line: Literata letters average narrower than "0" (docs/TYPOGRAPHY.md) */
+  --body-size: clamp(1.125rem, 1.05rem + 0.3vw, 1.25rem); /* 18–20px */
+
+  /* Dark (default): off-white on near-black, and a half-step lighter body
+     weight, so long reading sessions don't halo. */
+  --bg: #141311;
+  --surface: #1c1a17;
+  --text: #e4ddcf;
+  --muted: #9d9486;
+  --rule: #302c27;
+  --link: #e0b45a;
+  --broken: #d0776a;
+  --body-weight: 370;
+  --graph-edge: #3d3833;
+  --graph-edge-hi: #b8a98a;
+  --graph-label: #d8d0c0;
+  --graph-ring: #f3ead7;
+  --graph-halo: var(--bg);
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme='dark']) {
+    --bg: #f7f3ea;
+    --surface: #efe8da;
+    --text: #231f1a;
+    --muted: #6a6155;
+    --rule: #ddd3c1;
+    --link: #8a5a0f;
+    --broken: #a4402e;
+    --body-weight: 400;
+    --graph-edge: #cfc5b2;
+    --graph-edge-hi: #6b5a3a;
+    --graph-label: #3a332b;
+    --graph-ring: #231f1a;
+    color-scheme: light;
+  }
+}
+
+:root[data-theme='light'] {
+  --bg: #f7f3ea;
+  --surface: #efe8da;
+  --text: #231f1a;
+  --muted: #6a6155;
+  --rule: #ddd3c1;
+  --link: #8a5a0f;
+  --broken: #a4402e;
+  --body-weight: 400;
+  --graph-edge: #cfc5b2;
+  --graph-edge-hi: #6b5a3a;
+  --graph-label: #3a332b;
+  --graph-ring: #231f1a;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--body-size);
+  font-weight: var(--body-weight);
+  font-optical-sizing: auto;
+  line-height: 1.65;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+}
+
+/* :where() keeps these at zero specificity so component styles win. */
+:where(h1, h2, h3, h4) {
+  font-family: var(--font-display);
+  font-weight: 500;
+  line-height: 1.15;
+  text-wrap: balance;
+}
+
+:where(p) {
+  margin: 0 0 1.1em;
+}
+
+:where(strong, b) {
+  font-weight: calc(var(--body-weight) + 250);
+}
+
+body.full {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+a {
+  color: var(--link);
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 0.06em;
+}
+
+.site-header {
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--font-ui);
+  font-size: 1rem;
+}
+
+.wordmark {
+  color: var(--text);
+  text-decoration: none;
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.wikilink.broken {
+  color: var(--broken);
+  text-decoration: underline dotted;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

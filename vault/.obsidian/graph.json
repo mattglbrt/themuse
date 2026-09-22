@@ -1,0 +1,51 @@
+{
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "colorGroups": [
+    {
+      "query": "[type:book]",
+      "color": {
+        "a": 1,
+        "rgb": 14263361
+      }
+    },
+    {
+      "query": "[type:person]",
+      "color": {
+        "a": 1,
+        "rgb": 7317724
+      }
+    },
+    {
+      "query": "[type:artifact]",
+      "color": {
+        "a": 1,
+        "rgb": 12745632
+      }
+    },
+    {
+      "query": "[type:topic]",
+      "color": {
+        "a": 1,
+        "rgb": 9420650
+      }
+    },
+    {
+      "query": "[type:show-notes]",
+      "color": {
+        "a": 1,
+        "rgb": 14707290
+      }
+    },
+    {
+      "query": "[type:lecture]",
+      "color": {
+        "a": 1,
+        "rgb": 10789072
+      }
+    }
+  ]
+}
