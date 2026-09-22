@@ -1,10 +1,10 @@
 # STATUS — The Muse · updated 2026-09-22
 
 ## Now
-Phase 0 done; typography locked. Astro 7 static site builds from `vault/`: wikilinks → `graph.json` → one page per node, canvas d3-force graph (global homepage + local one-hop per page), backlinks, last-edited date (git), validator gating every build. Three seed stubs linked (KJV, James I, Daemonologie). Type spec set by Matt and locked in `docs/TYPOGRAPHY.md` (Literata body, EB Garamond headings, system sans UI, self-hosted subsets, light + dark). Templates live in `vault/templates/`. No commits yet: everything is untracked on `master`.
+Phase 0 done; typography locked. Astro 7 static site builds from `vault/`: wikilinks → `graph.json` → one page per node, canvas d3-force graph (global homepage + local one-hop per page), backlinks, last-edited date (git), validator gating every build. Three seed stubs linked (KJV, James I, Daemonologie). Type spec set by Matt and locked in `docs/TYPOGRAPHY.md` (Literata body, EB Garamond headings, system sans UI, self-hosted subsets, light + dark). Templates live in `vault/templates/`. Public repo: github.com/mattglbrt/themuse (main).
 
 ## Next (ranked)
-1. **Matt:** open `vault/` in Obsidian once. Check the templates insert, links resolve, and the graph colors by type. Then make the first commit.
+1. ~~Obsidian check + first commit~~ done 09-22 (public repo).
 2. Phase 1 research: run the `/research` questions below, parallel where independent. Memos land in `research/`.
 3. Write `king-james-bible.md` from the memos (full template, every claim tiered + cited), set `status: researched`. Fill `james-i` / `daemonologie` frontmatter (dates) from memos.
 4. Seed stubs for the first-order links (frontmatter + dek from the brief only): `william-tyndale`, `geneva-bible`, `latin-vulgate`, `jerome`, `septuagint`, `erasmus`, `hampton-court-conference`, `english-reformation`.
