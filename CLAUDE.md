@@ -33,6 +33,7 @@ Plus: never invent or approximate quotes (exact words from a named edition, or p
 - `npm run validate`: vault check (broken links, orphans, frontmatter, filenames, embeds).
 - `npm run build`: validate, then build to `dist/`. Any vault problem fails the build.
 - `/research <question>`: researcher agent → verified memo in `research/`. The only way facts enter the vault.
+- `/research add <question>` queues one in `research/QUEUE.md`; bare `/research` works the queue top to bottom and ticks items off with their memo.
 - `/orient` · `/wrap`: session ritual.
 
 ## Conventions
@@ -55,7 +56,7 @@ Plus: never invent or approximate quotes (exact words from a named edition, or p
 - `docs/ARCHITECTURE.md`: the vault → graph.json → pages pipeline as built
 - `docs/TYPOGRAPHY.md`: the locked reading/type spec
 - `vault/templates/`: the six node templates
-- `research/`: verified research memos
+- `research/`: verified research memos · `research/QUEUE.md`: the research queue
 - `.claude/agents/researcher.md`: the research agent's rules
 
 ---
