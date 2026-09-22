@@ -44,6 +44,7 @@ Plus: never invent or approximate quotes (exact words from a named edition, or p
 - **Typography is locked:** `docs/TYPOGRAPHY.md` (Literata body, EB Garamond headings, system sans for interface, self-hosted subsets, ~70-character measure). Don't relitigate.
 - **Voice:** research and drafting are assisted; the published voice is Matt's. Lecture register, plain and direct, no AI-tells (hobbinomicon `voice.md` ban list). `voice-muse.md` gets written after the first script.
 - **Research protocol:** no fact enters the vault without a `research/` memo (fetched link + verbatim quote + tier + confidence, verification pass done) or Matt's own verified reading.
+- **Open by design:** the repo is public and MIT-licensed (`LICENSE`), vault content included. Never commit anything private. Fonts (OFL), images in `vault/assets/` and quoted works keep their own licenses; `LICENSE` says so.
 - GEO once live: llms.txt + markdown endpoints (hobbinomicon pattern).
 - All AI on Matt's subscription. Never an API key.
 

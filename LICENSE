@@ -1,0 +1,37 @@
+MIT License
+
+Copyright (c) 2026 Matt Gilbert
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Scope: the MIT License above covers everything in this repository that
+Matt Gilbert wrote: the site code, the scripts, the docs, and the vault
+content (vault/**/*.md), including the notes, templates and bibliographies.
+
+Not covered, because it is not ours to relicense:
+
+- public/fonts/: Literata and EB Garamond, each under the SIL Open Font
+  License 1.1. See public/fonts/OFL-literata.txt and OFL-eb-garamond.txt.
+- vault/assets/: images are public domain or third-party licensed. Each
+  one's source and license are cited in the bibliography of the node that
+  embeds it, and that license governs the image.
+- Quoted passages from other works stay under their own terms. Short
+  quotations appear with citation.
