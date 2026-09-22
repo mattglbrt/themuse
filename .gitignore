@@ -19,3 +19,8 @@ vault/.obsidian/cache
 vault/.obsidian/plugins/*/data.json
 .trash/
 vault/.trash/
+
+# Source library: downloaded documents stay local. research/sources/*.json and
+# research/SOURCES.md are committed; `npm run sources` fetches the files again.
+vault/sources/*
+!vault/sources/.gitkeep

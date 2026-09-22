@@ -6,8 +6,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "astro dev",
+    "dev:drafts": "node scripts/with-drafts.mjs dev",
     "validate": "node scripts/validate.mjs",
+    "sources": "node scripts/fetch-sources.mjs",
     "build": "node scripts/validate.mjs && astro build",
+    "build:drafts": "node scripts/validate.mjs && node scripts/with-drafts.mjs build",
     "preview": "astro preview"
   },
   "dependencies": {
