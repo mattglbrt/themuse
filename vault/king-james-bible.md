@@ -1,14 +1,222 @@
 ---
 title: King James Bible
 type: book
-author:
-year:
-era: ""
-original-language:
-status: seed
-tags: []
+author: "The six translation companies (Westminster, Oxford, and Cambridge)"
+year: 1611
+era: "1604–1611"
+original-language: English
+status: researched
+reviewed: false
+tags: [english-bible, kjv, apocrypha, node-one]
 episode:
-read-online: []
+read-online:
+  - https://archive.org/details/bim_early-english-books-1475-1640_the-holy-bible-conteyni_bible-english_1611
+  - https://archive.org/details/authorizedversio03wrig
+  - https://archive.org/details/recordsofenglish00polluoft
+  - https://archive.org/details/authorizedbible00scriuoft
 ---
 
-Node one. The most familiar text in the Western canon, and the place most Westerners first touch the occult without knowing it. The king whose name it carries, [[james-i]], also wrote his own treatise on witchcraft, the [[daemonologie]]. Every trail out starts here.
+The King James Bible is the English translation "Imprinted at London by Robert Barker, Printer to the Kings most Excellent Maiestie. Anno Dom. 1611," made by six companies of scholars after [[james-i|James I]] took up a proposal for a new translation at the [[hampton-court-conference|Hampton Court Conference]] of 1604. The Muse starts here because it's the familiar one. David Crystal counted 257 idioms in current English that trace back to it. Read closely, though, the familiar book keeps pointing somewhere less familiar. Its king wrote his own treatise on witchcraft. Its first printing carried a whole section of Apocrypha that printers were leaving out within twenty years. And it was made while, in Brian Copenhaver's words, learned magic was still "at the center of cultural attention" for Europe's philosophers. Every trail on this site starts from something you already know and follows the documented connections out. This is where they start.
+
+## Historical Context
+
+**The petition.** On his way to London after his accession, James was handed the [[millenary-petition|Millenary Petition]]. Its editors, Gee and Hardy (1896), date it April 1603. The petitioners describe themselves as "we, to the number of more than a thousand of your majesty's subjects and ministers, all groaning as under a common burden of human rites and ceremonies." The real number of signatures was already argued over by 1896. Their requests cover church services, ministers, livings, and discipline, and the petition offers to have the matters "by conference among the learned to be resolved." In Roger Lockyer's summary, "James responded by summoning the Hampton Court conference."
+
+**Hampton Court.** The conference met on 14, 16, and 18 January 1604. Its main record is William Barlow's *The Summe and Substance of the Conference* (London, 1604), whose title dates it "Ianuary 14. 1603," an Old Style year. The four puritan "Plaintiffes" were called in on the second day, with "D. Reynalds the Foreman." That is [[john-rainolds|John Rainolds]], and Barlow records him proposing the new Bible:
+
+> "After that, he moued his Maiestie, that there might bee a newe translation of the Bible, because, those which were allowed in the raignes of Henrie the eight, and Edward the sixt, were corrupt and not aunswerable to the truth of the Originall." (Barlow 1604, EEBO-TCP A04434)
+
+[[richard-bancroft|Richard Bancroft]], then Bishop of London, answered "that if euery mans humour should be followed, there would be no ende of translating." James went the other way:
+
+> "VVhereupon his Highnesse wished, that some especiall paines should be taken in that behalfe for one vniforme translation (professing that hee could neuer, yet, see a Bible well translated in English; but the worst of all, his Maiestie thought the Geneua to bee)" (Barlow 1604)
+
+The work was "to bee done by the best learned in both the Vniuersities, after them to bee reuiewed by the Bishops, and the chiefe learned of the Church; from them to bee presented to the Priuie-Councell; and lastly to bee ratified by his Royall authoritie." Then came the rule that shaped the whole book: "Marry, withall, hee gaue this caueat (vpon a word cast out by my Lord of London) that no marginall notes should be added." So the man who opposed the translation prompted its best-known rule.
+
+**The Geneva notes.** James explained the ban by pointing at the [[geneva-bible|Geneva Bible]]. According to Barlow, he had found in its notes, "which he sawe in a Bible giuen him by an English Lady," "some notes very partiall, vntrue, seditious, and sauouring too much, of daungerous, and trayterous conceites." He gave two examples: "Exod. 1. 19. where the marginall note alloweth disobedience to Kings. And 2. Chron. 15. 16. the note taxeth Asa for deposing his mother, onely, and not killing her."
+
+It helps to know what James had already written. In [[trew-law-of-free-monarchies|The Trew Law of Free Monarchies]] (1598) he argued that "a wicked king is sent by God for a curse to his people, and a plague for their sinnes: but that it is lawfull to them to shake off that curse at their owne hand, which God hath laid on them, that I deny." Setting that beside the notes he objected to is an inference. Barlow doesn't make the connection. Whether the notes really were seditious is **Contested**. Tom Furniss (2009) grants that the Geneva Bible "has been considered by many as a revolutionary or seditious text, especially because of the numerous explanatory notes," but argues "its politics are undecidable": some notes "encourage a revolutionary response to tyrants," while "many others... recommend obedience or passive resistance." What's established is that James *called* them seditious.
+
+Barlow's account is itself disputed. William Craig reports that Mark Curtis (1961) called *The Summe and Substance* "a skilful piece of party propaganda," mostly on points where it differs from an anonymous record known as the Harleian account. Everything above is James as Barlow printed him, not a transcript.
+
+The translators told the story less kindly in their own preface of 1611. They say the conference was called "upon the importunate petitions of the Puritanes," that the puritans fell back on attacking "a most corrupted translation," and "yet even hereupon did his Majestie beginne to bethinke himselfe of the good that might ensue by a new translation."
+
+**Commissioning.** By a letter of 22 July 1604 the king spoke of "certain learned men to the number of four and fifty for the translating of the Bible" (Pollard 1911). Bancroft, who became Archbishop of Canterbury that year, sent out the lists of company members in summer 1604 and a circular to the other bishops on 31 July. Cambridge University Library says he "presided over the companies of translators."
+
+**The learned world around it.** The translation belongs to a period when, as Copenhaver puts it, magic had "enjoyed a remarkable rebirth, acquiring the energy that kept it at the center of cultural attention for nearly two hundred years, as great philosophers and prominent naturalists tried to understand or confirm or reject it" (*Cambridge History of Science*, 2006). That's a Europe-wide statement about learned magic in general. In England itself, two figures were active in these years:
+
+- **[[john-dee|John Dee]].** On 5 June 1604, at Greenwich, Dee presented James with a petition. The DNB describes it as "praying that he might be tried and cleared of the horrible slander that he was, or had been, a 'conjurer, or caller, or invocator of divels,'" (DNB). No answer from the king is recorded. The DNB also says the king, "having received information from the Earl of Salisbury as to the nature of Dee's studies, refused to grant the prayer of the petition," but that is **Contested**: the story goes back to Thomas Smith's hedged Latin life of Dee (1707), and Robert Cecil wasn't Earl of Salisbury until 4 May 1605 (DNB, "Cecil, Robert").
+- **[[robert-fludd|Robert Fludd]].** Fludd, a physician, became a fellow of the College of Physicians on 20 September 1609. In 1616 and 1617 he published defences of the Rosicrucian fraternity at Leiden, and he addressed a manuscript *Declaratio breuis* to James I (DNB).
+
+The documented bridge from the translators to this world runs through one friendship. [[isaac-casaubon|Isaac Casaubon]], "the greatest Hellenist of his age," moved from Paris to London in October 1610 at James's invitation (Zetzel, BMCR 2019). The DNB says: "His special friend was Lancelot Andrewes, then bishop of Ely. Andrewes, more than any other man, had been instrumental in bringing him to England." [[lancelot-andrewes|Andrewes]] headed the first Westminster company of translators. [[andrew-downes|Andrew Downes]], of the second Cambridge company, wrote Greek letters to Casaubon that survive in the British Library.
+
+**What the record doesn't show.** The research behind this page looked for a documented link between any KJV translator and Hermetic or Christian Cabalist learning and found none. The sources checked were the DNB articles on Andrewes, Rainolds, and [[edward-lively|Edward Lively]], Cambridge University Library's 2011 exhibition captions, and the 1611 preface. The preface does say the translators consulted "the Translators or Commentators, Chaldee, Hebrewe, Syrian, Greeke, or Latine, no nor the Spanish, French, Italian, or Dutch." That's language scholarship, not Cabala. Only three of the roughly fifty translators were checked, so this is an absence in the sources so far, not proof. The page doesn't claim the translators drew on Hermetic or Cabalist learning, because nothing found says they did.
+
+The bigger idea of a Renaissance "Hermetic tradition" is contested too. Wouter Hanegraaff (2015) argues that the common picture, which rests largely on Kristeller and [[frances-yates|Frances Yates]], needs revising, and that "we seem to be dealing with a discourse about Hermes, but hardly a "tradition"." See [[yates-thesis]].
+
+## The Document
+
+**Six companies.** The translators worked in "Six companies of divines and scholars... two each in Westminster, Oxford and Cambridge. Each was allocated a different portion of the Bible to translate" (Cambridge University Library, 2011). The English delegates to the Synod of Dort told the same story in 1618: "Totum corpus Bibliorum in sex partes fuit distributum" (Samuel Ward's account, printed in Westcott 1905). The standard list of who did what is the one Bishop Burnet printed "Ex MS. D. Borlase," which Pollard (1911) calls "the most trustworthy." By that list:
+
+- **Westminster, first company (Hebrew):** Genesis through 2 Kings. First name: the Dean of Westminster, Lancelot Andrewes.
+- **Cambridge, first company (Hebrew):** 1 Chronicles through the histories, then Job, Psalms, Proverbs, Song of Songs, and Ecclesiastes. First name: Edward Lively, Professor of Hebrew, whose death in May 1605 Pollard calls "a great blow to the work."
+- **Oxford, first company (Hebrew):** the major prophets with Lamentations, and the twelve minor prophets. First name: John Harding, Regius Professor of Hebrew.
+- **Oxford, second company (Greek):** the Gospels, Acts, and Revelation. First name: the Dean of Christ Church, Thomas Ravis.
+- **Westminster, second company (Greek):** the Epistles. First name: the Dean of Chester, [[william-barlow|William Barlow]], the same man who wrote up Hampton Court.
+- **Cambridge, second company:** "The Prayer of Manasses and the rest of the Apocrypha." First name: John Duport.
+
+Only Andrewes's leadership has an independent second source. The others are read from list order and Rule 13, which makes "the Deans of Westminster and Chester" and "the King's Professors in the Hebrew or Greek" the directors. The king's letter asked for fifty-four men, but "Only about fifty names in all have come down to us, and only forty-seven in any one list" (Pollard 1911).
+
+**The rules.** Fifteen rules survive through Burnet. Burnet heads them "An Order set down for the Translating of the Bible, by King James," and Westcott (1905) says they were drawn up "probably under the direction of Bancroft," so "Bancroft's rules" is a probable attribution. Rule 1 set the base text: "The ordinary Bible read in the Church, commonly called the Bishops Bible, to be followed, and as little altered as the Truth of the original will permit." Rule 3 kept the old church words: "the Word Church not to be translated Congregation." Rule 6 turned James's caveat into policy: "No Marginal Notes at all to be affixed, but only for the Explanation of the Hebrew or Greek Words, which cannot without some circumlocution, so briefly and fitly be express'd in the Text." Rule 14 named the older translations to check against. As Cambridge University Library puts it, "The Bishops' Bible was to be the base text, with Tyndale's, Matthew's and Coverdale's Bibles, the Great Bible and the Geneva Bible used to correct it when necessary."
+
+**The base text.** According to the Bodleian, "forty unbound copies of the 1602 edition of the Bishops' Bible were distributed to the translators to serve as the basis for their translation." One marked-up set survives there as Arch. A b.18, and its annotations "reflect the work-in-progress of four of the six translating companies." See [[bishops-bible]].
+
+**Review.** The accounts disagree on how many men did the final review. John Bois's early biography says six, "two out of every company"; the Dort report says twelve ("duodecim selecti viri"). That number is **Contested**. The Dort report and Pollard agree that "the final touches to the translation were given by Bilson, Bishop of Winchester, and Miles Smith." Anthony Walker's *Life of Bois* says the revisers "went dayly to Stationers Hall, & in three quarters of a year, finished their task," and that of all of them Bois, "he & he only, took notes of their proceedings." Those notes survive in Corpus Christi College, Oxford, MS 312 (Allen 1969).
+
+**The 1611 printing.** The title page calls the book "The Holy Bible, conteyning the Old Testament and the New" and adds "Appointed to be read in Churches" (Pollard's transcription). The printer was [[robert-barker|Robert Barker]], and the book is a folio. Nobody knows the month it appeared. Pollard: it "was not entered on the Stationers' Registers, nor have we any information as to the month in which it was issued." The engraved title page is signed by Cornelis Boel and shows "all twelve Apostles plus Moses, Aaron and the Holy Trinity (but not King James)" (Cambridge University Library). After the title come the dedication to James, the preface "The Translators to the Reader," and a calendar. The preface is unsigned. Pollard and Westcott both attribute it to [[miles-smith|Miles Smith]]. See [[translators-to-the-reader]].
+
+What Barker spent is **Contested**. Cambridge University Library estimates £3,000. Pollard cites a 1651 statement that Barker paid £3,500 "for the amended or corrected Translation," and says "we have really no sound basis even for guessing how the £3,500 was paid."
+
+**He and She.** Two issues are dated 1611, and they differ "in so many minute particulars" (Scrivener 1884). The best known is Ruth 3:15. The first issue, the "He Bible," reads "he went into the citie." The second 1611 issue and later editions read "she went," which gives the "She Bible" its name (Newberry Library). There's a twist. The received Hebrew text has the masculine form too, so as Lindsey Askin puts it, "If the KJV had gone strictly on Bomberg's (as today's) Hebrew text, they would not have needed to correct this verse at all." Whether to call "he" an error is **Contested**.
+
+**The Wicked Bible.** In 1631 an octavo printed by "Robert Barker and the assigns of John Bill" set the seventh commandment as "Thou shalt commit adultery" (Princeton Handlist, 2004). Scrivener names the King's Printers Robert Barker and Martin Lucas and says "the real fine was £300, to be expended on a fount of fair Greek type," imposed in the High Commission. A Princeton exhibit label instead gives the popular version, that "It is said" the printers "were called before the Star Chamber." Which court, whether the fine was paid, and how many copies survive are all **Contested**. See [[wicked-bible]].
+
+**The standard text.** Cambridge printed a revised edition in 1762 ("Printed by Joseph Bentham, Printer to the University. Sold by Benjamin Dod"), edited by F. S. Parris (Scrivener spells him Paris). Oxford followed in 1769 ("Printed by T. Wright and W. Gill, Printers to the University"), edited by [[benjamin-blayney|Benjamin Blayney]] for the Clarendon Press. P. J. Williams describes "an almost complete standardisation of the text between 1762 and 1769," and the publisher's description of David Norton's textual history says the KJV changed "in the hands of printers and editors until, in 1769, it became the text we know today." Blayney was made Regius Professor of Hebrew in 1787, eighteen years after his edition. Scrivener thought Parris's 1762 edition "has contributed more" to modern Bibles than Blayney's, though it is "almost unknown."
+
+**In the language.** David Crystal's *Begat* (Oxford UP, 2010) counts 257 idioms in modern English that come from the KJV. His method, as he told NPR: "I went through it and looked for every instance of an expression that I thought was current in modern English." He adds there's "no magic in that figure." Michael Quinion's review notes that "in only 18 cases is the exact form found in the KJV; in the rest, the ultimate source is an earlier translation, or in a few cases the common stock of English expressions that predates Biblical translations."
+
+**How the Apocrypha dropped out.** The 1611 Bible printed the Apocrypha in full (see Contents). It didn't stay there. C. R. Rivington's 1883 paper on the Stationers' Company records reports that in 1615 the Archbishop of Canterbury "directed public notice to be given that no bibles were to be bound up and sold without the apocrypha on pain of a whole year's imprisonment." That order was about binding and selling, not printing. Rivington doesn't name him. The archbishop in 1615 was George Abbot, nominated to Canterbury in March 1611, and Scrivener names him. The Stationers' Company court record behind Rivington's sentence hasn't been checked yet.
+
+The printers ignored it fairly soon. Scrivener describes a London quarto of 1629, "Imprinted at London by Bonham Norton and John Bill," that "does not contain the Apocrypha," even though "APO-" still stands as a catchword "below the tail-piece at the end of Malachi." That isn't claimed as the first Bible without it, only an early one.
+
+The big institutional step came much later, and it came from the British and Foreign Bible Society. On 21 November 1825 its General Committee resolved "That the fundamental law of the Society, which limits its opeiations to the circulation of the Holy Scriptures, be fully and distinctly recognised as excluding the circulation of the Apocrypha" (Canton 1904; "opeiations" is the OCR's). A second resolution cut off money to "any Society circulating the Apocrypha." Regulations built on it were "adopted at the annual general meetings in 1826 and 1827," which is where the often-quoted 1826 date comes from. The fight was over foreign auxiliary societies that circulated Bibles with the Apocrypha, and Canton notes "the whole force of Scottish Presbyterianism was ranged against the resolution." Canton is the Society's own official history.
+
+## Contents
+
+**Three parts.** The 1611 contents table runs Old Testament, then "Bookes [c]alled Apocrypha" (the OCR drops the "c"), then "The Bookes of the New Testament." In the 1611 volume Malachi ends, 1 Esdras begins, and the pages carry the running head "Apocrypha" through 2 Maccabees until the New Testament title page (1611 facsimile, archive.org). The Apocrypha books listed are 1 and 2 Esdras, Tobit, Judith, the rest of Esther, Wisdom, Ecclesiasticus, Baruch with the Epistle of Jeremiah, the Song of the Three Children, Susanna, Bel and the Dragon, the Prayer of Manasses, and 1 and 2 Maccabees.
+
+**The Apocrypha's status.** The Church of England's Article VI, confirmed by Convocation in 1571, lists these books and says "the Church doth read for example of life and instruction of manners; but yet doth it not apply them to establish any doctrine." So the Church read them, but not for doctrine.
+
+**The Apocrypha's translators.** The second Cambridge company did the Apocrypha. John Selden's *Table-Talk* says "That part of the Bible was given to him who was most excellent in such a tongue (as the Apocrypha to Andrew Downs)," and Bois's biographer says "part of the Apocrypha was alotted to him." Scrivener (1884) says they worked from printed Greek Bibles: the Aldine of 1518, the Complutensian, and "the Roman Septuagint of 1586." 2 Esdras "exists only in the common Latin version," so it came from Latin, and so did the Prayer of Manasses, "for the Greek was first published in Walton's Polyglott (1657)." Scrivener didn't think much of the result: "little favourable can be said." He adds that the company "was the earliest party to complete its share."
+
+**What the rest was translated from.** The preface is direct: "If you aske what they had before them, truely it was the Hebrew text of the Olde Testament, the Greeke of the New." It is also frank about the Greek Old Testament, the [[septuagint|Septuagint]]: "The translation of the Seventie dissenteth from the Originall in many places, neither doeth it come neere it, for perspicuitie."
+
+The Greek New Testament behind the KJV goes back to [[erasmus|Erasmus]], whose first edition was printed at Basel in 1516. Stephanus's edition of 1550 "was the first to have a critical apparatus" and "became the accepted form of the TR, especially in England" (Combs 1996). Beza's editions followed between 1565 and 1604. Scrivener (1881) judged that "Beza's fifth and last text of 1598 was more likely than any other to be in the hands of King James's revisers," and counted "about 190" places where the KJV departs from it. The name [[textus-receptus|Textus Receptus]] comes from the preface of the Elzevirs' 1633 edition, "Textum ergo habes, nunc ab omnibus receptum," and was applied after the fact to all the earlier editions back to Erasmus.
+
+The Latin [[latin-vulgate|Vulgate]] got in by side doors. Erasmus's only manuscript of Revelation was missing its last six verses, so "Erasmus retranslated these verses from the Latin Vulgate, and he honestly admitted in the Annotationes that he had done so" (Combs 1996). Scrivener notes that "in some places the Authorised version corresponds but loosely with any form of the Greek original, while it exactly follows the Latin Vulgate." And James Carleton (1902) argued that the KJV New Testament's debt "to Roman Catholic Rheims is hardly inferior to her debt to puritan Geneva." See [[douay-rheims]].
+
+Much of the English wording goes back to [[william-tyndale|William Tyndale]]. How much is disputed (see below).
+
+**What the translators said they were doing.** "Truly (good Christian Reader) wee never thought from the beginning, that we should neede to make a new Translation, nor yet to make of a bad one a good one ... but to make a good one better, or out of many good ones, one principall good one" (preface, Wikisource transcription of the 1611 text). On the time it took: "the worke hath not bene hudled up in 72. dayes, but hath cost the workemen, as light as it seemeth, the paines of twise seven times seventie two dayes and more." Westcott works that out as "about two years and nine months."
+
+## Claims & Disputes
+
+**Contested: how much of it is Tyndale's.** Published estimates run from 18% (Butterworth, 1941) to "up to 90 per cent" (Westcott, as Nielson and Skousen cite him). The best-documented figure is Nielson and Skousen (1998), who from 18 sampled passages put Tyndale at "about 84 per cent" of the New Testament and "about 76 per cent" of the Old Testament portions he translated. Other counts disagree. The figures, who made them, and how are laid out on [[william-tyndale]].
+
+**Speculation: Shakespeare hid his name in Psalm 46.** The claim, as Paul Franssen states it: "in this forty−sixth Psalm the forty−sixth word from the beginning should be 'shake,' the forty−sixth word from the end 'speare'". Anthony Burgess tied it to the translation date: "Shakespeare was forty−six in 1610, the year before the 'King James' Bible came out." Shakespeare was baptized on 26 April 1564 (Folger), so he was 46 from about April 1610 to April 1611.
+
+The count is real, but only if you make two choices. In the 1611 text (checked against Wright's 1909 reprint), Psalm 46 opens with a heading: "To the chiefe Musician for the sonnes of Korah, a song vpon Alamoth." If you skip the heading, "shake" in verse 3 is the 46th word. Counting back from the end, "speare" in verse 9 is the 46th word only if you skip the closing "Selah" of verse 11. Count the Selah and it's the 47th. (These counts ignore punctuation and count "&" as a word; anyone can redo them.)
+
+The words weren't new in 1611, either. The [[bishops-bible|Bishops' Bible]] of 1568, the text the translators were told to follow, already has "though the mountaynes shake" and "the speare in sunder," at positions Franssen gives as "forty−seventh" and "forty−eighth counting from the end." Franssen notes that "already in Coverdale's translation we find the corresponding words to be 'shoke' and 'speare,'" and that in the Geneva Bible "the forty−seventh word is 'shake,' the forty−fourth word from the end is 'speare.'"
+
+Where the idea came from: the earliest printed version Franssen found is Burgess's Shakespeare biography (1970), and Burgess used it again in his novel *Enderby's Dark Lady* (1984). William Harmon, who floated it as a tentative suggestion in *Connotations*, says: "I cannot remember when, where, or how I first heard about Psalm 46." Franssen's verdict: "In the absence of the least shred of corroborative evidence, Shakespeare's involvement in or authorship of part of the Authorized Version seems extremely unlikely."
+
+**Speculation: Francis Bacon secretly edited it.** The earliest version found is William T. Smedley, *The Mystery of Francis Bacon* (London, 1912): "It will eventually be proved that the whole scheme of the Authorised Version of the Bible was Francis Bacon's." To be fair to it, Smedley's case has two strands. First, missing records: "It was carried out under the personal supervision of the King, but every record of the proceedings has disappeared." Second, a report he doesn't source: "In i6og the translators handed their work to the King, and in 1610 he returned it to them completed" ("i6og" is the OCR's reading of 1609). Manly P. Hall's *The Secret Teachings of All Ages* (1928) repeats it: "King James turned over to him the translators' manuscripts of what is now known as the King James Bible for the presumable purpose of checking, editing, and revising them." Hall quotes Smedley, so the two aren't independent. The idea is still around: a 2019 video archived on archive.org is titled "King James Bible Final Edit and ReWrite by Freemason Founder, SIR Francis Bacon."
+
+What the record shows. The records hadn't disappeared. Pollard's *Records of the English Bible*, published in 1911, a year before Smedley, prints a list of the translators, the rules, a reviser's contemporary account, and the payments. That account is Anthony Walker's *Life of Bois*, which puts the final revision at Stationers' Hall over "three quarters of a year," with Bois taking notes. Bois's notes survive. Ward Allen, who edited them, dates them to 1610–11 and concludes "the company of revisers must, to all intents and purposes, have been solely responsible for the composition of the final version." Allen doesn't discuss Bacon, but his finding leaves no room for a year in someone else's hands. No source found puts Bacon anywhere in the record.
+
+**Established: it was never formally "authorized."** The 1611 title page says "Appointed to be read in Churches." It doesn't use the word "authorized." Pollard (1911): "no authority has ever been discovered for the words 'Appointed to be read in Churches' which appear on the title-page of all editions, nor for the phrase, the 'Authorized Version'." Westcott (1905): "no evidence has yet been produced to shew that the version was ever publicly sanctioned by Convocation or by Parliament, or by the Privy Council, or by the king."
+
+The other side had a real argument. Lord Selborne held that "Nothing in my opinion, is less likely than that the King's printer should have taken upon himself … to issue the book … with a title-page asserting that it was 'Appointed to be read in Churches ' if the fact were not really so," and suggested an Order in Council, noting that the Council's books "from the year 1600 to 1613 inclusive were destroyed by a fire." Pollard's reply: the Bishops' Bibles of 1585 to 1602 already carried a stronger wording, authorised and appointed, and "As far as I know it has never been contended that there was any Order in Council passed in 1584 or 1585 to justify this, and it seems therefore far from safe to postulate the existence of such an Order in 1611." He reads "Appointed" on its own as meaning little more than assigned or provided (paraphrased). He also finds "no tittle of evidence for any Order in Council having enjoined parishes to buy copies." The churches came round to it by other means: Westcott points to Laud's Visitation Articles of 1622 and 1628, which required "the whole Bible of the largest volume and latest edition" in churches.
+
+## Where the Muse Leads
+
+- [[james-i]]: the king whose name it carries, who called for "one vniforme translation" and banned the notes.
+- [[hampton-court-conference]]: where the idea was proposed, almost in passing, in January 1604.
+- [[millenary-petition]]: the puritan petition that got the conference called.
+- [[summe-and-substance-of-the-conference]]: Barlow's partisan record, and the main source for what James said.
+- [[john-rainolds]]: the puritan "Foreman" who moved for a new translation.
+- [[richard-bancroft]]: opposed the translation, prompted its no-notes rule, then ran it.
+- [[geneva-bible]]: the Bible James called "the worst of all," and one the translators were still allowed to check against.
+- [[trew-law-of-free-monarchies]]: James's own theory of kingship, which helps explain why the Geneva notes bothered him.
+- [[bishops-bible]]: the base text, by Rule 1 "as little altered as the Truth of the original will permit."
+- [[william-tyndale]]: the translator whose English runs underneath the whole thing, by an amount still argued over.
+- [[erasmus]]: his 1516 Greek New Testament starts the line the KJV New Testament stands on.
+- [[textus-receptus]]: the "received text," a label from a 1633 preface applied backwards.
+- [[translators-to-the-reader]]: the translators' own account of what they were doing and why.
+- [[miles-smith]]: gave the final touches and probably wrote the preface.
+- [[lancelot-andrewes]]: headed the first Westminster company and brought Casaubon to England.
+- [[isaac-casaubon]]: the scholar Andrewes befriended, the documented bridge from the translators to the learned world the next trail follows.
+- [[andrew-downes]]: an Apocrypha translator who wrote to Casaubon in Greek.
+- [[robert-barker]]: printed the 1611 folio, and was fined about twenty years later over the Wicked Bible.
+- [[wicked-bible]]: the 1631 edition that told readers "Thou shalt commit adultery."
+- [[benjamin-blayney]]: edited the 1769 Oxford text most readers actually have.
+- [[daemonologie]]: the same king's treatise on witchcraft, printed in 1597 and reissued in London in 1603, the year he took the English throne.
+- [[john-dee]]: asked James in 1604 to clear him of being a "conjurer," and got no recorded answer.
+- [[robert-fludd]]: a London physician who defended the Rosicrucians in print and addressed a defence of them to James.
+- [[hermeticism]]: the learned tradition the next trail follows, and one whose very existence as a "tradition" is now argued over.
+
+## Bibliography
+
+**The 1611 text**
+- *The Holy Bible, Conteyning the Old Testament, and the New* (London: Robert Barker, 1611), Early English Books 1475–1640 microfilm, archive.org item bim_early-english-books-1475-1640_the-holy-bible-conteyni_bible-english_1611: contents leaf (scan image 21), Apocrypha running heads (images 962–1168), New Testament title (image 1174); read through OCR. Free: https://archive.org/details/bim_early-english-books-1475-1640_the-holy-bible-conteyni_bible-english_1611
+- William Aldis Wright (ed.), *The Authorized Version of the English Bible 1611*, vol. 3 (Cambridge: University Press, 1909), Psalm 46 (archive.org leaf 116). Free: https://archive.org/details/authorizedversio03wrig
+- *Bible (King James Version, 1611)*, title page and "The Translators to the Reader," Wikisource transcriptions from the 1611 scan (Index:BibleKJV1611-001.pdf). Free to read: https://en.wikisource.org/wiki/Bible_(King_James_Version,_1611) ; https://en.wikisource.org/wiki/Bible_(King_James_Version,_1611)/Translators_to_the_Reader
+- *King James Bible 1611*, Psalm 46, transcription at textusreceptusbibles.com (a devotional parallel-text site, trusted here only where Wright 1909 confirms it): https://textusreceptusbibles.com/KJV1611/19/46 ; Bishops' Bible 1568, Psalm 46: https://textusreceptusbibles.com/Bishops/19/46
+
+**Records and older scholarship (all free)**
+- A. W. Pollard (ed.), *Records of the English Bible* (London: Henry Frowde / Oxford University Press, 1911), Introduction: translator list, rules, and notes (reprinting Burnet, *History of the Reformation*, 4th ed., 1715, Part II, p. 333 ff.), archive.org leaves 63–70, 72–73, 76–77 of recordsofenglish00polluoft; title page, Selborne, and "authorized" discussion, index, and Walker's *Life of Bois*, leaves 71, 74, 77–78, 80, 83, 395 of in.ernet.dli.2015.89049. Leaf numbers are scan indexes, not printed pages. Free: https://archive.org/details/recordsofenglish00polluoft ; https://archive.org/details/in.ernet.dli.2015.89049
+- B. F. Westcott, *A General View of the History of the English Bible*, 3rd ed. rev. W. Aldis Wright (London: Macmillan, 1905): rules, leaves 135 and 137; Appendix XIII (Samuel Ward's report to the Synod of Dort, from *Acta Synodi Nationalis ... Dordrechtanae*, 1620), leaves 372–373 of generalviewofhis00westrich; "Appointed" and Laud, leaf 147 of generalviewofhis1905west. Free: https://archive.org/details/generalviewofhis00westrich ; https://archive.org/details/generalviewofhis1905west
+- F. H. A. Scrivener, *The Authorized Edition of the English Bible (1611), its Subsequent Reprints and Modern Representatives* (Cambridge: University Press, 1884): the two 1611 issues and folio (leaf 17); the 1629 quarto and Abbot footnote (p. 19 and n., inferred); Apocrypha source texts (p. 47, inferred) and verdict (p. 140, inferred); Wicked Bible fine (p. 25 n.); 1762 and 1769 editions and Parris (p. 29). Free: https://archive.org/details/authorizedbible00scriuoft ; https://archive.org/stream/cu31924029268708/cu31924029268708_djvu.txt
+- F. H. A. Scrivener (ed.), *The New Testament in the Original Greek according to the Text Followed in the Authorised Version* (Cambridge University Press, 1881), Preface, as transcribed at https://biblia.com/books/scrmorph/article/FRONT.1?ssi=0 and https://kjbhistory.com/the-preface-to-the-greek-tr-of-f-h-a-scrivener/
+- C. R. Rivington, *The Records of the Worshipful Company of Stationers* [a paper] (1883), scan images 32–33. Free: https://archive.org/details/recordsworshipf00rivigoog
+- William Canton, *A History of the British and Foreign Bible Society*, vol. 1 (London: John Murray, 1904), ch. XVII "The Apocrypha Controversy" (scan images 37, 369–376). Free: https://archive.org/details/historyofbritish0001cant
+- James G. Carleton, *The Part of Rheims in the Making of the English Bible* (Oxford: Clarendon Press, 1902). Free: https://archive.org/details/thepartofrheimsi00careuoft
+
+**Hampton Court and the Geneva notes**
+- William Barlow, *The Summe and Substance of the Conference ... at Hampton Court, Ianuary 14. 1603* (London: John Windet for Mathew Law, 1604), EEBO-TCP A04434. Free: https://raw.githubusercontent.com/textcreationpartnership/A04434/master/A04434.xml ; 1804 reprint, free: https://archive.org/stream/summesubstanceof00barl/summesubstanceof00barl_djvu.txt
+- Henry Gee and William John Hardy (eds.), *Documents Illustrative of English Church History* (New York: Macmillan, 1896), pp. 508–11 (the Millenary Petition, transcribed from Fuller, 1655), Hanover Historical Texts Project: https://history.hanover.edu/texts/engref/er88.html
+- "Hampton Court Conference," encyclopedia article at CCEL (apparently the *New Schaff-Herzog Encyclopedia*, vol. 5): https://www.ccel.org/s/schaff/encyc/encyc05/htm/ii.iv.iii.htm
+- Roger Lockyer, "millenary petition," *The Oxford Companion to British History*, via Encyclopedia.com: https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/millenary-petition
+- James VI and I, *The Trew Law of Free Monarchies* (1598), in C. H. McIlwain (ed.), *The Political Works of James I* (Harvard University Press, 1918), Perseus Digital Library. Free: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.03.0071:section%3D4:subsection%3D2
+- Tom Furniss, "Reading the Geneva Bible: notes toward an English revolution?", *Prose Studies* 31.1 (2009): 1–21 (abstract): https://strathprints.strath.ac.uk/18607/
+- William Craig, "An Introduction to William Barlow's *The Summe and Substance of the Conference*, 4" (blog, 2008): https://thehamptoncourtconference1604.blogspot.com/2008/09/introduction-to-william-barlows-summe_23.html
+- J. B. Mullinger, "Bancroft, Richard," *Dictionary of National Biography* (1885–1900), vol. 3, Wikisource. Free: https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Bancroft,_Richard
+
+**Making, copies, and afterlife**
+- Cambridge University Library, *Great and Manifold Blessings: The Making of the King James Bible*, exhibition captions (2011): https://wwwe.lib.cam.ac.uk/CUL/exhibitions/KJV/captions.html
+- Bodleian Libraries, Arch. A b.18 (Bishops' Bible, London: Robert Barker, 1602, with the translators' annotations), IIIF manifest, catalogue and exhibition caption: https://iiif.bodleian.ox.ac.uk/iiif/manifest/8f45d791-61c5-42f2-9ce3-a27ee8ac7e90.json
+- Ward Allen, *Translating for King James* (Nashville: Vanderbilt University Press, 1969), archive.org leaves 0, 1, 16: https://archive.org/details/translating-for-king-james
+- Newberry Library, *Printed English Bibles through the Authorized King James Version (1611)*, holdings list, entry "Case oversize C 223 .613": https://www.newberry.org/uploads/files/PrintedEnglishBibles.pdf
+- Lindsey Askin, "Queens' College Old Library's copy of the 1611 King James Bible and the mystery of Ruth 3:15," Queens' College Old Library blog, 14 November 2012: https://queenslib.wordpress.com/2012/11/14/queens-college-old-librarys-copy-of-the-1611-king-james-bible-and-the-mystery-of-ruth-315/
+- Princeton University Library, *The Bible in English: Before and After the Hampton Court Conference, 1604*, Handlist of Exhibits (2004), labels by Paul Needham: https://library.princeton.edu/sites/g/files/toruqf6021/files/documents/Bible_in_English_2004.pdf
+- Henry Bradley, "Blayney, Benjamin," *Dictionary of National Biography* (1885–1900), vol. 5, Wikisource. Free: https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Blayney,_Benjamin
+- David Norton, *A Textual History of the King James Bible* (Cambridge University Press, 2005), publisher's description: https://www.cambridge.org/core/product/identifier/9780511488115/type/book
+- P. J. Williams, review of Norton, *Themelios* 31.1: https://www.thegospelcoalition.org/themelios/review/a-textual-history-of-the-king-james-bible-and-the-new-cambridge-paragraph-bible-hardback-set/
+- David Crystal, *Begat: The King James Bible and the English Language* (Oxford University Press, 2010), ISBN 978-0-19-958585-4, as reported in: "How The King James Bible 'Begat' English Idioms," NPR, 22 December 2010 (Alabama Public Radio mirror), https://www.apr.org/arts-life/2010-12-22/how-the-king-james-bible-begat-english-idioms ; Michael Quinion, review, World Wide Words, 27 November 2010, https://www.worldwidewords.org/re-beg1.html
+- Sidney Lee, "Abbot, George (1562–1633)," *Dictionary of National Biography*, vol. 1 (1885), Wikisource. Free: https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Abbot,_George_(1562-1633)
+- Articles of Religion, Art. VI and ratification, *The Book of Common Prayer* (1863 printing), Wikisource. Free: https://en.wikisource.org/wiki/Thirty-Nine_Articles_of_Religion
+
+**Text lineage**
+- Jon Nielson and Royal Skousen, "How Much of the King James Bible Is William Tyndale's? An Estimation Based on Sampling," *Reformation* 3.1 (1998): 49–74, DOI 10.1179/ref_1998_3_1_004 (abstract via OpenAlex): https://api.openalex.org/works/doi:10.1179/ref_1998_3_1_004?select=abstract_inverted_index
+- William W. Combs, "Erasmus and the Textus Receptus," *Detroit Baptist Seminary Journal* 1 (Spring 1996): 35–53: https://dbts.edu/wp-content/uploads/1996/10/Erasmus-and-the-Textus-Receptus-Combs.pdf
+
+**The myths**
+- Paul J. C. M. Franssen, "Half a Miracle: A Response to William Harmon," *Connotations* 3.2 (1993/94): 118–22: https://www.connotations.de/article/paul-j-c-m-franssen-half-a-miracle-a-response-to-william-harmon/
+- William Harmon, "Shakespeare, Burgess, and Psalm 46: A Note in Reply to Paul Franssen," *Connotations* 3.3 (1993/94): 303–04: https://www.connotations.de/article/william-harmon-shakespeare-burgess-and-psalm-46-a-note-in-reply-to-paul-franssen/
+- Folger Shakespeare Library, "Shakespeare's life": https://www.folger.edu/explore/shakespeares-life/
+- William T. Smedley, *The Mystery of Francis Bacon* (London: R. Banks & Son, 1912), ch. XVII, archive.org leaves 134 and 137: https://archive.org/details/mysteryoffrancis00smed
+- Manly P. Hall, *The Secret Teachings of All Ages* (1928), archive.org leaf 516: https://archive.org/details/the-secret-teachings-of-all-ages-by-manly-p.-hall-1928
+- "King James Bible Final Edit and ReWrite by Freemason Founder, SIR Francis Bacon," video uploaded by Aplanetruth, 31 August 2019, archive.org mirror: https://archive.org/details/Aplanetruth-ayhAVIayyZE
+
+**The learned world around it**
+- Brian Copenhaver, "Magic," ch. 22 in Katharine Park and Lorraine Daston (eds.), *The Cambridge History of Science*, vol. 3 (Cambridge University Press, 2006), pp. 518–540 (chapter abstract): https://www.cambridge.org/core/books/abs/cambridge-history-of-science/magic/88A48C4B7FA899018814CDFF7984DAD9
+- Wouter J. Hanegraaff, "How Hermetic was Renaissance Hermetism?", *Aries* 15.2 (2015): 179–209, DOI 10.1163/15700593-01502001 (abstract via OpenAlex): https://api.openalex.org/works/doi:10.1163/15700593-01502001
+- Thompson Cooper, "Dee, John," *Dictionary of National Biography* (1885–1900), vol. 14, Wikisource. Free: https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Dee,_John
+- Thomas Smith, *Vitae quorundam eruditissimorum et illustrium virorum* (London: David Mortier, 1707), life of Dee, scan leaves 435–436. Free (public domain): https://archive.org/details/b30526449
+- Augustus Jessopp, "Cecil, Robert," *Dictionary of National Biography* (1885–1900), Wikisource. Free: https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Cecil,_Robert
+- Alexander Gordon, "Fludd, Robert," *Dictionary of National Biography* (1885–1900), vol. 19, Wikisource. Free: https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Fludd,_Robert
+- "Casaubon, Isaac," *Dictionary of National Biography* (1885–1900), vol. 9, Wikisource. Free: https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Casaubon,_Isaac
+- James Zetzel, review of Botley and Vince (eds.), *The Correspondence of Isaac Casaubon in England* (Droz, 2018), *Bryn Mawr Classical Review* 2019.04.38: https://bmcr.brynmawr.edu/2019/2019.04.38/
+- J. H. Overton, "Andrewes, Lancelot"; Thomas Fowler, "Rainolds, John"; Thompson Cooper, "Lively, Edward," *Dictionary of National Biography* (1885–1900), Wikisource. Free: https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Andrewes,_Lancelot ; https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Rainolds,_John ; https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Lively,_Edward
+- James VI, *Daemonologie* (1597), Project Gutenberg eBook #25929, title page. Free: https://www.gutenberg.org/ebooks/25929
+- Open Library record OL23130695M (*Daemonologie*, London 1603, STC 14365): https://openlibrary.org/books/OL23130695M/Daemonologie
