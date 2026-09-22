@@ -4,6 +4,18 @@ Append-only. **Newest entry first.**
 
 ---
 
+## 2026-09-22 — Public repo, MIT, research queue, README
+
+**What happened.** Matt opened the vault in Obsidian and confirmed it looks right (templates, links, graph colors). Obsidian left the committed config untouched; `.gitignore` extended for per-device files (`appearance.json`, `workspaces.json`, `themes/`, `snippets/`). First commit made on `main` (renamed from `master`) and pushed to a new **public** repo, github.com/mattglbrt/themuse (Matt: "i want people to be able to clone it"). Pre-publish scan found no emails, client names or local paths. Licensed **MIT** for everything Matt wrote, vault content included (Matt: "i want to give everything away"); `NOTICE.md` carries the exceptions (OFL fonts, third-party images in `vault/assets/`, quoted works), kept out of `LICENSE` so GitHub detects it as MIT. Added a research queue (`research/QUEUE.md`) and reworked `/research`: `/research add <q>` queues, bare `/research` works the queue (dedupes against existing memos, max 4 parallel, ticks as memos land). README written for the public repo: quick start, using the site, authoring in Obsidian, how the pipeline works, the research agents, the rigor tiers.
+
+**Decisions.**
+- Repo public + MIT; CLAUDE.md now carries an "open by design" rule: never commit anything private.
+- Queue stays in `research/` (outside the vault, so Obsidian can't see it). Offered to move it into the vault; not taken up yet.
+
+**In flight (not mine, not committed).** A research run Matt started from the old STATUS list is working the KJV questions in another session. It has written memos (`2026-09-22-hermeticism-cabala-england.md`, `2026-09-22-yates-thesis-historiography.md`, `2026-09-22-daemonologie.md`) and is ticking `QUEUE.md` in its own format (inline tick, not moved to Done). Left untouched and uncommitted until that run finishes.
+
+---
+
 ## 2026-09-22 — Typography locked (reading spec)
 
 **What happened.** Matt set the site's reading spec; implemented and verified it. Replaced the interim fonts (Cormorant/Source Serif/Source Sans via npm) with **Literata** (body, variable, optical sizing) and **EB Garamond** (headings/display), self-hosted as WOFF2 subsets in `public/fonts/` with our own `@font-face` (`src/styles/fonts.css`), `font-display: swap`, Georgia fallback, regular Latin files preloaded. Interface chrome and graph labels moved to the system sans stack. Added light mode (follows `prefers-color-scheme`, dark default, `data-theme` override) and dark-mode anti-halo (off-white `#e4ddcf`, body weight 370). Prose styles for blockquote, lists, tables, hr, images; bibliography at 0.875em with hanging indent. Graph labels got a background-colored outline (they were colliding with nodes in the local graph).
