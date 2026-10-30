@@ -10,10 +10,10 @@ Phase 1: the first trail is written and **awaiting Matt's review**. 47 vault nod
 4. **Episode 1 = the KJV, one episode** (Matt, 09-22). Write its `show-notes` node: the ordered trail, per-claim tiers, the consolidated bibliography. It ends by pointing the audience to Hermeticism.
 5. Phase 2: Netlify deploy (builds reviewed pages only), brand pass, domain.
 6. **Episode 2 = Hermeticism**, the trail episode 1 leads into. The gateway page exists. Research starts once episode 1's pages are reviewed.
+7. **Matt: domain.** Needed by Phase 2 (moved from Blockers, 10-13).
 
 ## Blockers
-- Matt: the review pass (nothing publishes until pages are ticked).
-- Matt: domain. Needed by Phase 2.
+—
 
 ## Recently done
 - 2026-09-22 — 14 research memos (8 KJV questions + 6 follow-ups), writer agent, 47 nodes written and updated; Dee refusal corrected to Contested on six pages.

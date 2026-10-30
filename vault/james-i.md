@@ -20,7 +20,7 @@ read-online:
   - https://archive.org/details/originalletterso00elliuoft
 ---
 
-James was King James VI of Scotland, and from 1603 king in England too, the James whose name the [[king-james-bible]] carries. The Muse stops here because the same man stands at both ends of the first trail. In 1590 and 1591 he sat in on the examinations of accused witches. In 1597 he published a book arguing that witchcraft is real and should be punished. In 1604 he called for a new English Bible, and that same year John Dee petitioned him to be tried and cleared of being a conjurer. No answer from the king is recorded. None of that needs embroidering. The documents set it out, and this page follows them.
+James was King James VI of Scotland, and from 1603 king in England too, the James whose name the [[king-james-bible]] carries. In 1590 and 1591 he sat in on the examinations of accused witches. In 1597 he published a book arguing that witchcraft is real and should be punished. In 1604 he called for a new English Bible, and that same year John Dee petitioned him to clear John Dee of being a conjurer. No answer from the king is recorded.
 
 ## Historical Context
 
